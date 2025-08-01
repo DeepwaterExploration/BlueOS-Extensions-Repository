@@ -247,10 +247,70 @@
                         }
                     }
                 }
+            },
+            "v0.4.2-blueos": {
+                "identifier": "1fb63ce3-09f3-528b-8dea-a63a5e16313d",
+                "type": "device-integration",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 375587336,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:98597305c3257d6dc846ee363b20380a4bdea72fe2c122c827c6579fcca40db9"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Brandon Stevens",
+                        "email": "support@dwe.ai"
+                    }
+                ],
+                "filter_tags": [
+                    "cameras",
+                    "dwe-ai",
+                    "exporehd",
+                    "stellarhd",
+                    "deepwater-exploration"
+                ],
+                "extra_links": {},
+                "tag": "v0.4.2-blueos",
+                "docs": null,
+                "readme": "<h1>DWE_OS 2.0</h1>\n<p>DWE_OS is an optional piece of software \u2014 designed to run on underwater systems \u2014 that allows for extended functionality of <a href=\"https://dwe.ai/collections/all\">DeepWater Exploration cameras</a>. It provides out-of-the-box camera streaming and customization features, minimizing the development time typically required for subsea camera integration.</p>\n<p><img alt=\"DWE_OS\" src=\"https://mintlify.s3-us-west-1.amazonaws.com/deepwaterexplorationinc/software/images/dwe_os_2/dwe-os-2-demo-page.png\"/></p>\n<p>For more information, please see our <a href=\"https://docs.dwe.ai/software/dwe-os/dwe-os-2\">documentation site</a>.</p>",
+                "support": "https://dwe.ai/pages/contact",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "DeepWater Exploration",
+                    "email": "support@dwe.ai"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/sys/class/video4linux:/sys/class/video4linux",
+                            "/usr/blueos/userdata/dwe_os_2:/settings",
+                            "/dev:/dev"
+                        ],
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
             }
         },
         "repo_info": {
-            "downloads": 1898,
+            "downloads": 1924,
             "last_updated": "2025-07-16T17:12:47.708597Z",
             "date_registered": "2024-10-28T21:23:12.958451Z"
         }
@@ -545,7 +605,7 @@
             }
         },
         "repo_info": {
-            "downloads": 23559,
+            "downloads": 23598,
             "last_updated": "2023-05-17T18:58:43.418901Z",
             "date_registered": "2023-01-17T21:41:45.289578Z"
         }
@@ -646,7 +706,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6565,
+            "downloads": 6574,
             "last_updated": "2023-03-15T20:41:07.344116Z",
             "date_registered": "2023-03-02T18:19:41.09439Z"
         }
@@ -660,6 +720,70 @@
         "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/ceruleansonar/company_logo.png",
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/ceruleansonar/company_logo.png",
         "versions": {
+            "1.13.31-beta": {
+                "identifier": "62f08ae6-c6e4-54a1-a513-5827e2ade876",
+                "type": "device-integration",
+                "website": "https://ceruleansonar.com",
+                "images": [
+                    {
+                        "expanded_size": 103868315,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:aa66b1ae7402f079c8a804c37dd2c7692ba5bbbad64044e210fb732a6e6e82a3"
+                    },
+                    {
+                        "expanded_size": 102299206,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:e7863ec3cb708190850ab80229e30e2fa22e6b4d8e1dfab23d2c3d17ab1903a5"
+                    },
+                    {
+                        "expanded_size": 103859040,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:63c0edcbbc7eae4fcbe901d0c2d57e5226790d3655a120d0fa03424b5008c7fb"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "1.13.31-beta",
+                "docs": null,
+                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
+                "support": "https://forum.ceruleansonar.com/categories",
+                "requirements": null,
+                "company": {
+                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
+                    "name": "Cerulean Sonar",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "permissions": {
+                    "HostConfig": {
+                        "NetworkMode": "host",
+                        "Binds": [
+                            "/usr/blueos/userdata/SonarView:/userdata"
+                        ],
+                        "ReadonlyRootfs": true,
+                        "ExtraHosts": [
+                            "host.docker.internal:127.0.1.1"
+                        ]
+                    }
+                }
+            },
             "1.13.30-beta": {
                 "identifier": "3211f78a-21b5-53c7-90e2-6a22dd30aabb",
                 "type": "device-integration",
@@ -1734,57 +1858,11 @@
                         ]
                     }
                 }
-            },
-            "1.10.2-beta": {
-                "identifier": "ca378d8a-7911-5ff3-bf75-b19e0b2841ed",
-                "type": "device-integration",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 65839861,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:dc079a313915976ec9af36eccc1b6cbff273b9277ff5266f84882049e40d0186"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.10.2-beta",
-                "docs": null,
-                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ],
-                        "ReadonlyRootfs": true,
-                        "ExtraHosts": [
-                            "host.docker.internal:host-gateway"
-                        ]
-                    }
-                }
             }
         },
         "repo_info": {
-            "downloads": 64220,
-            "last_updated": "2025-07-30T19:34:23.089715Z",
+            "downloads": 64372,
+            "last_updated": "2025-07-31T21:42:47.983395Z",
             "date_registered": "2023-02-09T18:16:56.606258Z"
         }
     },
@@ -2029,7 +2107,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8197,
+            "downloads": 8217,
             "last_updated": "2024-10-16T08:28:28.588962Z",
             "date_registered": "2023-04-18T13:14:56.444696Z"
         }
@@ -2712,7 +2790,7 @@
             }
         },
         "repo_info": {
-            "downloads": 244303,
+            "downloads": 244370,
             "last_updated": "2025-06-25T17:06:04.67356Z",
             "date_registered": "2022-06-01T23:43:43.19026Z"
         }
@@ -3368,7 +3446,7 @@
             }
         },
         "repo_info": {
-            "downloads": 33695,
+            "downloads": 33758,
             "last_updated": "2023-09-06T01:24:53.238154Z",
             "date_registered": "2023-07-06T13:38:30.979513Z"
         }
@@ -5247,8 +5325,8 @@
             }
         },
         "repo_info": {
-            "downloads": 91470,
-            "last_updated": "2025-07-31T00:18:44.800835Z",
+            "downloads": 91632,
+            "last_updated": "2025-08-01T00:20:25.087678Z",
             "date_registered": "2023-01-30T01:40:41.340441Z"
         }
     },
@@ -5315,7 +5393,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1528,
+            "downloads": 1532,
             "last_updated": "2024-02-05T22:10:02.139431Z",
             "date_registered": "2024-01-22T15:06:39.735884Z"
         }
@@ -5631,7 +5709,7 @@
             }
         },
         "repo_info": {
-            "downloads": 13217,
+            "downloads": 13244,
             "last_updated": "2024-07-29T21:22:46.380269Z",
             "date_registered": "2023-08-29T20:22:57.798237Z"
         }
@@ -5695,7 +5773,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1685,
+            "downloads": 1688,
             "last_updated": "2023-11-07T01:34:15.374584Z",
             "date_registered": "2023-11-05T01:19:48.269227Z"
         }
@@ -5870,7 +5948,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6083,
+            "downloads": 6101,
             "last_updated": "2024-11-02T19:51:27.122486Z",
             "date_registered": "2023-09-20T20:30:01.66808Z"
         }
@@ -5943,7 +6021,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2321,
+            "downloads": 2324,
             "last_updated": "2023-09-01T21:07:26.318216Z",
             "date_registered": "2023-09-01T20:11:40.559943Z"
         }
@@ -6062,7 +6140,7 @@
             }
         },
         "repo_info": {
-            "downloads": 4785,
+            "downloads": 4797,
             "last_updated": "2025-03-21T12:52:28.85139Z",
             "date_registered": "2023-09-13T06:14:36.827307Z"
         }
@@ -6246,8 +6324,8 @@
             }
         },
         "repo_info": {
-            "downloads": 6288,
-            "last_updated": "2025-07-30T19:38:58.437501Z",
+            "downloads": 6307,
+            "last_updated": "2025-08-01T02:55:01.972917Z",
             "date_registered": "2023-10-04T23:07:17.135228Z"
         }
     },
@@ -6260,6 +6338,154 @@
         "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/jmrobotics/jm-connect/extension_logo.png",
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/jmrobotics/company_logo.png",
         "versions": {
+            "0.2.1": {
+                "identifier": "5155c614-f7f3-57ec-b73b-900f3cdcadf0",
+                "type": "other",
+                "website": "https://www.jmrobotics.no",
+                "images": [
+                    {
+                        "expanded_size": 125206028,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:6791a60687d5857771cdb26bd8c31d621a4b039663c9c044131b03a18dc61dc6"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Mads Peter Hammer Strand",
+                        "email": "mads@jmrobotics.no"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "0.2.1",
+                "docs": null,
+                "readme": "No README available",
+                "support": "https://www.jmrobotics.no",
+                "requirements": "core >= 1",
+                "company": {
+                    "about": "",
+                    "name": "JM Robotics",
+                    "email": "support@jmrobotics.no"
+                },
+                "permissions": {
+                    "Env": [
+                        "SERVER_URL=https://software.jmrobotics.no/server/",
+                        "I2CBUS=6",
+                        "ROV_ID=<rov_id>"
+                    ],
+                    "ExposedPorts": {
+                        "1337/tcp": {},
+                        "8137/tcp": {},
+                        "1338/tcp": {}
+                    },
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/root/.config/jm:/root/.config",
+                            "/var/run/docker.sock:/var/run/docker.sock"
+                        ],
+                        "ExtraHosts": [
+                            "host.docker.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "1337/tcp": [
+                                {
+                                    "HostPort": "1337"
+                                }
+                            ],
+                            "8137/tcp": [
+                                {
+                                    "HostPort": "8137"
+                                }
+                            ],
+                            "1338/tcp": [
+                                {
+                                    "HostPort": "1338"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "0.2.1-linux-arm64": {
+                "identifier": "07be3538-cf7e-599e-ac30-93df14808a98",
+                "type": "other",
+                "website": "https://www.jmrobotics.no",
+                "images": [
+                    {
+                        "expanded_size": 125206028,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:6791a60687d5857771cdb26bd8c31d621a4b039663c9c044131b03a18dc61dc6"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Mads Peter Hammer Strand",
+                        "email": "mads@jmrobotics.no"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "0.2.1-linux-arm64",
+                "docs": null,
+                "readme": "No README available",
+                "support": "https://www.jmrobotics.no",
+                "requirements": "core >= 1",
+                "company": {
+                    "about": "",
+                    "name": "JM Robotics",
+                    "email": "support@jmrobotics.no"
+                },
+                "permissions": {
+                    "Env": [
+                        "SERVER_URL=https://software.jmrobotics.no/server/",
+                        "I2CBUS=6",
+                        "ROV_ID=<rov_id>"
+                    ],
+                    "ExposedPorts": {
+                        "1337/tcp": {},
+                        "8137/tcp": {},
+                        "1338/tcp": {}
+                    },
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/root/.config/jm:/root/.config",
+                            "/var/run/docker.sock:/var/run/docker.sock"
+                        ],
+                        "ExtraHosts": [
+                            "host.docker.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "1337/tcp": [
+                                {
+                                    "HostPort": "1337"
+                                }
+                            ],
+                            "8137/tcp": [
+                                {
+                                    "HostPort": "8137"
+                                }
+                            ],
+                            "1338/tcp": [
+                                {
+                                    "HostPort": "1338"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
             "0.2.0": {
                 "identifier": "d5fe8c03-c92c-5a23-a309-6fd6387360df",
                 "type": "other",
@@ -7961,60 +8187,11 @@
                         }
                     }
                 }
-            },
-            "0.0.1": {
-                "identifier": "b7af0fda-ea84-5b6a-82fa-e72932971ebd",
-                "type": "other",
-                "website": "https://www.jmrobotics.no",
-                "images": [
-                    {
-                        "expanded_size": 43060080,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:6697aeaebf7b1ffe2847c7434e8a3dd2d42872efb359d0f978ba6152140313fa"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Mads Peter Hammer Strand",
-                        "email": "mads@jmrobotics.no"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "0.0.1",
-                "docs": null,
-                "readme": "No README available",
-                "support": "https://www.jmrobotics.no",
-                "requirements": "core >= 1",
-                "company": {
-                    "about": "",
-                    "name": "JM Robotics",
-                    "email": "support@jmrobotics.no"
-                },
-                "permissions": {
-                    "Env": [
-                        "SERVER_URL=https://software.jmrobotics.no/server/",
-                        "ROV_ID=<rov_id>"
-                    ],
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Binds": [
-                            "/root/.config/jm:/root/.config"
-                        ],
-                        "ExtraHosts": [
-                            "host.docker.internal:host-gateway"
-                        ]
-                    }
-                }
             }
         },
         "repo_info": {
-            "downloads": 26615,
-            "last_updated": "2025-07-03T08:49:32.776762Z",
+            "downloads": 26704,
+            "last_updated": "2025-08-01T09:39:03.825082Z",
             "date_registered": "2023-05-02T08:49:43.621656Z"
         }
     },
@@ -8244,7 +8421,7 @@
             }
         },
         "repo_info": {
-            "downloads": 4858,
+            "downloads": 4876,
             "last_updated": "2024-08-14T23:11:15.514761Z",
             "date_registered": "2024-08-07T21:20:39.693471Z"
         }
@@ -8390,7 +8567,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2952,
+            "downloads": 2961,
             "last_updated": "2024-06-23T16:01:49.148109Z",
             "date_registered": "2024-06-08T17:31:16.936347Z"
         }
@@ -8668,7 +8845,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8843,
+            "downloads": 8864,
             "last_updated": "2024-11-26T18:07:23.087771Z",
             "date_registered": "2023-09-06T15:06:24.58823Z"
         }
@@ -9638,7 +9815,7 @@
             }
         },
         "repo_info": {
-            "downloads": 30753,
+            "downloads": 30846,
             "last_updated": "2025-07-28T12:49:24.555051Z",
             "date_registered": "2023-03-23T10:28:07.423732Z"
         }
@@ -9808,7 +9985,7 @@
             }
         },
         "repo_info": {
-            "downloads": 44294,
+            "downloads": 44309,
             "last_updated": "2024-03-04T19:11:38.707894Z",
             "date_registered": "2022-09-07T02:56:18.778263Z"
         }
@@ -10024,7 +10201,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8261,
+            "downloads": 8294,
             "last_updated": "2025-05-14T20:51:07.385773Z",
             "date_registered": "2024-05-05T23:27:05.667297Z"
         }
@@ -10350,7 +10527,7 @@
             }
         },
         "repo_info": {
-            "downloads": 15399,
+            "downloads": 15438,
             "last_updated": "2025-02-12T17:44:31.463467Z",
             "date_registered": "2023-05-28T18:03:17.343281Z"
         }
@@ -10472,7 +10649,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5630,
+            "downloads": 5639,
             "last_updated": "2023-05-02T11:19:18.145903Z",
             "date_registered": "2022-10-12T18:15:01.290841Z"
         }
@@ -10584,7 +10761,7 @@
             }
         },
         "repo_info": {
-            "downloads": 86818,
+            "downloads": 86827,
             "last_updated": "2023-05-02T10:58:10.407395Z",
             "date_registered": "2022-09-19T20:25:33.201236Z"
         }
@@ -10696,7 +10873,7 @@
             }
         },
         "repo_info": {
-            "downloads": 81952,
+            "downloads": 81961,
             "last_updated": "2023-05-02T10:57:42.905818Z",
             "date_registered": "2022-09-20T18:15:02.068256Z"
         }
@@ -10808,7 +10985,7 @@
             }
         },
         "repo_info": {
-            "downloads": 89848,
+            "downloads": 89857,
             "last_updated": "2023-05-02T10:58:42.102603Z",
             "date_registered": "2022-09-19T20:24:45.273155Z"
         }
@@ -11049,7 +11226,7 @@
             }
         },
         "repo_info": {
-            "downloads": 138660,
+            "downloads": 138688,
             "last_updated": "2025-02-12T04:32:06.301572Z",
             "date_registered": "2022-09-07T07:17:20.147217Z"
         }
@@ -11206,7 +11383,7 @@
             }
         },
         "repo_info": {
-            "downloads": 4699,
+            "downloads": 4713,
             "last_updated": "2025-02-12T16:03:19.432988Z",
             "date_registered": "2024-04-02T12:56:46.518809Z"
         }
@@ -11507,7 +11684,7 @@
             }
         },
         "repo_info": {
-            "downloads": 10778,
+            "downloads": 10811,
             "last_updated": "2024-06-11T00:39:37.973367Z",
             "date_registered": "2024-05-23T03:16:55.205832Z"
         }
@@ -11625,7 +11802,7 @@
             }
         },
         "repo_info": {
-            "downloads": 84556,
+            "downloads": 84565,
             "last_updated": "2023-05-02T10:59:21.807562Z",
             "date_registered": "2022-09-19T20:13:46.735725Z"
         }
@@ -12060,7 +12237,7 @@
             }
         },
         "repo_info": {
-            "downloads": 50852,
+            "downloads": 50889,
             "last_updated": "2025-05-19T20:37:10.685576Z",
             "date_registered": "2022-06-08T02:20:40.875088Z"
         }
@@ -12618,7 +12795,7 @@
             }
         },
         "repo_info": {
-            "downloads": 11443,
+            "downloads": 11494,
             "last_updated": "2025-04-29T15:07:41.658733Z",
             "date_registered": "2024-09-16T13:23:53.464854Z"
         }
