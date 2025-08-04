@@ -8,6 +8,58 @@
         "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/deepwaterexploration/dwe_os_2/extension_logo.png",
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/deepwaterexploration/company_logo.png",
         "versions": {
+            "v0.5.0-arm64": {
+                "identifier": "cd698ddd-2853-5ffb-937a-7b24c9d41e94",
+                "type": "device-integration",
+                "website": null,
+                "images": [
+                    {}
+                ],
+                "authors": [
+                    {
+                        "name": "Brandon Stevens",
+                        "email": "support@dwe.ai"
+                    }
+                ],
+                "filter_tags": [
+                    "cameras",
+                    "dwe-ai",
+                    "exporehd",
+                    "stellarhd",
+                    "deepwater-exploration"
+                ],
+                "extra_links": {},
+                "tag": "v0.5.0-arm64",
+                "docs": null,
+                "readme": "<h1>DWE_OS 2.0</h1>\n<p>DWE_OS is an optional piece of software \u2014 designed to run on underwater systems \u2014 that allows for extended functionality of <a href=\"https://dwe.ai/collections/all\">DeepWater Exploration cameras</a>. It provides out-of-the-box camera streaming and customization features, minimizing the development time typically required for subsea camera integration.</p>\n<p><img alt=\"DWE_OS\" src=\"https://mintlify.s3-us-west-1.amazonaws.com/deepwaterexplorationinc/software/images/dwe_os_2/dwe-os-2-demo-page.png\"/></p>\n<p>For more information, please see our <a href=\"https://docs.dwe.ai/software/dwe-os/dwe-os-2\">documentation site</a>.</p>",
+                "support": "https://dwe.ai/pages/contact",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "DeepWater Exploration",
+                    "email": "support@dwe.ai"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8000/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/sys/class/video4linux:/sys/class/video4linux",
+                            "/usr/blueos/userdata/dwe_os_2:/settings",
+                            "/dev:/dev"
+                        ],
+                        "PortBindings": {
+                            "8000/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
             "v0.5.0-yt": {
                 "identifier": "40ee318f-0191-5119-9c42-2f90035053d6",
                 "type": "device-integration",
