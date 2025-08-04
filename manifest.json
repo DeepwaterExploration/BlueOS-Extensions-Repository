@@ -13,7 +13,15 @@
                 "type": "device-integration",
                 "website": null,
                 "images": [
-                    {}
+                    {
+                        "expanded_size": 3840000000,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:b42d9c9b3825a4449c8b8efed0a64a087c85ecf5a11895be7a6f437654070f3f"
+                    }
                 ],
                 "authors": [
                     {
