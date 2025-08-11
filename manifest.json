@@ -240,7 +240,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8391,
+            "downloads": 8409,
             "last_updated": "2024-10-16T08:28:28.588962Z",
             "date_registered": "2023-04-18T13:14:56.444696Z"
         }
@@ -798,7 +798,7 @@
             }
         },
         "repo_info": {
-            "downloads": 11978,
+            "downloads": 12031,
             "last_updated": "2025-04-29T15:07:41.658733Z",
             "date_registered": "2024-09-16T13:23:53.464854Z"
         }
@@ -982,7 +982,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6796,
+            "downloads": 6813,
             "last_updated": "2025-08-09T06:01:52.676663Z",
             "date_registered": "2023-10-04T23:07:17.135228Z"
         }
@@ -1952,7 +1952,7 @@
             }
         },
         "repo_info": {
-            "downloads": 31719,
+            "downloads": 31812,
             "last_updated": "2025-07-28T12:49:24.555051Z",
             "date_registered": "2023-03-23T10:28:07.423732Z"
         }
@@ -2127,7 +2127,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6251,
+            "downloads": 6270,
             "last_updated": "2024-11-02T19:51:27.122486Z",
             "date_registered": "2023-09-20T20:30:01.66808Z"
         }
@@ -2191,7 +2191,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1718,
+            "downloads": 1721,
             "last_updated": "2023-11-07T01:34:15.374584Z",
             "date_registered": "2023-11-05T01:19:48.269227Z"
         }
@@ -2811,7 +2811,7 @@
             }
         },
         "repo_info": {
-            "downloads": 244928,
+            "downloads": 244987,
             "last_updated": "2025-06-25T17:06:04.67356Z",
             "date_registered": "2022-06-01T23:43:43.19026Z"
         }
@@ -3467,7 +3467,7 @@
             }
         },
         "repo_info": {
-            "downloads": 34347,
+            "downloads": 34410,
             "last_updated": "2023-09-06T01:24:53.238154Z",
             "date_registered": "2023-07-06T13:38:30.979513Z"
         }
@@ -3586,7 +3586,7 @@
             }
         },
         "repo_info": {
-            "downloads": 4887,
+            "downloads": 4896,
             "last_updated": "2025-03-21T12:52:28.85139Z",
             "date_registered": "2023-09-13T06:14:36.827307Z"
         }
@@ -3902,7 +3902,7 @@
             }
         },
         "repo_info": {
-            "downloads": 13513,
+            "downloads": 13540,
             "last_updated": "2024-07-29T21:22:46.380269Z",
             "date_registered": "2023-08-29T20:22:57.798237Z"
         }
@@ -3970,7 +3970,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1557,
+            "downloads": 1559,
             "last_updated": "2024-02-05T22:10:02.139431Z",
             "date_registered": "2024-01-22T15:06:39.735884Z"
         }
@@ -4043,7 +4043,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2352,
+            "downloads": 2355,
             "last_updated": "2023-09-01T21:07:26.318216Z",
             "date_registered": "2023-09-01T20:11:40.559943Z"
         }
@@ -4556,15 +4556,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:0305799c41bab520be9c8b624c40ccb573e09baf0dd48fa5797c9b4e2c3bd7cb"
-                    },
-                    {
-                        "expanded_size": 27264940,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:286c932904a16e63f45f5ac5f68678fe9bf044bf044fe70a5844a339555d4389"
                     }
                 ],
                 "authors": [
@@ -4774,15 +4765,6 @@
                 "website": null,
                 "images": [
                     {
-                        "expanded_size": 26995061,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:e3cb5299b1de531c78bea9e53a9064cdecf3541f2ef832f2fd2adf7b75df3fdb"
-                    },
-                    {
                         "expanded_size": 27210737,
                         "platform": {
                             "architecture": "arm64",
@@ -4790,6 +4772,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:cddd89aee74caada44c65905f24926edde497894f05e0ca13e8b62eb41ba6fbc"
+                    },
+                    {
+                        "expanded_size": 26995061,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:e3cb5299b1de531c78bea9e53a9064cdecf3541f2ef832f2fd2adf7b75df3fdb"
                     }
                 ],
                 "authors": [
@@ -5213,15 +5204,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:e236fdbb2b242f81f7fca3d2eedb895003d33fa55d1b9cc5009331c4d421b02a"
-                    },
-                    {
-                        "expanded_size": 22165724,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:234dea3f0b75ec61d0698c6148ca04636188778e09efe2926314f6305fb07b79"
                     }
                 ],
                 "authors": [
@@ -5429,15 +5411,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:aa228c4416e1d9144e4d5eea254991150a244aec6c5818282b25e653aef10aaa"
-                    },
-                    {
-                        "expanded_size": 21975474,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": "v8",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:9dff079efa5a8d3bb4833656a5bbe3118ea5e40962eeee6acd8414cfee53c7de"
                     }
                 ],
                 "authors": [
@@ -5769,7 +5742,7 @@
             }
         },
         "repo_info": {
-            "downloads": 93120,
+            "downloads": 93265,
             "last_updated": "2025-08-08T19:03:32.59048Z",
             "date_registered": "2023-01-30T01:40:41.340441Z"
         }
@@ -5881,7 +5854,7 @@
             }
         },
         "repo_info": {
-            "downloads": 82046,
+            "downloads": 82055,
             "last_updated": "2023-05-02T10:57:42.905818Z",
             "date_registered": "2022-09-20T18:15:02.068256Z"
         }
@@ -6038,7 +6011,7 @@
             }
         },
         "repo_info": {
-            "downloads": 4842,
+            "downloads": 4856,
             "last_updated": "2025-02-12T16:03:19.432988Z",
             "date_registered": "2024-04-02T12:56:46.518809Z"
         }
@@ -6473,7 +6446,7 @@
             }
         },
         "repo_info": {
-            "downloads": 51205,
+            "downloads": 51238,
             "last_updated": "2025-05-19T20:37:10.685576Z",
             "date_registered": "2022-06-08T02:20:40.875088Z"
         }
@@ -6585,7 +6558,7 @@
             }
         },
         "repo_info": {
-            "downloads": 86911,
+            "downloads": 86920,
             "last_updated": "2023-05-02T10:58:10.407395Z",
             "date_registered": "2022-09-19T20:25:33.201236Z"
         }
@@ -6755,7 +6728,7 @@
             }
         },
         "repo_info": {
-            "downloads": 44451,
+            "downloads": 44466,
             "last_updated": "2024-03-04T19:11:38.707894Z",
             "date_registered": "2022-09-07T02:56:18.778263Z"
         }
@@ -6867,7 +6840,7 @@
             }
         },
         "repo_info": {
-            "downloads": 89941,
+            "downloads": 89950,
             "last_updated": "2023-05-02T10:58:42.102603Z",
             "date_registered": "2022-09-19T20:24:45.273155Z"
         }
@@ -7193,7 +7166,7 @@
             }
         },
         "repo_info": {
-            "downloads": 15817,
+            "downloads": 15867,
             "last_updated": "2025-02-12T17:44:31.463467Z",
             "date_registered": "2023-05-28T18:03:17.343281Z"
         }
@@ -7354,49 +7327,6 @@
                     }
                 }
             },
-            "v1.0.0": {
-                "identifier": "f7449486-ec50-5b8d-b582-a80f342e296c",
-                "type": "example",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 87950576,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:5fb4fbd32e76af6d853b972e4ea682e226147b7f4247f9f60c80860a8d963666"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "$AUTHOR",
-                        "email": "$AUTHOR_EMAIL"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {
-                    "source": "https://github.com/$OWNER/$REPO"
-                },
-                "tag": "v1.0.0",
-                "docs": null,
-                "readme": "No README available",
-                "support": null,
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "$MAINTAINER",
-                    "email": "$MAINTAINER_EMAIL"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host"
-                    }
-                }
-            },
             "1.0.0": {
                 "identifier": "ccd0b581-f1c8-567d-be09-86de4cd774fc",
                 "type": "example",
@@ -7423,6 +7353,49 @@
                     "source": "https://github.com/$OWNER/$REPO"
                 },
                 "tag": "1.0.0",
+                "docs": null,
+                "readme": "No README available",
+                "support": null,
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "$MAINTAINER",
+                    "email": "$MAINTAINER_EMAIL"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "v1.0.0": {
+                "identifier": "f7449486-ec50-5b8d-b582-a80f342e296c",
+                "type": "example",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 87950576,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:5fb4fbd32e76af6d853b972e4ea682e226147b7f4247f9f60c80860a8d963666"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "$AUTHOR",
+                        "email": "$AUTHOR_EMAIL"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {
+                    "source": "https://github.com/$OWNER/$REPO"
+                },
+                "tag": "v1.0.0",
                 "docs": null,
                 "readme": "No README available",
                 "support": null,
@@ -7494,7 +7467,7 @@
             }
         },
         "repo_info": {
-            "downloads": 11126,
+            "downloads": 11159,
             "last_updated": "2024-06-11T00:39:37.973367Z",
             "date_registered": "2024-05-23T03:16:55.205832Z"
         }
@@ -7612,7 +7585,7 @@
             }
         },
         "repo_info": {
-            "downloads": 84649,
+            "downloads": 84658,
             "last_updated": "2023-05-02T10:59:21.807562Z",
             "date_registered": "2022-09-19T20:13:46.735725Z"
         }
@@ -7862,7 +7835,7 @@
             }
         },
         "repo_info": {
-            "downloads": 138947,
+            "downloads": 138974,
             "last_updated": "2025-02-12T04:32:06.301572Z",
             "date_registered": "2022-09-07T07:17:20.147217Z"
         }
@@ -7956,46 +7929,6 @@
                     }
                 }
             },
-            "v1.0.2": {
-                "identifier": "f2609867-67d1-59f0-851b-9e98ba00f78d",
-                "type": "tool",
-                "website": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
-                "images": [
-                    {
-                        "expanded_size": 135356970,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:77a7f2a97e30eedf50ae2e29e4c6e9a1a95f81ad07ac9d8c7fc664296d17caed"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "v1.0.2",
-                "docs": null,
-                "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>\n<h2>changelog</h2>\n<p>v1.0.1:</p>\n<ul>\n<li>fixed table titles</li>\n<li>fixed cleanup when doing different scan types</li>\n<li>fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service</li>\n</ul>",
-                "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "NetworkMode": "host"
-                    }
-                }
-            },
             "1.0.2": {
                 "identifier": "b274476e-1a19-55de-aea8-545830702d4d",
                 "type": "tool",
@@ -8020,6 +7953,46 @@
                 "filter_tags": [],
                 "extra_links": {},
                 "tag": "1.0.2",
+                "docs": null,
+                "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>\n<h2>changelog</h2>\n<p>v1.0.1:</p>\n<ul>\n<li>fixed table titles</li>\n<li>fixed cleanup when doing different scan types</li>\n<li>fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service</li>\n</ul>",
+                "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "v1.0.2": {
+                "identifier": "f2609867-67d1-59f0-851b-9e98ba00f78d",
+                "type": "tool",
+                "website": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
+                "images": [
+                    {
+                        "expanded_size": 135356970,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:77a7f2a97e30eedf50ae2e29e4c6e9a1a95f81ad07ac9d8c7fc664296d17caed"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "v1.0.2",
                 "docs": null,
                 "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>\n<h2>changelog</h2>\n<p>v1.0.1:</p>\n<ul>\n<li>fixed table titles</li>\n<li>fixed cleanup when doing different scan types</li>\n<li>fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service</li>\n</ul>",
                 "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
@@ -8078,7 +8051,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8597,
+            "downloads": 8630,
             "last_updated": "2025-05-14T20:51:07.385773Z",
             "date_registered": "2024-05-05T23:27:05.667297Z"
         }
@@ -8200,7 +8173,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5723,
+            "downloads": 5732,
             "last_updated": "2023-05-02T11:19:18.145903Z",
             "date_registered": "2022-10-12T18:15:01.290841Z"
         }
@@ -8478,7 +8451,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9063,
+            "downloads": 9084,
             "last_updated": "2024-11-26T18:07:23.087771Z",
             "date_registered": "2023-09-06T15:06:24.58823Z"
         }
@@ -8554,15 +8527,6 @@
                 "website": "https://github.com/clydemcqueen/surftrak_fixit",
                 "images": [
                     {
-                        "expanded_size": 354149671,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:92de85e3559f394ef9f96f4def2c6856099ba7d637a6864b9b1f505216230b6a"
-                    },
-                    {
                         "expanded_size": 313220600,
                         "platform": {
                             "architecture": "arm",
@@ -8615,7 +8579,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3048,
+            "downloads": 3057,
             "last_updated": "2024-06-23T16:01:49.148109Z",
             "date_registered": "2024-06-08T17:31:16.936347Z"
         }
@@ -8846,7 +8810,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5047,
+            "downloads": 5066,
             "last_updated": "2024-08-14T23:11:15.514761Z",
             "date_registered": "2024-08-07T21:20:39.693471Z"
         }
@@ -9162,7 +9126,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2216,
+            "downloads": 2245,
             "last_updated": "2025-08-04T19:26:17.190238Z",
             "date_registered": "2024-10-28T21:23:12.958451Z"
         }
@@ -9457,7 +9421,7 @@
             }
         },
         "repo_info": {
-            "downloads": 23964,
+            "downloads": 24003,
             "last_updated": "2023-05-17T18:58:43.418901Z",
             "date_registered": "2023-01-17T21:41:45.289578Z"
         }
@@ -9558,7 +9522,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6659,
+            "downloads": 6668,
             "last_updated": "2023-03-15T20:41:07.344116Z",
             "date_registered": "2023-03-02T18:19:41.09439Z"
         }
@@ -9700,70 +9664,6 @@
                     }
                 }
             },
-            "1.13.28-beta": {
-                "identifier": "61d12c1d-8f84-5330-911b-103dcde472c1",
-                "type": "device-integration",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 103848562,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:235e686c62532d6b3b2ee7a4a00f5f5e075544f1c983a31596eb4020d0895001"
-                    },
-                    {
-                        "expanded_size": 102316068,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:a290a3cdef6a8f6b08ce8c6dced6cd6ce2f3f2e4af7400353b172c8b0113651c"
-                    },
-                    {
-                        "expanded_size": 103875618,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:7ef4481ae7e6e729efd05cd97f49a76d6942d5224f169115cb7d89abb5ed8273"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.13.28-beta",
-                "docs": null,
-                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ],
-                        "ReadonlyRootfs": true,
-                        "ExtraHosts": [
-                            "host.docker.internal:127.0.1.1"
-                        ]
-                    }
-                }
-            },
             "1.13.26-beta": {
                 "identifier": "fdf36c72-731f-5cb3-aa9b-5baf8d9fc94e",
                 "type": "device-integration",
@@ -9786,15 +9686,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:f59b5fd8e5310ed8960a3d159158e9b991df667f26afbdddae2c28b5a1334bba"
-                    },
-                    {
-                        "expanded_size": 92831323,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:e891ac6377594793880072f92f737253be39c9888aa4e63e13c7ae56aa8fe8d6"
                     }
                 ],
                 "authors": [
@@ -10343,52 +10234,6 @@
                     }
                 }
             },
-            "1.13.10-beta": {
-                "identifier": "1586bcad-5008-5eea-95b3-5b316a115231",
-                "type": "device-integration",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 81862462,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:4464bf8a71c5aed9165eccbb49753a2e5da1cf97c1bd99ef4a9b1b85fad35f8d"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.13.10-beta",
-                "docs": null,
-                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ],
-                        "ReadonlyRootfs": true,
-                        "ExtraHosts": [
-                            "host.docker.internal:127.0.1.1"
-                        ]
-                    }
-                }
-            },
             "1.13.9-beta": {
                 "identifier": "16ffbc89-ff1c-5d1f-9965-7256242f8380",
                 "type": "device-integration",
@@ -10459,52 +10304,6 @@
                 "filter_tags": [],
                 "extra_links": {},
                 "tag": "1.13.1-beta",
-                "docs": null,
-                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ],
-                        "ReadonlyRootfs": true,
-                        "ExtraHosts": [
-                            "host.docker.internal:127.0.1.1"
-                        ]
-                    }
-                }
-            },
-            "1.11.6": {
-                "identifier": "7b11044b-8a7d-5420-92fe-659f50007ce6",
-                "type": "device-integration",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 80513900,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:0887c6e0c0a04b99f1f49363f8d96a7abc3f5e5b8365600d0c5d762f20040b7d"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.11.6",
                 "docs": null,
                 "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
                 "support": "https://forum.ceruleansonar.com/categories",
@@ -10664,56 +10463,10 @@
                         ]
                     }
                 }
-            },
-            "1.10.2-beta.3": {
-                "identifier": "c71434d5-b801-5242-b289-40a862a2f981",
-                "type": "device-integration",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 80506933,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:6197170208f4a67016af98439f22059cace4018fd2023d35759465f84a3123e4"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.10.2-beta.3",
-                "docs": null,
-                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ],
-                        "ReadonlyRootfs": true,
-                        "ExtraHosts": [
-                            "host.docker.internal:host-gateway"
-                        ]
-                    }
-                }
             }
         },
         "repo_info": {
-            "downloads": 65754,
+            "downloads": 65904,
             "last_updated": "2025-07-31T21:42:47.983395Z",
             "date_registered": "2023-02-09T18:16:56.606258Z"
         }
@@ -10727,6 +10480,154 @@
         "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/jmrobotics/jm-connect/extension_logo.png",
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/jmrobotics/company_logo.png",
         "versions": {
+            "0.2.2": {
+                "identifier": "e1875128-8230-5138-b12a-ccff882ebcf8",
+                "type": "other",
+                "website": "https://www.jmrobotics.no",
+                "images": [
+                    {
+                        "expanded_size": 124964433,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:fb0c59a1c46c52bad2998864734b79ae2939a1f76ddddbd504ebe1463406801b"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Mads Peter Hammer Strand",
+                        "email": "mads@jmrobotics.no"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "0.2.2",
+                "docs": null,
+                "readme": "No README available",
+                "support": "https://www.jmrobotics.no",
+                "requirements": "core >= 1",
+                "company": {
+                    "about": "",
+                    "name": "JM Robotics",
+                    "email": "support@jmrobotics.no"
+                },
+                "permissions": {
+                    "Env": [
+                        "SERVER_URL=https://software.jmrobotics.no/server/",
+                        "I2CBUS=6",
+                        "ROV_ID=<rov_id>"
+                    ],
+                    "ExposedPorts": {
+                        "1337/tcp": {},
+                        "8137/tcp": {},
+                        "1338/tcp": {}
+                    },
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/root/.config/jm:/root/.config",
+                            "/var/run/docker.sock:/var/run/docker.sock"
+                        ],
+                        "ExtraHosts": [
+                            "host.docker.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "1337/tcp": [
+                                {
+                                    "HostPort": "1337"
+                                }
+                            ],
+                            "8137/tcp": [
+                                {
+                                    "HostPort": "8137"
+                                }
+                            ],
+                            "1338/tcp": [
+                                {
+                                    "HostPort": "1338"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "0.2.2-linux-arm64": {
+                "identifier": "2fb4fa3d-3a58-5380-bcc7-071584b64c27",
+                "type": "other",
+                "website": "https://www.jmrobotics.no",
+                "images": [
+                    {
+                        "expanded_size": 124964433,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:fb0c59a1c46c52bad2998864734b79ae2939a1f76ddddbd504ebe1463406801b"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Mads Peter Hammer Strand",
+                        "email": "mads@jmrobotics.no"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "0.2.2-linux-arm64",
+                "docs": null,
+                "readme": "No README available",
+                "support": "https://www.jmrobotics.no",
+                "requirements": "core >= 1",
+                "company": {
+                    "about": "",
+                    "name": "JM Robotics",
+                    "email": "support@jmrobotics.no"
+                },
+                "permissions": {
+                    "Env": [
+                        "SERVER_URL=https://software.jmrobotics.no/server/",
+                        "I2CBUS=6",
+                        "ROV_ID=<rov_id>"
+                    ],
+                    "ExposedPorts": {
+                        "1337/tcp": {},
+                        "8137/tcp": {},
+                        "1338/tcp": {}
+                    },
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/root/.config/jm:/root/.config",
+                            "/var/run/docker.sock:/var/run/docker.sock"
+                        ],
+                        "ExtraHosts": [
+                            "host.docker.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "1337/tcp": [
+                                {
+                                    "HostPort": "1337"
+                                }
+                            ],
+                            "8137/tcp": [
+                                {
+                                    "HostPort": "8137"
+                                }
+                            ],
+                            "1338/tcp": [
+                                {
+                                    "HostPort": "1338"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
             "0.2.1": {
                 "identifier": "5155c614-f7f3-57ec-b73b-900f3cdcadf0",
                 "type": "other",
@@ -12438,149 +12339,11 @@
                         }
                     }
                 }
-            },
-            "0.0.3": {
-                "identifier": "04354e64-e2b2-59ba-b0d7-61cbe54a3820",
-                "type": "other",
-                "website": "https://www.jmrobotics.no",
-                "images": [
-                    {
-                        "expanded_size": 98481100,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:c58fd0b5d2f68f9df5924ff54f444849aa1c413e40a2725bc01cf6a3b6ca3645"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Mads Peter Hammer Strand",
-                        "email": "mads@jmrobotics.no"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "0.0.3",
-                "docs": null,
-                "readme": "No README available",
-                "support": "https://www.jmrobotics.no",
-                "requirements": "core >= 1",
-                "company": {
-                    "about": "",
-                    "name": "JM Robotics",
-                    "email": "support@jmrobotics.no"
-                },
-                "permissions": {
-                    "Env": [
-                        "SERVER_URL=https://software.jmrobotics.no/server/",
-                        "ROV_ID=<rov_id>"
-                    ],
-                    "ExposedPorts": {
-                        "1337/tcp": {},
-                        "8137/tcp": {},
-                        "1338/tcp": {}
-                    },
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "Binds": [
-                            "/root/.config/jm:/root/.config"
-                        ],
-                        "ExtraHosts": [
-                            "host.docker.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "1337/tcp": [
-                                {
-                                    "HostPort": "1337"
-                                }
-                            ],
-                            "8137/tcp": [
-                                {
-                                    "HostPort": "8137"
-                                }
-                            ],
-                            "1338/tcp": [
-                                {
-                                    "HostPort": "1338"
-                                }
-                            ]
-                        }
-                    }
-                }
-            },
-            "0.0.2": {
-                "identifier": "a102f7fd-cb95-5bb6-99ed-3b0b1ae0b1cc",
-                "type": "other",
-                "website": "https://www.jmrobotics.no",
-                "images": [
-                    {
-                        "expanded_size": 55223354,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:50251ec8c463a50ab3013bdcdd6bfb1f913c34ffe579f326c12d539b5bd14248"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Mads Peter Hammer Strand",
-                        "email": "mads@jmrobotics.no"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "0.0.2",
-                "docs": null,
-                "readme": "No README available",
-                "support": "https://www.jmrobotics.no",
-                "requirements": "core >= 1",
-                "company": {
-                    "about": "",
-                    "name": "JM Robotics",
-                    "email": "support@jmrobotics.no"
-                },
-                "permissions": {
-                    "Env": [
-                        "SERVER_URL=https://software.jmrobotics.no/server/",
-                        "ROV_ID=<rov_id>"
-                    ],
-                    "ExposedPorts": {
-                        "1337/tcp": {},
-                        "1338/tcp": {}
-                    },
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "Binds": [
-                            "/root/.config/jm:/root/.config"
-                        ],
-                        "ExtraHosts": [
-                            "host.docker.internal:host-gateway"
-                        ],
-                        "PortBindings": {
-                            "1337/tcp": [
-                                {
-                                    "HostPort": "1337"
-                                }
-                            ],
-                            "1338/tcp": [
-                                {
-                                    "HostPort": "1338"
-                                }
-                            ]
-                        }
-                    }
-                }
             }
         },
         "repo_info": {
-            "downloads": 27530,
-            "last_updated": "2025-08-01T09:39:03.825082Z",
+            "downloads": 27632,
+            "last_updated": "2025-08-11T09:16:41.507357Z",
             "date_registered": "2023-05-02T08:49:43.621656Z"
         }
     }
