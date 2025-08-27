@@ -240,7 +240,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8672,
+            "downloads": 8690,
             "last_updated": "2024-10-16T08:28:28.588962Z",
             "date_registered": "2023-04-18T13:14:56.444696Z"
         }
@@ -879,7 +879,7 @@
             }
         },
         "repo_info": {
-            "downloads": 12783,
+            "downloads": 12834,
             "last_updated": "2025-04-29T15:07:41.658733Z",
             "date_registered": "2024-09-16T13:23:53.464854Z"
         }
@@ -1090,7 +1090,7 @@
             }
         },
         "repo_info": {
-            "downloads": 7046,
+            "downloads": 7061,
             "last_updated": "2025-08-09T06:01:52.676663Z",
             "date_registered": "2023-10-04T23:07:17.135228Z"
         }
@@ -2315,7 +2315,7 @@
             }
         },
         "repo_info": {
-            "downloads": 33334,
+            "downloads": 33439,
             "last_updated": "2025-08-19T08:35:34.715228Z",
             "date_registered": "2023-03-23T10:28:07.423732Z"
         }
@@ -2490,7 +2490,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6496,
+            "downloads": 6519,
             "last_updated": "2024-11-02T19:51:27.122486Z",
             "date_registered": "2023-09-20T20:30:01.66808Z"
         }
@@ -2554,7 +2554,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1767,
+            "downloads": 1770,
             "last_updated": "2023-11-07T01:34:15.374584Z",
             "date_registered": "2023-11-05T01:19:48.269227Z"
         }
@@ -3201,7 +3201,7 @@
             }
         },
         "repo_info": {
-            "downloads": 245851,
+            "downloads": 245908,
             "last_updated": "2025-06-25T17:06:04.67356Z",
             "date_registered": "2022-06-01T23:43:43.19026Z"
         }
@@ -3857,7 +3857,7 @@
             }
         },
         "repo_info": {
-            "downloads": 35326,
+            "downloads": 35389,
             "last_updated": "2023-09-06T01:24:53.238154Z",
             "date_registered": "2023-07-06T13:38:30.979513Z"
         }
@@ -3976,7 +3976,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5047,
+            "downloads": 5056,
             "last_updated": "2025-03-21T12:52:28.85139Z",
             "date_registered": "2023-09-13T06:14:36.827307Z"
         }
@@ -4292,7 +4292,7 @@
             }
         },
         "repo_info": {
-            "downloads": 13940,
+            "downloads": 13968,
             "last_updated": "2024-07-29T21:22:46.380269Z",
             "date_registered": "2023-08-29T20:22:57.798237Z"
         }
@@ -4360,7 +4360,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1591,
+            "downloads": 1593,
             "last_updated": "2024-02-05T22:10:02.139431Z",
             "date_registered": "2024-01-22T15:06:39.735884Z"
         }
@@ -4433,7 +4433,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2399,
+            "downloads": 2402,
             "last_updated": "2023-09-01T21:07:26.318216Z",
             "date_registered": "2023-09-01T20:11:40.559943Z"
         }
@@ -6222,7 +6222,7 @@
             }
         },
         "repo_info": {
-            "downloads": 95822,
+            "downloads": 95961,
             "last_updated": "2025-08-25T19:08:09.964044Z",
             "date_registered": "2023-01-30T01:40:41.340441Z"
         }
@@ -6352,7 +6352,7 @@
             }
         },
         "repo_info": {
-            "downloads": 82186,
+            "downloads": 82195,
             "last_updated": "2023-05-02T10:57:42.905818Z",
             "date_registered": "2022-09-20T18:15:02.068256Z"
         }
@@ -6509,7 +6509,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5073,
+            "downloads": 5093,
             "last_updated": "2025-02-12T16:03:19.432988Z",
             "date_registered": "2024-04-02T12:56:46.518809Z"
         }
@@ -6569,6 +6569,73 @@
                 "tag": "v1.14.3",
                 "docs": null,
                 "readme": "No README available",
+                "support": "https://github.com/Williangalvani/zerotierone/issues",
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host",
+                        "CapAdd": [
+                            "SYS_ADMIN",
+                            "NET_ADMIN"
+                        ],
+                        "Binds": [
+                            "/usr/blueos/extensions/zerotier:/var/lib/zerotier-one",
+                            "/var/lib/zerotier-one:/old-settings"
+                        ],
+                        "Devices": [
+                            {
+                                "PathOnHost": "/dev/net/tun",
+                                "PathInContainer": "/dev/net/tun",
+                                "CgroupPermissions": "rwm"
+                            }
+                        ]
+                    }
+                }
+            },
+            "v1.14.2": {
+                "identifier": "16b3044d-6676-508b-bdac-f0e4d2125fb7",
+                "type": "other",
+                "website": "https://github.com/Williangalvani/zerotierone",
+                "images": [
+                    {
+                        "expanded_size": 66196576,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:a51989fad182fd33e0712e88b4977a69589d12f5c28347a89a14e893dd365d18"
+                    },
+                    {
+                        "expanded_size": 82740513,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:4f14f2364ce85ddf0690838a897d0241939a5f23f7edd88e1c96578949f93093"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [
+                    "communication"
+                ],
+                "extra_links": {},
+                "tag": "v1.14.2",
+                "docs": null,
+                "readme": "<blockquote>\n<p><strong>NOTE:</strong> This is a <a href=\"https://blueos.cloud/docs/blueos/1.1/extensions/\">BlueOS Extension</a> for using the <a href=\"https://www.zerotier.com/\">ZeroTier</a> service on a BlueOS device. It sets up a VPN to access your device from anywhere with an internet connection.</p>\n</blockquote>\n<h2>Initial Setup</h2>\n<ol>\n<li>Install <a href=\"https://docs.bluerobotics.com/BlueOS-Extensions-Repository/#:~:text=ZeroTier,Maintainer\">the ZeroTier extension</a> on your vehicle</li>\n<li><a href=\"https://www.zerotier.com/download/\">Download ZeroTier</a> on the device(s) you want to connect with</li>\n<li><a href=\"https://my.zerotier.com/login\">Log In</a> to ZeroTier online<ul>\n<li>create an account if you haven't used ZeroTier before)</li>\n</ul>\n</li>\n<li>Create a new network and copy the generated network ID</li>\n<li>Join the network (using the ID) from the BlueOS ZeroTier Extension page, as well as through the ZeroTier interface on your device(s)</li>\n<li>If using a private network, return to the online ZeroTier interface, scroll down to the \"Members\" section, and allow each device access to the network by checking the \"Auth?\" checkbox beside its listing<ul>\n<li>For ease of future management, it may help to give meaningful names and/or descriptions to the devices in the table</li>\n</ul>\n</li>\n<li>You should now be able to access the BlueOS web interface through the ZeroTier connection<ul>\n<li>You can use the <strong>vehicle</strong>'s mDNS address (e.g. http://blueos.local, by default), or the <strong>vehicle</strong>'s \"Managed IP\" shown in ZeroTier's online interface (in the \"Members\" section)</li>\n<li>Connecting through ZeroTier requires both ends of the connection to be on the same ZeroTier network and connected to the internet</li>\n</ul>\n</li>\n<li>Configure the desired endpoints (for MAVLink telemetry, video streams, serial, etc) to point to the intended recipient<ul>\n<li>Setting up a video stream requires setting up a stream endpoint for it in the <a href=\"https://blueos.cloud/docs/blueos/1.1/advanced-usage/#video-streams\">Video Streams</a> page<ul>\n<li>Creating a new stream endpoint while connected to BlueOS through the ZeroTier connection will automatically use the connected <strong>device</strong>'s IP address</li>\n<li>You can also get the relevant <strong>device</strong> IP address(es) through the ZeroTier online interface (in the \"Managed IPs\" column)</li>\n<li>BlueOS video streams can provide multiple endpoints of the same type, to send to multiple devices<ul>\n<li>You can edit a stream to add more endpoints</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>Vehicle telemetry+control through QGroundControl is generally handled via a UDP Client link set up in BlueOS's <a href=\"https://blueos.cloud/docs/blueos/1.1/advanced-usage/#mavlink-endpoints\">MAVLink Endpoints</a> page<ul>\n<li>Creating a new UDP Client endpoint while connected through the ZeroTier connection will automatically use the connected <strong>device</strong>'s IP address</li>\n<li>You can also get the relevant <strong>device</strong> IP address through the ZeroTier online interface (in the \"Managed IPs\" column)</li>\n</ul>\n</li>\n<li>It is technically also possible to set up a MAVLink connection using BlueOS's GCS Server Link, although it may be less robust<ul>\n<li>Doing this requires adding a \"Comm Link\" in QGroundControl's Application Settings (instead of creating a new endpoint in BlueOS)<ul>\n<li>you can add the server as the <strong>vehicle</strong>'s mDNS address (e.g. <code>blueos.local</code>) or the <strong>vehicle</strong>'s IP address, and leave the port as <code>14550</code></li>\n</ul>\n</li>\n<li>Make sure the GCS Server Link is enabled in BlueOS</li>\n</ul>\n</li>\n</ul>\n</li>\n</ol>\n<h2>General Usage</h2>\n<p>Once the network and endpoints have been configured it should be possible to reconnect at will, whenever the vehicle and a device are both connected to the internet, and connected to a ZeroTier network they're both authorised on.</p>\n<p>If a device leaves a ZeroTier network (or is not connected to the internet) then it will not be accessible to the rest of the network. ZeroTier's online manager can be used to de-authorise devices and/or remove them from the network entirely.</p>\n<h2>Troubleshooting</h2>\n<ul>\n<li>If the ZeroTier Status is showing as <code>ACCESS_DENIED</code>, you're connected to a privately configured ZeroTier network and the network owner (likely yourself) needs to authorise your device through the \"Members\" section of ZeroTier's online interface for that network</li>\n<li>If the connection is not working it can help to check the \"Last Seen\" column of the \"Members\" section of ZeroTier's online interface, to determine whether one or multiple of your devices is not currently connected to the ZeroTier network (it may be having internet connectivity issues, or may just need to connect to the network through its ZeroTier interface)<ul>\n<li>If you can't find your device's ZeroTier interface, it may be an icon in your taskbar / menubar</li>\n</ul>\n</li>\n<li>Determining which device is which in ZeroTier's online interface requires knowing which order they attempted to join the network, or having access to the devices so you can identify them by disconnecting them from the network (or the internet) and seeing which one changes in the \"Last Seen\" column</li>\n<li>If the connection is working but some of the endpoints aren't, make sure the endpoints are configured to use the correct IP address<ul>\n<li>Something on the vehicle sending/connecting to a device (e.g. video, GCS MAVLink UDP client link for telemetry, etc) needs to be directed towards the <strong>device</strong>'s IP address</li>\n<li>Using a device to connect to the vehicle (e.g. to access the BlueOS web interface, or connect to a GCS server link for telemetry) needs to use the <strong>vehicle</strong>'s IP or mDNS address</li>\n</ul>\n</li>\n</ul>",
                 "support": "https://github.com/Williangalvani/zerotierone/issues",
                 "requirements": "core >= 1.1",
                 "company": {
@@ -6895,7 +6962,7 @@
             }
         },
         "repo_info": {
-            "downloads": 51748,
+            "downloads": 51781,
             "last_updated": "2025-05-19T20:37:10.685576Z",
             "date_registered": "2022-06-08T02:20:40.875088Z"
         }
@@ -7025,7 +7092,7 @@
             }
         },
         "repo_info": {
-            "downloads": 87051,
+            "downloads": 87060,
             "last_updated": "2023-05-02T10:58:10.407395Z",
             "date_registered": "2022-09-19T20:25:33.201236Z"
         }
@@ -7195,7 +7262,7 @@
             }
         },
         "repo_info": {
-            "downloads": 44689,
+            "downloads": 44704,
             "last_updated": "2024-03-04T19:11:38.707894Z",
             "date_registered": "2022-09-07T02:56:18.778263Z"
         }
@@ -7325,7 +7392,7 @@
             }
         },
         "repo_info": {
-            "downloads": 90081,
+            "downloads": 90090,
             "last_updated": "2023-05-02T10:58:42.102603Z",
             "date_registered": "2022-09-19T20:24:45.273155Z"
         }
@@ -7714,7 +7781,7 @@
             }
         },
         "repo_info": {
-            "downloads": 16448,
+            "downloads": 16487,
             "last_updated": "2025-02-12T17:44:31.463467Z",
             "date_registered": "2023-05-28T18:03:17.343281Z"
         }
@@ -7902,58 +7969,6 @@
                     }
                 }
             },
-            "v1.0.0": {
-                "identifier": "f7449486-ec50-5b8d-b582-a80f342e296c",
-                "type": "example",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 87950576,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:5fb4fbd32e76af6d853b972e4ea682e226147b7f4247f9f60c80860a8d963666"
-                    },
-                    {
-                        "expanded_size": 100026516,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:09a49126a1f5572165aa4010e171fd1be4a13cd4c804c78f9276d2717a271c80"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "$AUTHOR",
-                        "email": "$AUTHOR_EMAIL"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {
-                    "source": "https://github.com/$OWNER/$REPO"
-                },
-                "tag": "v1.0.0",
-                "docs": null,
-                "readme": "No README available",
-                "support": null,
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "$MAINTAINER",
-                    "email": "$MAINTAINER_EMAIL"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host"
-                    }
-                }
-            },
             "1.0.0": {
                 "identifier": "ccd0b581-f1c8-567d-be09-86de4cd774fc",
                 "type": "example",
@@ -7989,6 +8004,58 @@
                     "source": "https://github.com/$OWNER/$REPO"
                 },
                 "tag": "1.0.0",
+                "docs": null,
+                "readme": "No README available",
+                "support": null,
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "$MAINTAINER",
+                    "email": "$MAINTAINER_EMAIL"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "v1.0.0": {
+                "identifier": "f7449486-ec50-5b8d-b582-a80f342e296c",
+                "type": "example",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 87950576,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:5fb4fbd32e76af6d853b972e4ea682e226147b7f4247f9f60c80860a8d963666"
+                    },
+                    {
+                        "expanded_size": 100026516,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:09a49126a1f5572165aa4010e171fd1be4a13cd4c804c78f9276d2717a271c80"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "$AUTHOR",
+                        "email": "$AUTHOR_EMAIL"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {
+                    "source": "https://github.com/$OWNER/$REPO"
+                },
+                "tag": "v1.0.0",
                 "docs": null,
                 "readme": "No README available",
                 "support": null,
@@ -8069,7 +8136,7 @@
             }
         },
         "repo_info": {
-            "downloads": 11645,
+            "downloads": 11679,
             "last_updated": "2024-06-11T00:39:37.973367Z",
             "date_registered": "2024-05-23T03:16:55.205832Z"
         }
@@ -8205,7 +8272,7 @@
             }
         },
         "repo_info": {
-            "downloads": 84789,
+            "downloads": 84798,
             "last_updated": "2023-05-02T10:59:21.807562Z",
             "date_registered": "2022-09-19T20:13:46.735725Z"
         }
@@ -8491,7 +8558,7 @@
             }
         },
         "repo_info": {
-            "downloads": 139388,
+            "downloads": 139415,
             "last_updated": "2025-02-12T04:32:06.301572Z",
             "date_registered": "2022-09-07T07:17:20.147217Z"
         }
@@ -8505,6 +8572,55 @@
         "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/network-scanner/extension_logo.png",
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png",
         "versions": {
+            "v1.0.4": {
+                "identifier": "ba43e516-985f-5bfb-a55d-71619255ad2a",
+                "type": "tool",
+                "website": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
+                "images": [
+                    {
+                        "expanded_size": 166688673,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:606acae5c681b8d4500b23fa1dd5eccef8ac5ae9c942b54761ef625fd10c6554"
+                    },
+                    {
+                        "expanded_size": 139074473,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:b0c0ee03db1f8855174ca393296e5edad6088d5e662d9d03297227108586215e"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "v1.0.4",
+                "docs": null,
+                "readme": "No README available",
+                "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "NetworkMode": "host"
+                    }
+                }
+            },
             "1.0.3": {
                 "identifier": "f2419dc7-3cbe-52e5-a1ea-4fc19741f7b8",
                 "type": "tool",
@@ -8554,55 +8670,6 @@
                     }
                 }
             },
-            "v1.0.2": {
-                "identifier": "f2609867-67d1-59f0-851b-9e98ba00f78d",
-                "type": "tool",
-                "website": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
-                "images": [
-                    {
-                        "expanded_size": 135356970,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:77a7f2a97e30eedf50ae2e29e4c6e9a1a95f81ad07ac9d8c7fc664296d17caed"
-                    },
-                    {
-                        "expanded_size": 162273079,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:0f86e59bb7f91ec4697deecd3be10914ff28e784725cd895b64adba26172664c"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "v1.0.2",
-                "docs": null,
-                "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>\n<h2>changelog</h2>\n<p>v1.0.1:</p>\n<ul>\n<li>fixed table titles</li>\n<li>fixed cleanup when doing different scan types</li>\n<li>fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service</li>\n</ul>",
-                "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "NetworkMode": "host"
-                    }
-                }
-            },
             "1.0.2": {
                 "identifier": "b274476e-1a19-55de-aea8-545830702d4d",
                 "type": "tool",
@@ -8636,6 +8703,55 @@
                 "filter_tags": [],
                 "extra_links": {},
                 "tag": "1.0.2",
+                "docs": null,
+                "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>\n<h2>changelog</h2>\n<p>v1.0.1:</p>\n<ul>\n<li>fixed table titles</li>\n<li>fixed cleanup when doing different scan types</li>\n<li>fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service</li>\n</ul>",
+                "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "v1.0.2": {
+                "identifier": "f2609867-67d1-59f0-851b-9e98ba00f78d",
+                "type": "tool",
+                "website": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
+                "images": [
+                    {
+                        "expanded_size": 135356970,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:77a7f2a97e30eedf50ae2e29e4c6e9a1a95f81ad07ac9d8c7fc664296d17caed"
+                    },
+                    {
+                        "expanded_size": 162273079,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:0f86e59bb7f91ec4697deecd3be10914ff28e784725cd895b64adba26172664c"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "v1.0.2",
                 "docs": null,
                 "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>\n<h2>changelog</h2>\n<p>v1.0.1:</p>\n<ul>\n<li>fixed table titles</li>\n<li>fixed cleanup when doing different scan types</li>\n<li>fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service</li>\n</ul>",
                 "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
@@ -8703,7 +8819,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9103,
+            "downloads": 9135,
             "last_updated": "2025-05-14T20:51:07.385773Z",
             "date_registered": "2024-05-05T23:27:05.667297Z"
         }
@@ -8834,7 +8950,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5862,
+            "downloads": 5871,
             "last_updated": "2023-05-02T11:19:18.145903Z",
             "date_registered": "2022-10-12T18:15:01.290841Z"
         }
@@ -9139,7 +9255,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9389,
+            "downloads": 9410,
             "last_updated": "2024-11-26T18:07:23.087771Z",
             "date_registered": "2023-09-06T15:06:24.58823Z"
         }
@@ -9285,7 +9401,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3203,
+            "downloads": 3212,
             "last_updated": "2024-06-23T16:01:49.148109Z",
             "date_registered": "2024-06-08T17:31:16.936347Z"
         }
@@ -9516,7 +9632,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5332,
+            "downloads": 5350,
             "last_updated": "2024-08-14T23:11:15.514761Z",
             "date_registered": "2024-08-07T21:20:39.693471Z"
         }
@@ -9832,7 +9948,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2716,
+            "downloads": 2749,
             "last_updated": "2025-08-04T19:26:17.190238Z",
             "date_registered": "2024-10-28T21:23:12.958451Z"
         }
@@ -10190,7 +10306,7 @@
             }
         },
         "repo_info": {
-            "downloads": 24572,
+            "downloads": 24611,
             "last_updated": "2023-05-17T18:58:43.418901Z",
             "date_registered": "2023-01-17T21:41:45.289578Z"
         }
@@ -10309,7 +10425,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6803,
+            "downloads": 6812,
             "last_updated": "2023-03-15T20:41:07.344116Z",
             "date_registered": "2023-03-02T18:19:41.09439Z"
         }
@@ -11662,7 +11778,7 @@
             }
         },
         "repo_info": {
-            "downloads": 68179,
+            "downloads": 68325,
             "last_updated": "2025-08-24T20:23:21.233384Z",
             "date_registered": "2023-02-09T18:16:56.606258Z"
         }
@@ -13538,7 +13654,7 @@
             }
         },
         "repo_info": {
-            "downloads": 28954,
+            "downloads": 29044,
             "last_updated": "2025-08-11T09:16:41.507357Z",
             "date_registered": "2023-05-02T08:49:43.621656Z"
         }
