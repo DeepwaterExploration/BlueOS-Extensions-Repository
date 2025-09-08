@@ -1870,7 +1870,7 @@
             }
         },
         "repo_info": {
-            "downloads": 29754,
+            "downloads": 29875,
             "last_updated": "2025-08-11T09:16:41.507357Z",
             "date_registered": "2023-05-02T08:49:43.621656Z"
         }
@@ -2175,7 +2175,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9572,
+            "downloads": 9600,
             "last_updated": "2024-11-26T18:07:23.087771Z",
             "date_registered": "2023-09-06T15:06:24.58823Z"
         }
@@ -2321,7 +2321,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3284,
+            "downloads": 3296,
             "last_updated": "2024-06-23T16:01:49.148109Z",
             "date_registered": "2024-06-08T17:31:16.936347Z"
         }
@@ -3546,7 +3546,7 @@
             }
         },
         "repo_info": {
-            "downloads": 34249,
+            "downloads": 34392,
             "last_updated": "2025-08-19T08:35:34.715228Z",
             "date_registered": "2023-03-23T10:28:07.423732Z"
         }
@@ -5344,8 +5344,8 @@
             }
         },
         "repo_info": {
-            "downloads": 97299,
-            "last_updated": "2025-09-07T00:18:09.028607Z",
+            "downloads": 97506,
+            "last_updated": "2025-09-07T11:56:30.213195Z",
             "date_registered": "2023-01-30T01:40:41.340441Z"
         }
     },
@@ -5463,7 +5463,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5126,
+            "downloads": 5138,
             "last_updated": "2025-03-21T12:52:28.85139Z",
             "date_registered": "2023-09-13T06:14:36.827307Z"
         }
@@ -5531,7 +5531,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1608,
+            "downloads": 1611,
             "last_updated": "2024-02-05T22:10:02.139431Z",
             "date_registered": "2024-01-22T15:06:39.735884Z"
         }
@@ -5595,7 +5595,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1797,
+            "downloads": 1802,
             "last_updated": "2023-11-07T01:34:15.374584Z",
             "date_registered": "2023-11-05T01:19:48.269227Z"
         }
@@ -5770,7 +5770,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6636,
+            "downloads": 6656,
             "last_updated": "2024-11-02T19:51:27.122486Z",
             "date_registered": "2023-09-20T20:30:01.66808Z"
         }
@@ -6086,7 +6086,7 @@
             }
         },
         "repo_info": {
-            "downloads": 14178,
+            "downloads": 14215,
             "last_updated": "2024-07-29T21:22:46.380269Z",
             "date_registered": "2023-08-29T20:22:57.798237Z"
         }
@@ -6189,15 +6189,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:5fc14875bc39ee7e24213fe23941fc47c09476f9563abc388e77a2f1f09d04b2"
-                    },
-                    {
-                        "expanded_size": 74824081,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:ebf941da6d26994c70676afacaabb42e03dd203976794a1e8abd8dc6c6a32822"
                     },
                     {
                         "expanded_size": 76603940,
@@ -6724,7 +6715,7 @@
             }
         },
         "repo_info": {
-            "downloads": 246365,
+            "downloads": 246460,
             "last_updated": "2025-06-25T17:06:04.67356Z",
             "date_registered": "2022-06-01T23:43:43.19026Z"
         }
@@ -6797,7 +6788,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2426,
+            "downloads": 2430,
             "last_updated": "2023-09-01T21:07:26.318216Z",
             "date_registered": "2023-09-01T20:11:40.559943Z"
         }
@@ -7453,7 +7444,7 @@
             }
         },
         "repo_info": {
-            "downloads": 35874,
+            "downloads": 35959,
             "last_updated": "2023-09-06T01:24:53.238154Z",
             "date_registered": "2023-07-06T13:38:30.979513Z"
         }
@@ -7584,7 +7575,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5942,
+            "downloads": 5954,
             "last_updated": "2023-05-02T11:19:18.145903Z",
             "date_registered": "2022-10-12T18:15:01.290841Z"
         }
@@ -7754,7 +7745,7 @@
             }
         },
         "repo_info": {
-            "downloads": 44821,
+            "downloads": 44841,
             "last_updated": "2024-03-04T19:11:38.707894Z",
             "date_registered": "2022-09-07T02:56:18.778263Z"
         }
@@ -7911,7 +7902,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5201,
+            "downloads": 5219,
             "last_updated": "2025-02-12T16:03:19.432988Z",
             "date_registered": "2024-04-02T12:56:46.518809Z"
         }
@@ -8047,7 +8038,7 @@
             }
         },
         "repo_info": {
-            "downloads": 84869,
+            "downloads": 84881,
             "last_updated": "2023-05-02T10:59:21.807562Z",
             "date_registered": "2022-09-19T20:13:46.735725Z"
         }
@@ -8402,7 +8393,7 @@
             }
         },
         "repo_info": {
-            "downloads": 11940,
+            "downloads": 11984,
             "last_updated": "2024-06-11T00:39:37.973367Z",
             "date_registered": "2024-05-23T03:16:55.205832Z"
         }
@@ -8688,7 +8679,7 @@
             }
         },
         "repo_info": {
-            "downloads": 139663,
+            "downloads": 139700,
             "last_updated": "2025-02-12T04:32:06.301572Z",
             "date_registered": "2022-09-07T07:17:20.147217Z"
         }
@@ -8949,7 +8940,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9386,
+            "downloads": 9429,
             "last_updated": "2025-05-14T20:51:07.385773Z",
             "date_registered": "2024-05-05T23:27:05.667297Z"
         }
@@ -9338,7 +9329,7 @@
             }
         },
         "repo_info": {
-            "downloads": 16789,
+            "downloads": 16841,
             "last_updated": "2025-02-12T17:44:31.463467Z",
             "date_registered": "2023-05-28T18:03:17.343281Z"
         }
@@ -9468,7 +9459,7 @@
             }
         },
         "repo_info": {
-            "downloads": 90159,
+            "downloads": 90171,
             "last_updated": "2023-05-02T10:58:42.102603Z",
             "date_registered": "2022-09-19T20:24:45.273155Z"
         }
@@ -9921,7 +9912,7 @@
             }
         },
         "repo_info": {
-            "downloads": 52045,
+            "downloads": 52089,
             "last_updated": "2025-05-19T20:37:10.685576Z",
             "date_registered": "2022-06-08T02:20:40.875088Z"
         }
@@ -10051,7 +10042,7 @@
             }
         },
         "repo_info": {
-            "downloads": 82264,
+            "downloads": 82276,
             "last_updated": "2023-05-02T10:57:42.905818Z",
             "date_registered": "2022-09-20T18:15:02.068256Z"
         }
@@ -10181,7 +10172,7 @@
             }
         },
         "repo_info": {
-            "downloads": 87129,
+            "downloads": 87141,
             "last_updated": "2023-05-02T10:58:10.407395Z",
             "date_registered": "2022-09-19T20:25:33.201236Z"
         }
@@ -10466,7 +10457,7 @@
             }
         },
         "repo_info": {
-            "downloads": 7285,
+            "downloads": 7313,
             "last_updated": "2025-09-05T17:43:37.326839Z",
             "date_registered": "2023-10-04T23:07:17.135228Z"
         }
@@ -10697,7 +10688,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5492,
+            "downloads": 5516,
             "last_updated": "2024-08-14T23:11:15.514761Z",
             "date_registered": "2024-08-07T21:20:39.693471Z"
         }
@@ -11336,7 +11327,7 @@
             }
         },
         "repo_info": {
-            "downloads": 13227,
+            "downloads": 13295,
             "last_updated": "2025-04-29T15:07:41.658733Z",
             "date_registered": "2024-09-16T13:23:53.464854Z"
         }
@@ -11455,7 +11446,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6884,
+            "downloads": 6896,
             "last_updated": "2023-03-15T20:41:07.344116Z",
             "date_registered": "2023-03-02T18:19:41.09439Z"
         }
@@ -11813,7 +11804,7 @@
             }
         },
         "repo_info": {
-            "downloads": 24916,
+            "downloads": 24968,
             "last_updated": "2023-05-17T18:58:43.418901Z",
             "date_registered": "2023-01-17T21:41:45.289578Z"
         }
@@ -13176,7 +13167,7 @@
             }
         },
         "repo_info": {
-            "downloads": 69511,
+            "downloads": 69706,
             "last_updated": "2025-09-05T22:16:41.999722Z",
             "date_registered": "2023-02-09T18:16:56.606258Z"
         }
@@ -13492,7 +13483,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3007,
+            "downloads": 3048,
             "last_updated": "2025-08-04T19:26:17.190238Z",
             "date_registered": "2024-10-28T21:23:12.958451Z"
         }
@@ -13738,7 +13729,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8839,
+            "downloads": 8863,
             "last_updated": "2024-10-16T08:28:28.588962Z",
             "date_registered": "2023-04-18T13:14:56.444696Z"
         }
