@@ -310,7 +310,7 @@
             }
         },
         "repo_info": {
-            "downloads": 4133,
+            "downloads": 4165,
             "last_updated": "2025-08-04T19:26:17.190238Z",
             "date_registered": "2024-10-28T21:23:12.958451Z"
         }
@@ -626,7 +626,7 @@
             }
         },
         "repo_info": {
-            "downloads": 15169,
+            "downloads": 15211,
             "last_updated": "2024-07-29T21:22:46.380269Z",
             "date_registered": "2023-08-29T20:22:57.798237Z"
         }
@@ -979,13 +979,13 @@
                         "digest": "sha256:886899706c2a17b96e73665b526194296a93cee8a6ae8b86c997046a987f704c"
                     },
                     {
-                        "expanded_size": 32166244,
+                        "expanded_size": 32211707,
                         "platform": {
-                            "architecture": "arm64",
+                            "architecture": "amd64",
                             "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:6fb7a42a70a2bbf58b5fa5f4c9c3e1d8a95a731ed70aa4d2eefbd146b7b90a2a"
+                        "digest": "sha256:8a304dfb45bc11668e426f0907f32554fa957387973f48f87f5754107b76ef6b"
                     }
                 ],
                 "authors": [
@@ -1049,6 +1049,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:abab44d0abe77366d20d8b01757e859791a1f0008a4b4d8c63e36ab625a6e909"
+                    },
+                    {
+                        "expanded_size": 32211667,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:479d5dcf44f7390294cb287395f058fe8bc23f0982412455715f4947efdca175"
                     }
                 ],
                 "authors": [
@@ -1112,6 +1121,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:ecdba0944f2d34a0374ef051fa2f04c054ff4fdb69179637c00b4a1a6ef3b876"
+                    },
+                    {
+                        "expanded_size": 32209978,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:1f72364325fcb6f25d3660347c1a17931c503db6f6189c0daddf6dfc68cd7369"
                     }
                 ],
                 "authors": [
@@ -1175,6 +1193,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:14f9f12a8b1cf52db0af6fa8678203cd89b6ae55454d563e71c07bbb421d3739"
+                    },
+                    {
+                        "expanded_size": 32206654,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:2ba9c15deffe14039623fa44f459b4de0b3ad720c6a173a9b77e1b81ae85ae94"
                     }
                 ],
                 "authors": [
@@ -1238,6 +1265,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:bfe54eecca6597b7e5bc688c2d6059a3ee851ce1fc160e3f6eacdc861f30520a"
+                    },
+                    {
+                        "expanded_size": 32204871,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:b57bf57e25ec56269d805ce43948d078ed4af06d914651ee46a889e0d4ae1169"
                     }
                 ],
                 "authors": [
@@ -1301,6 +1337,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:89cb3c88004a82b3727d0d1ffdfd506e73c0a4f930348a4dadf99165615967f0"
+                    },
+                    {
+                        "expanded_size": 32203171,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:a72eb7f9e46d44f26ecfce2d77e9430c860d5606d1ea80676c9f191f892af510"
                     }
                 ],
                 "authors": [
@@ -1364,6 +1409,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:4802e60b8260de3f2a207d8bf267eaa770d5831020bfae285ede809bb5b2acc7"
+                    },
+                    {
+                        "expanded_size": 32203833,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:1becd3f2617b3e808a47221cec44eed30e612daa574dcb94193925289509e14c"
                     }
                 ],
                 "authors": [
@@ -1427,6 +1481,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:8841694703c15a89134fc4e8e2b3bfbe4b222fb3ca901bdd7e67b38f7565c090"
+                    },
+                    {
+                        "expanded_size": 31223805,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:b47e1efcdd8109329594fec009b92f123ab34f53ae1c06602619b6b45f2a6e31"
                     }
                 ],
                 "authors": [
@@ -1490,6 +1553,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:77b9477937bba19b4fd301a50c9253fce5684ace1c6c93ca7e8ef22c19d20794"
+                    },
+                    {
+                        "expanded_size": 31207411,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:60443a586dccff8d17799fee14d902a60f6ea426af88916db785c078c6e3d063"
                     }
                 ],
                 "authors": [
@@ -1553,6 +1625,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:b780d846f7076ab41a3026a6c55ab44f8781f679ebfc730cef11390ce1ebd312"
+                    },
+                    {
+                        "expanded_size": 31228473,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:8f52af714314476a216358afcb8f608ce7ff711c42ccdebf80d8305534f627fc"
                     }
                 ],
                 "authors": [
@@ -1616,6 +1697,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:b7e7aa2302fac8c798c11dbadf974330c5f3532a3acc1ffd7582e1e11a661610"
+                    },
+                    {
+                        "expanded_size": 27271614,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:690c1e81a73d95ad57486b7a4ca9f32e61ac51c3726ef2ad61f9d4ec435b53e0"
                     }
                 ],
                 "authors": [
@@ -1679,6 +1769,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:6a6b1de783e7834b7785906a27360a84b8dddbe5f24add2e528160ff9f8d2818"
+                    },
+                    {
+                        "expanded_size": 27264940,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:286c932904a16e63f45f5ac5f68678fe9bf044bf044fe70a5844a339555d4389"
                     }
                 ],
                 "authors": [
@@ -1742,6 +1841,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:86d7329add076fe90d6d27386215cb1a76dc93b2eca98ee67a78a120357431eb"
+                    },
+                    {
+                        "expanded_size": 27262942,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:e22ecf47f8a1df95074aefe1cfad80049f0519469702176d77b30d3c4112b105"
                     }
                 ],
                 "authors": [
@@ -1805,6 +1913,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:99a2a4a8dcdbca87d197cad4c62cdaa611af743506ac3dc6e2e59cd6d93f104c"
+                    },
+                    {
+                        "expanded_size": 27262639,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:d837cee8703fdfc7fb3a16640c2ffe5abfce33e51bd4af98142f8600ec8dc400"
                     }
                 ],
                 "authors": [
@@ -1868,6 +1985,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:e3cb5299b1de531c78bea9e53a9064cdecf3541f2ef832f2fd2adf7b75df3fdb"
+                    },
+                    {
+                        "expanded_size": 27253203,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:ddbac3e3afa9a79b73ba5fb7d4a3943a4599d2ae5ea7eed15c18bbc89e2a4670"
                     }
                 ],
                 "authors": [
@@ -1931,15 +2057,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:6ce04d42f133fc883b4c4c7c7d5db7655a01bffafc80e6636e3c5f80078f7fcb"
-                    },
-                    {
-                        "expanded_size": 22152968,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:3d26a81c33d4eff2a46a4df64642a674171ad405beb181afdce1ef9cf17da422"
                     },
                     {
                         "expanded_size": 22195445,
@@ -2012,6 +2129,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:815df5294a8b0a9bd066127f852a37fa0f263965429fa2ec42b694a7ddb4d403"
+                    },
+                    {
+                        "expanded_size": 22193992,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:caa5cb10bf3c87931406c30b121f2cc02dd6097b81868e3e675725acb0b19214"
                     }
                 ],
                 "authors": [
@@ -2075,6 +2201,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:0313b64c0128a1ae1dcffe70943c8466a7e19688977f529612b00ed9ea128109"
+                    },
+                    {
+                        "expanded_size": 22174544,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:835807383b18b5f0ec446617fe6efca61aa0afd0f1a7d2e4d5805337bb72116d"
                     }
                 ],
                 "authors": [
@@ -2138,6 +2273,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:0e2fd61acb34e76c125bb3b438c55a2395299b542db7e10019b94b8f42935375"
+                    },
+                    {
+                        "expanded_size": 22170672,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:4c48425c231d88b66d6e20e22ee901e2f1b6ed96e2ca07c54df6c924f1a32c56"
                     }
                 ],
                 "authors": [
@@ -2201,6 +2345,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:9925008d2fc3c313f6c9f2ad45b77cbed84304ccfa16be3c1740fcbcb97e3527"
+                    },
+                    {
+                        "expanded_size": 22167688,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:c63c7c125b1a9312e2a1dd7594ee600c4d8d15d167e6f581d28233c1ae3235b6"
                     }
                 ],
                 "authors": [
@@ -2253,7 +2406,7 @@
             }
         },
         "repo_info": {
-            "downloads": 103648,
+            "downloads": 103940,
             "last_updated": "2025-10-10T17:01:20.739811Z",
             "date_registered": "2023-01-30T01:40:41.340441Z"
         }
@@ -2428,7 +2581,7 @@
             }
         },
         "repo_info": {
-            "downloads": 7193,
+            "downloads": 7214,
             "last_updated": "2024-11-02T19:51:27.122486Z",
             "date_registered": "2023-09-20T20:30:01.66808Z"
         }
@@ -2501,7 +2654,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2536,
+            "downloads": 2542,
             "last_updated": "2023-09-01T21:07:26.318216Z",
             "date_registered": "2023-09-01T20:11:40.559943Z"
         }
@@ -2569,7 +2722,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1700,
+            "downloads": 1711,
             "last_updated": "2024-02-05T22:10:02.139431Z",
             "date_registered": "2024-01-22T15:06:39.735884Z"
         }
@@ -2605,6 +2758,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:78ae14735532486857c60dc946ba9706359e9a8512e8566c18bd7fbd86a26167"
+                    },
+                    {
+                        "expanded_size": 76668659,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:24217099cf3989405e25904469b0eb412213531c058d96cc42f964872583d588"
                     }
                 ],
                 "authors": [
@@ -2663,6 +2825,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:5fc14875bc39ee7e24213fe23941fc47c09476f9563abc388e77a2f1f09d04b2"
+                    },
+                    {
+                        "expanded_size": 76603940,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:0c329808451439ad814a8e70389e36d122916f3120b19ed149eafe7ea5c4b45c"
                     }
                 ],
                 "authors": [
@@ -2721,6 +2892,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:b96869c28654831900781874f50eb75649b5b600a88abdfcbdfb30fc5fcd12e3"
+                    },
+                    {
+                        "expanded_size": 77097826,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:02b1b004172e7f53009bda575ce76f17b02d02352d195bc7d1caacd9a052ada8"
                     }
                 ],
                 "authors": [
@@ -2779,6 +2959,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:5c4cc57ab14bbc3c32fc83aefad9f4ef6ab244411b1f80c4511fd6f70535fb48"
+                    },
+                    {
+                        "expanded_size": 77083331,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:a1486d8026590c4143410fff474811be8d83bd5ae2c80c2f2509bd858b2b6823"
                     }
                 ],
                 "authors": [
@@ -2837,6 +3026,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:7af61750294fa6eb726e73f855d6ec207ba7bf2c0af1e1ac9626c9e29b54a924"
+                    },
+                    {
+                        "expanded_size": 77417461,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:6a05bce7c3834c01e2014db273c45e29fa0de985ec5091553f3f4c59d305da62"
                     }
                 ],
                 "authors": [
@@ -2895,6 +3093,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:f8ee948cb512af09d2cab3cc92cc39de0bc802645f382033ba7c5d5972f7c541"
+                    },
+                    {
+                        "expanded_size": 77377333,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:f366b363ae588f2e2d0d1b69d7b029c9a6974ff6bd8db0c818cc98c81ca8a7fe"
                     }
                 ],
                 "authors": [
@@ -2953,6 +3160,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:18c4bf17906b278c44e840b40f8561928283ea151f48958ef42dd8ee0d95eb48"
+                    },
+                    {
+                        "expanded_size": 77304661,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:5c2dd5704cd10b3cf502f3a47d5f9f0283e846e66d3ebcfa7d8ffe5673eb269f"
                     }
                 ],
                 "authors": [
@@ -3001,6 +3217,15 @@
                 "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
                 "images": [
                     {
+                        "expanded_size": 78844216,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:2f52eb554ba188b329ad06f5167927c54fa773cb33beb6f78a1d2bb3ab991395"
+                    },
+                    {
                         "expanded_size": 72588503,
                         "platform": {
                             "architecture": "arm",
@@ -3037,6 +3262,15 @@
                 "type": "other",
                 "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
                 "images": [
+                    {
+                        "expanded_size": 78944496,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:96cfe2f9ecd1cdece9cdc82f7ea24121c7a56beb4e02d502ecc6b71dca9a1cce"
+                    },
                     {
                         "expanded_size": 72798434,
                         "platform": {
@@ -3075,6 +3309,15 @@
                 "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
                 "images": [
                     {
+                        "expanded_size": 78926907,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:e3e67687861b5d8c4613e35fafe4f13498c9906e6553125b032f6f6ddf075944"
+                    },
+                    {
                         "expanded_size": 72784115,
                         "platform": {
                             "architecture": "arm",
@@ -3108,7 +3351,7 @@
             }
         },
         "repo_info": {
-            "downloads": 248545,
+            "downloads": 248641,
             "last_updated": "2025-06-25T17:06:04.67356Z",
             "date_registered": "2022-06-01T23:43:43.19026Z"
         }
@@ -3227,7 +3470,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5470,
+            "downloads": 5482,
             "last_updated": "2025-03-21T12:52:28.85139Z",
             "date_registered": "2023-09-13T06:14:36.827307Z"
         }
@@ -3291,7 +3534,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1926,
+            "downloads": 1939,
             "last_updated": "2023-11-07T01:34:15.374584Z",
             "date_registered": "2023-11-05T01:19:48.269227Z"
         }
@@ -3947,7 +4190,7 @@
             }
         },
         "repo_info": {
-            "downloads": 38133,
+            "downloads": 38199,
             "last_updated": "2023-09-06T01:24:53.238154Z",
             "date_registered": "2023-07-06T13:38:30.979513Z"
         }
@@ -3983,6 +4226,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:29f1fdf1911141d6b6af77699813d790e282903be23032399d9e6a69a16fcda5"
+                    },
+                    {
+                        "expanded_size": 59063304,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:a98ed6a49113cfdaebf764b0d888e74b2e764049ea08a0e114eb0e66c0fabff8"
                     }
                 ],
                 "authors": [
@@ -4039,6 +4291,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:19244603abc98ed2d65404c9495a7ea1b567ac964a283b67dd19b05f36692702"
+                    },
+                    {
+                        "expanded_size": 61285310,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:3b07316176f861e9c4b604bad193b23fafe73a97ff8d11d71fb7881a0708f248"
                     }
                 ],
                 "authors": [
@@ -4087,6 +4348,15 @@
                 "type": "tool",
                 "website": null,
                 "images": [
+                    {
+                        "expanded_size": 61827913,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:ec7bc28eb0403cd3ccea022fc72219f0aa14e8449bdc118dc05cbe9beb3992dd"
+                    },
                     {
                         "expanded_size": 54415457,
                         "platform": {
@@ -4151,6 +4421,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:f329aae26ef680843dd8b54ccb72f3e35ec80102b3d850a2c87ce4c522740a62"
+                    },
+                    {
+                        "expanded_size": 61728796,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:9aafb8dbaf44f722cd2f10fd513666e8ea844745cb8142c353e73e33fb1c65e0"
                     }
                 ],
                 "authors": [
@@ -4196,7 +4475,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8058,
+            "downloads": 8114,
             "last_updated": "2025-09-05T17:43:37.326839Z",
             "date_registered": "2023-10-04T23:07:17.135228Z"
         }
@@ -4293,6 +4572,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:8a8f30f7b9c8c2640fcfd3ef1626c10fa3f0d3a3b6d9d0275ee9c860dd9c7ed5"
+                    },
+                    {
+                        "expanded_size": 581063638,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:d56a22d957b00e417fa7dd7a540889d4d23161216cbe2814de2176e8eec04924"
                     }
                 ],
                 "authors": [
@@ -4354,6 +4642,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:09406e970a2bc715b3e383b396fd4b03dd6b083247168fe666b3a48b8a9ea472"
+                    },
+                    {
+                        "expanded_size": 573073438,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:36bcf2800f4d9ef5d970e53c647898671cd78175a43aa82f9b1ecc11b5061431"
                     }
                 ],
                 "authors": [
@@ -4415,6 +4712,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:f19c446693d4f581c9c4f419572a90cdaa3ab53efd62c31e44c3227ca2168d12"
+                    },
+                    {
+                        "expanded_size": 573014975,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:4316ddf7c214e90636d2b84e3350ff1395dfaba20fc5920c904a6fb7c2fd1cf5"
                     }
                 ],
                 "authors": [
@@ -4476,6 +4782,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:208e65a722024e93143a194a3002af2e488b0e3b74a5d2051a2db832ac7e1cb3"
+                    },
+                    {
+                        "expanded_size": 573029012,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:19c7ba226a9fed80cc401aef0483e85346664430b17ecbcd4e36cf8d5bd63a27"
                     }
                 ],
                 "authors": [
@@ -4537,6 +4852,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:78beaabd0a70d25ef5bc85157e1122421ef9f8c421f9869096e9b73e8e57eedd"
+                    },
+                    {
+                        "expanded_size": 573010895,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:64ac8ba3d889896bec419d2bf09d52af507d43b4c0ac77452f861e7a8b37fd8d"
                     }
                 ],
                 "authors": [
@@ -4598,6 +4922,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:41d260710ff0cdbb41f2ff5469518b8870823a069578601b9a9b0bbec475721b"
+                    },
+                    {
+                        "expanded_size": 573055046,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:76d2a668ec8d8fdbbc82e0807a3b54b1002bed73f6a2a65f8d0d46dadce21987"
                     }
                 ],
                 "authors": [
@@ -4659,6 +4992,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:c363af047b2c531181ed31c09b9d5b5a971b1e16400a5bac1691de08d265064b"
+                    },
+                    {
+                        "expanded_size": 573060500,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:aa8af326413f95815ed47cd54d3d994c156c9a3526a932dcd25cd609c061498f"
                     }
                 ],
                 "authors": [
@@ -4720,6 +5062,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:4eca4dbd894c55822394eebc93cf01070157dc57d1e5b754cd01562eb42efb4a"
+                    },
+                    {
+                        "expanded_size": 573012492,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:de68358f2fa038a061a4bee76cf40350a9792c4b67407bbe3227932cb656a3c9"
                     }
                 ],
                 "authors": [
@@ -4763,7 +5114,7 @@
             }
         },
         "repo_info": {
-            "downloads": 15067,
+            "downloads": 15138,
             "last_updated": "2025-04-29T15:07:41.658733Z",
             "date_registered": "2024-09-16T13:23:53.464854Z"
         }
@@ -6639,7 +6990,7 @@
             }
         },
         "repo_info": {
-            "downloads": 32998,
+            "downloads": 33091,
             "last_updated": "2025-08-11T09:16:41.507357Z",
             "date_registered": "2023-05-02T08:49:43.621656Z"
         }
@@ -6658,6 +7009,15 @@
                 "type": "example",
                 "website": "https://github.com/Williangalvani/BlueOS-examples/",
                 "images": [
+                    {
+                        "expanded_size": 46802192,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:34d8e4576adb26c8db7a338b595cf01857da21c3a67f14796f0e503b4f0edfbd"
+                    },
                     {
                         "expanded_size": 41255503,
                         "platform": {
@@ -6707,6 +7067,15 @@
                 "website": "https://github.com/Williangalvani/BlueOS-examples/",
                 "images": [
                     {
+                        "expanded_size": 47258668,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:97920e5f8f44d815b8b6f6f2a662e1721e902b43005dd91464c08c56b8e8c66b"
+                    },
+                    {
                         "expanded_size": 41443310,
                         "platform": {
                             "architecture": "arm",
@@ -6751,7 +7120,7 @@
             }
         },
         "repo_info": {
-            "downloads": 82591,
+            "downloads": 82604,
             "last_updated": "2023-05-02T10:57:42.905818Z",
             "date_registered": "2022-09-20T18:15:02.068256Z"
         }
@@ -6770,6 +7139,15 @@
                 "type": "example",
                 "website": "https://github.com/Williangalvani/BlueOS-examples/",
                 "images": [
+                    {
+                        "expanded_size": 53713690,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:bec0e1bddc646ba1c477fd5767b29302aaff8d38057287949eac54d4815c7c3e"
+                    },
                     {
                         "expanded_size": 45092996,
                         "platform": {
@@ -6822,6 +7200,15 @@
                 "website": "https://github.com/Williangalvani/BlueOS-examples/",
                 "images": [
                     {
+                        "expanded_size": 51091856,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:d6515e5ff51293fd362e88bec27dd55b0451dea1bf541d263f15faa8410a0756"
+                    },
+                    {
                         "expanded_size": 45276851,
                         "platform": {
                             "architecture": "arm",
@@ -6869,7 +7256,7 @@
             }
         },
         "repo_info": {
-            "downloads": 85194,
+            "downloads": 85209,
             "last_updated": "2023-05-02T10:59:21.807562Z",
             "date_registered": "2022-09-19T20:13:46.735725Z"
         }
@@ -6888,6 +7275,15 @@
                 "type": "example",
                 "website": "https://github.com/Williangalvani/BlueOS-examples/",
                 "images": [
+                    {
+                        "expanded_size": 48803918,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:6fb2d75b10ba570f679fe19d5352d6bc86ec3ddcf81d44ab62e98e48fd68fc17"
+                    },
                     {
                         "expanded_size": 43257229,
                         "platform": {
@@ -6937,6 +7333,15 @@
                 "website": "https://github.com/Williangalvani/BlueOS-examples/",
                 "images": [
                     {
+                        "expanded_size": 49260395,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:0d15d91d5b3612b3f6c1feda490b605ca7ef8ad16cb4dfb622eb12581d8d4b72"
+                    },
+                    {
                         "expanded_size": 43445037,
                         "platform": {
                             "architecture": "arm",
@@ -6981,7 +7386,7 @@
             }
         },
         "repo_info": {
-            "downloads": 90484,
+            "downloads": 90497,
             "last_updated": "2023-05-02T10:58:42.102603Z",
             "date_registered": "2022-09-19T20:24:45.273155Z"
         }
@@ -7103,7 +7508,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6267,
+            "downloads": 6276,
             "last_updated": "2023-05-02T11:19:18.145903Z",
             "date_registered": "2022-10-12T18:15:01.290841Z"
         }
@@ -7449,7 +7854,7 @@
             }
         },
         "repo_info": {
-            "downloads": 13271,
+            "downloads": 13305,
             "last_updated": "2025-09-23T19:27:16.46966Z",
             "date_registered": "2024-05-23T03:16:55.205832Z"
         }
@@ -7468,6 +7873,15 @@
                 "type": "tool",
                 "website": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
                 "images": [
+                    {
+                        "expanded_size": 166688673,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:606acae5c681b8d4500b23fa1dd5eccef8ac5ae9c942b54761ef625fd10c6554"
+                    },
                     {
                         "expanded_size": 139074473,
                         "platform": {
@@ -7565,6 +7979,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:77a7f2a97e30eedf50ae2e29e4c6e9a1a95f81ad07ac9d8c7fc664296d17caed"
+                    },
+                    {
+                        "expanded_size": 162273079,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:0f86e59bb7f91ec4697deecd3be10914ff28e784725cd895b64adba26172664c"
                     }
                 ],
                 "authors": [
@@ -7605,6 +8028,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:0fae403cbe350d99649b7fb4d525f7baf43955736110d11c55bb0ba857506b4c"
+                    },
+                    {
+                        "expanded_size": 162273079,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:0f86e59bb7f91ec4697deecd3be10914ff28e784725cd895b64adba26172664c"
                     }
                 ],
                 "authors": [
@@ -7645,6 +8077,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:5e82e94b39b55a9e2eee865259af83d311dbfbae1470fc304c77a9cc93a0efbe"
+                    },
+                    {
+                        "expanded_size": 167205891,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:05abfefd25d3fa05d6ddce099d68ee7df4f2a48cc364eb972e409c164c31bc01"
                     }
                 ],
                 "authors": [
@@ -7674,7 +8115,7 @@
             }
         },
         "repo_info": {
-            "downloads": 10591,
+            "downloads": 10656,
             "last_updated": "2025-05-14T20:51:07.385773Z",
             "date_registered": "2024-05-05T23:27:05.667297Z"
         }
@@ -7693,6 +8134,15 @@
                 "type": "other",
                 "website": "https://github.com/Williangalvani/BlueOS-VirtualHere",
                 "images": [
+                    {
+                        "expanded_size": 20690393,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:2a4859d75b374b4606455d8b342c5d0c9797dd8dae705d96a56aefe353ddb42f"
+                    },
                     {
                         "expanded_size": 21088620,
                         "platform": {
@@ -7749,6 +8199,15 @@
                 "website": "https://github.com/Williangalvani/BlueOS-VirtualHere",
                 "images": [
                     {
+                        "expanded_size": 46438597,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:b87589ae87e39c6d7097c094280799834aaade364f93d04d33ca0cbf31e2d692"
+                    },
+                    {
                         "expanded_size": 40845365,
                         "platform": {
                             "architecture": "arm",
@@ -7795,6 +8254,15 @@
                 "website": "https://github.com/Williangalvani/BlueOS-VirtualHere",
                 "images": [
                     {
+                        "expanded_size": 61972606,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:27c382df5571e9d2338b729a022ad7c902e58267e648231eacee78d7169cfe6b"
+                    },
+                    {
                         "expanded_size": 56520690,
                         "platform": {
                             "architecture": "arm",
@@ -7838,6 +8306,15 @@
                 "website": "https://github.com/Williangalvani/BlueOS-VirtualHere",
                 "images": [
                     {
+                        "expanded_size": 62383495,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:4006bc89ee6193e8f973c02858cc91c8482cab78704ea5307912f56058ab59ba"
+                    },
+                    {
                         "expanded_size": 56660183,
                         "platform": {
                             "architecture": "arm",
@@ -7879,6 +8356,15 @@
                 "website": "https://github.com/Williangalvani/BlueOS-VirtualHere",
                 "images": [
                     {
+                        "expanded_size": 62349790,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:b84df60bdd753d795c649f5ba2266a3394961da30a94f36a090aea5626ccda53"
+                    },
+                    {
                         "expanded_size": 56623432,
                         "platform": {
                             "architecture": "arm",
@@ -7915,7 +8401,7 @@
             }
         },
         "repo_info": {
-            "downloads": 140666,
+            "downloads": 140706,
             "last_updated": "2025-02-12T04:32:06.301572Z",
             "date_registered": "2022-09-07T07:17:20.147217Z"
         }
@@ -8072,7 +8558,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5720,
+            "downloads": 5733,
             "last_updated": "2025-02-12T16:03:19.432988Z",
             "date_registered": "2024-04-02T12:56:46.518809Z"
         }
@@ -8242,7 +8728,7 @@
             }
         },
         "repo_info": {
-            "downloads": 45387,
+            "downloads": 45418,
             "last_updated": "2024-03-04T19:11:38.707894Z",
             "date_registered": "2022-09-07T02:56:18.778263Z"
         }
@@ -8278,6 +8764,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:d6ff37f296b152aae546aef85b9074c68e63e954782d9f7c0005b8cb2b290dc9"
+                    },
+                    {
+                        "expanded_size": 91219284,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:ac71d7f0585c6921f66b8cdae3b175580235c4b2a25694d88680d72da5068503"
                     }
                 ],
                 "authors": [
@@ -8321,6 +8816,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:fd1b9813bd070ed908eedd1893a4384bb326c4810822fa90559cf4cb9c27742e"
+                    },
+                    {
+                        "expanded_size": 92195367,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:da034c9f0a018f571cd8205b0f212da6cca4e647f5708545d67c75aecb946b04"
                     }
                 ],
                 "authors": [
@@ -8364,6 +8868,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:a5f4b1f8bacfcb91b79e43880c2d4130854f8b84850450e5b3342628b7ad078a"
+                    },
+                    {
+                        "expanded_size": 92139393,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:506d80c107ea66232b122a85008e76946585454b33e214306a9c963a376d51df"
                     }
                 ],
                 "authors": [
@@ -8407,6 +8920,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:558d5fd76d64ebf386f9d3b999e735f06d5c5e5083185bb8eee43da06fb21160"
+                    },
+                    {
+                        "expanded_size": 92116223,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:fe7f29b0747c84a6a530b67a14a5b214a2b1d30b037dbe69138ba193fbe91145"
                     }
                 ],
                 "authors": [
@@ -8450,6 +8972,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:403797eeef9396e67001caa71d638c64e10a8e27aad5f16838208de4c7ae5c47"
+                    },
+                    {
+                        "expanded_size": 91851076,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:26460f49d1138ff647167ab1b2f01564a0cbaf014614175a995a385ae621e275"
                     }
                 ],
                 "authors": [
@@ -8485,6 +9016,15 @@
                 "type": "example",
                 "website": "https://github.com/Williangalvani/Blueos-Proxy-Extension",
                 "images": [
+                    {
+                        "expanded_size": 80488310,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:2390afb49552d47ccffea8b715c7cdaa3a440daa7e544ab661b8c8483774f550"
+                    },
                     {
                         "expanded_size": 73489461,
                         "platform": {
@@ -8529,6 +9069,15 @@
                 "website": "https://github.com/Williangalvani/BlueOS-examples/",
                 "images": [
                     {
+                        "expanded_size": 80488310,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:5813a9a11a447009c7e3a235b2fc263e8f283d136986f5b5a091e4f9b62d2fd4"
+                    },
+                    {
                         "expanded_size": 73489461,
                         "platform": {
                             "architecture": "arm",
@@ -8568,7 +9117,7 @@
             }
         },
         "repo_info": {
-            "downloads": 18210,
+            "downloads": 18282,
             "last_updated": "2025-02-12T17:44:31.463467Z",
             "date_registered": "2023-05-28T18:03:17.343281Z"
         }
@@ -8604,6 +9153,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:fda146009388e3940cbfe48c6f0e8323e0fd3fa632ea4003320d67617d824658"
+                    },
+                    {
+                        "expanded_size": 82667925,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:84354908f25dc03e798f959ca3a61b4b909eaeb6dfe8e32ae70931780af38078"
                     }
                 ],
                 "authors": [
@@ -8662,6 +9220,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:a51989fad182fd33e0712e88b4977a69589d12f5c28347a89a14e893dd365d18"
+                    },
+                    {
+                        "expanded_size": 82740513,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:4f14f2364ce85ddf0690838a897d0241939a5f23f7edd88e1c96578949f93093"
                     }
                 ],
                 "authors": [
@@ -8720,6 +9287,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:831682262dd736b8844e59d9bb49e479755c6cc0b27b71e4058c91033b7d2a40"
+                    },
+                    {
+                        "expanded_size": 83870955,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:d5da9ed246a39fc0f849107530931bd87ae1156b2da776855483bbb092010e9e"
                     }
                 ],
                 "authors": [
@@ -8994,7 +9570,7 @@
             }
         },
         "repo_info": {
-            "downloads": 53318,
+            "downloads": 53379,
             "last_updated": "2025-05-19T20:37:10.685576Z",
             "date_registered": "2022-06-08T02:20:40.875088Z"
         }
@@ -9013,6 +9589,15 @@
                 "type": "example",
                 "website": "https://github.com/Williangalvani/BlueOS-examples/",
                 "images": [
+                    {
+                        "expanded_size": 46802665,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:49131f6972848dea860471a4215687166319a4b105422aa1dd6b75a74610d588"
+                    },
                     {
                         "expanded_size": 41255976,
                         "platform": {
@@ -9062,6 +9647,15 @@
                 "website": "https://github.com/Williangalvani/BlueOS-examples/",
                 "images": [
                     {
+                        "expanded_size": 47259138,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:330ef2defbb59580f2c5324d03c968b7f43e4073c3a3cc3e4c9620d5ce9d4781"
+                    },
+                    {
                         "expanded_size": 41443780,
                         "platform": {
                             "architecture": "arm",
@@ -9106,7 +9700,7 @@
             }
         },
         "repo_info": {
-            "downloads": 87454,
+            "downloads": 87467,
             "last_updated": "2023-05-02T10:58:10.407395Z",
             "date_registered": "2022-09-19T20:25:33.201236Z"
         }
@@ -9125,6 +9719,15 @@
                 "type": "other",
                 "website": "https://ceruleansonar.com",
                 "images": [
+                    {
+                        "expanded_size": 175566507,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:bd71575157ca09fdb6a1b2f8072d56ea27ff0ef9176375d789d893f70cfa7a50"
+                    },
                     {
                         "expanded_size": 170030192,
                         "platform": {
@@ -9162,6 +9765,15 @@
                 "type": "other",
                 "website": "https://ceruleansonar.com",
                 "images": [
+                    {
+                        "expanded_size": 175622566,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:16039d43f4823cf408e2a44d93438c33caf6d00f4b716e4028b2e3314d04b40e"
+                    },
                     {
                         "expanded_size": 170033285,
                         "platform": {
@@ -9207,7 +9819,7 @@
             }
         },
         "repo_info": {
-            "downloads": 7214,
+            "downloads": 7226,
             "last_updated": "2023-03-15T20:41:07.344116Z",
             "date_registered": "2023-03-02T18:19:41.09439Z"
         }
@@ -9226,6 +9838,15 @@
                 "type": "other",
                 "website": "https://ceruleansonar.com",
                 "images": [
+                    {
+                        "expanded_size": 109619325,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:40bdaa212803402e97dcd013000c5991ddc950ce4120a93bdd8e30b876e26324"
+                    },
                     {
                         "expanded_size": 100085882,
                         "platform": {
@@ -9269,6 +9890,15 @@
                 "website": "https://ceruleansonar.com",
                 "images": [
                     {
+                        "expanded_size": 109619348,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:063633731be76427d7be0266216d618a1769287135f0c879a4488506f5feb553"
+                    },
+                    {
                         "expanded_size": 100085651,
                         "platform": {
                             "architecture": "arm",
@@ -9310,6 +9940,15 @@
                 "type": "other",
                 "website": "https://ceruleansonar.com",
                 "images": [
+                    {
+                        "expanded_size": 109617694,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:2638f474a73f2eb41bb1a5f237cd72eac2078d55cc3501d04c503bfa82cbe854"
+                    },
                     {
                         "expanded_size": 100082275,
                         "platform": {
@@ -9353,6 +9992,15 @@
                 "website": "https://ceruleansonar.com",
                 "images": [
                     {
+                        "expanded_size": 109559450,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:49315a9023689999db2e765c1c8478ebd8decfe2904ba287349268442aa969bd"
+                    },
+                    {
                         "expanded_size": 100029465,
                         "platform": {
                             "architecture": "arm",
@@ -9395,6 +10043,15 @@
                 "website": "https://ceruleansonar.com",
                 "images": [
                     {
+                        "expanded_size": 109534449,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:43fac24a1199fe0c9bcf5b61df0278f56197b744285cf30d8316bf7d1065e983"
+                    },
+                    {
                         "expanded_size": 99947116,
                         "platform": {
                             "architecture": "arm",
@@ -9431,6 +10088,15 @@
                 "type": "other",
                 "website": "https://ceruleansonar.com",
                 "images": [
+                    {
+                        "expanded_size": 109912487,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:9c14841b20f85887b029071ae14592ac0235ed0764256743b1db398b294a727b"
+                    },
                     {
                         "expanded_size": 100174048,
                         "platform": {
@@ -9469,6 +10135,15 @@
                 "website": "https://ceruleansonar.com",
                 "images": [
                     {
+                        "expanded_size": 109912491,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:d5e8e487e02db3573da4b82b5c1bffcfd7dc56115aabc9e31d46b441205e8678"
+                    },
+                    {
                         "expanded_size": 100174019,
                         "platform": {
                             "architecture": "arm",
@@ -9502,7 +10177,7 @@
             }
         },
         "repo_info": {
-            "downloads": 26326,
+            "downloads": 26389,
             "last_updated": "2023-05-17T18:58:43.418901Z",
             "date_registered": "2023-01-17T21:41:45.289578Z"
         }
@@ -10735,7 +11410,7 @@
             }
         },
         "repo_info": {
-            "downloads": 74920,
+            "downloads": 75072,
             "last_updated": "2025-10-01T21:19:34.712777Z",
             "date_registered": "2023-02-09T18:16:56.606258Z"
         }
@@ -10966,7 +11641,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6160,
+            "downloads": 6193,
             "last_updated": "2024-08-14T23:11:15.514761Z",
             "date_registered": "2024-08-07T21:20:39.693471Z"
         }
@@ -11235,7 +11910,7 @@
             }
         },
         "repo_info": {
-            "downloads": 10323,
+            "downloads": 10344,
             "last_updated": "2024-11-26T18:07:23.087771Z",
             "date_registered": "2023-09-06T15:06:24.58823Z"
         }
@@ -11363,7 +12038,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3633,
+            "downloads": 3642,
             "last_updated": "2024-06-23T16:01:49.148109Z",
             "date_registered": "2024-06-08T17:31:16.936347Z"
         }
@@ -11609,7 +12284,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9493,
+            "downloads": 9511,
             "last_updated": "2024-10-16T08:28:28.588962Z",
             "date_registered": "2023-04-18T13:14:56.444696Z"
         }
@@ -11628,6 +12303,15 @@
                 "type": "device-integration",
                 "website": "https://github.com/NortekSupport/nucleus_driver",
                 "images": [
+                    {
+                        "expanded_size": 313722772,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:b99a604810afd3b30715c792d1bf995afa921a09a5ed89db9e2c2ad23f48f230"
+                    },
                     {
                         "expanded_size": 266158633,
                         "platform": {
@@ -11689,6 +12373,15 @@
                 "website": "https://github.com/NortekSupport/nucleus_driver",
                 "images": [
                     {
+                        "expanded_size": 316466884,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:446482905fdc614afbd80e68a2769bf6a9ae7330f449c697d6dd5880a2e61dbe"
+                    },
+                    {
                         "expanded_size": 270465037,
                         "platform": {
                             "architecture": "arm",
@@ -11749,6 +12442,15 @@
                 "website": "https://github.com/NortekSupport/nucleus_driver",
                 "images": [
                     {
+                        "expanded_size": 291737217,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:9857547b5fdbc5e93bc81871bbe808ae46a58689ed1ed49d184bc90bccce80b5"
+                    },
+                    {
                         "expanded_size": 257297999,
                         "platform": {
                             "architecture": "arm",
@@ -11808,6 +12510,15 @@
                 "type": "device-integration",
                 "website": "https://github.com/NortekSupport/nucleus_driver",
                 "images": [
+                    {
+                        "expanded_size": 291737343,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:0a2bea27f28ce97562eed0c02c547a06aa688210e3b90dad47c5320f906fac1e"
+                    },
                     {
                         "expanded_size": 257298833,
                         "platform": {
@@ -12690,7 +13401,7 @@
             }
         },
         "repo_info": {
-            "downloads": 38017,
+            "downloads": 38162,
             "last_updated": "2025-08-19T08:35:34.715228Z",
             "date_registered": "2023-03-23T10:28:07.423732Z"
         }
