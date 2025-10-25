@@ -310,7 +310,7 @@
             }
         },
         "repo_info": {
-            "downloads": 4522,
+            "downloads": 4564,
             "last_updated": "2025-08-04T19:26:17.190238Z",
             "date_registered": "2024-10-28T21:23:12.958451Z"
         }
@@ -626,7 +626,7 @@
             }
         },
         "repo_info": {
-            "downloads": 15552,
+            "downloads": 15588,
             "last_updated": "2024-07-29T21:22:46.380269Z",
             "date_registered": "2023-08-29T20:22:57.798237Z"
         }
@@ -2415,8 +2415,8 @@
             }
         },
         "repo_info": {
-            "downloads": 106396,
-            "last_updated": "2025-10-22T19:12:51.599241Z",
+            "downloads": 106640,
+            "last_updated": "2025-10-25T00:17:46.598557Z",
             "date_registered": "2023-01-30T01:40:41.340441Z"
         }
     },
@@ -2590,7 +2590,7 @@
             }
         },
         "repo_info": {
-            "downloads": 7386,
+            "downloads": 7410,
             "last_updated": "2024-11-02T19:51:27.122486Z",
             "date_registered": "2023-09-20T20:30:01.66808Z"
         }
@@ -2663,7 +2663,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2580,
+            "downloads": 2584,
             "last_updated": "2023-09-01T21:07:26.318216Z",
             "date_registered": "2023-09-01T20:11:40.559943Z"
         }
@@ -2731,7 +2731,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1738,
+            "downloads": 1740,
             "last_updated": "2024-02-05T22:10:02.139431Z",
             "date_registered": "2024-01-22T15:06:39.735884Z"
         }
@@ -3311,56 +3311,10 @@
                 "permissions": {
                     "NetworkMode": "host"
                 }
-            },
-            "v1.0.0": {
-                "identifier": "a12a3bf4-23fa-54be-b7af-d4b1598c8246",
-                "type": "other",
-                "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
-                "images": [
-                    {
-                        "expanded_size": 78926907,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:e3e67687861b5d8c4613e35fafe4f13498c9906e6553125b032f6f6ddf075944"
-                    },
-                    {
-                        "expanded_size": 72784115,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:daae2a13f71622da16ae0b2a766c3b17b314cf15d538d00112f4036677dad0de"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "v1.0.0",
-                "docs": null,
-                "readme": "<h1>BlueOS-Water-Linked-DVL</h1>\n<p>This is a docker implementation of a Waterlinked DVL-a50 driver for the new Blue Robotics BlueOS.</p>\n<p>To set this up, ssh into the Raspberry Pi (or access via <code>red-pill</code> in <a href=\"https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal\">BlueOS Terminal</a>) and run</p>\n<p><code>sudo docker run -d --net=host -v /root/.config/blueos:/root/.config --name=BlueOS-Water-Linked-DVL --restart=unless-stopped bluerobotics/blueos-water-linked-dvl:latest</code></p>\n<p>The service will show in the \"Available Services\" section in BlueOS, where there are some configuration options.</p>",
-                "support": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
-                "requirements": "core >  1",
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host"
-                }
             }
         },
         "repo_info": {
-            "downloads": 249355,
+            "downloads": 249432,
             "last_updated": "2025-06-25T17:06:04.67356Z",
             "date_registered": "2022-06-01T23:43:43.19026Z"
         }
@@ -3479,7 +3433,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5645,
+            "downloads": 5658,
             "last_updated": "2025-03-21T12:52:28.85139Z",
             "date_registered": "2023-09-13T06:14:36.827307Z"
         }
@@ -3543,7 +3497,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1980,
+            "downloads": 1984,
             "last_updated": "2023-11-07T01:34:15.374584Z",
             "date_registered": "2023-11-05T01:19:48.269227Z"
         }
@@ -4199,7 +4153,7 @@
             }
         },
         "repo_info": {
-            "downloads": 39015,
+            "downloads": 39100,
             "last_updated": "2023-09-06T01:24:53.238154Z",
             "date_registered": "2023-07-06T13:38:30.979513Z"
         }
@@ -4475,7 +4429,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8360,
+            "downloads": 8388,
             "last_updated": "2025-09-05T17:43:37.326839Z",
             "date_registered": "2023-10-04T23:07:17.135228Z"
         }
@@ -5114,7 +5068,7 @@
             }
         },
         "repo_info": {
-            "downloads": 15733,
+            "downloads": 15801,
             "last_updated": "2025-04-29T15:07:41.658733Z",
             "date_registered": "2024-09-16T13:23:53.464854Z"
         }
@@ -6990,7 +6944,7 @@
             }
         },
         "repo_info": {
-            "downloads": 34184,
+            "downloads": 34310,
             "last_updated": "2025-08-11T09:16:41.507357Z",
             "date_registered": "2023-05-02T08:49:43.621656Z"
         }
@@ -7120,7 +7074,7 @@
             }
         },
         "repo_info": {
-            "downloads": 82704,
+            "downloads": 82716,
             "last_updated": "2023-05-02T10:57:42.905818Z",
             "date_registered": "2022-09-20T18:15:02.068256Z"
         }
@@ -7256,7 +7210,7 @@
             }
         },
         "repo_info": {
-            "downloads": 85315,
+            "downloads": 85327,
             "last_updated": "2023-05-02T10:59:21.807562Z",
             "date_registered": "2022-09-19T20:13:46.735725Z"
         }
@@ -7386,7 +7340,7 @@
             }
         },
         "repo_info": {
-            "downloads": 90596,
+            "downloads": 90608,
             "last_updated": "2023-05-02T10:58:42.102603Z",
             "date_registered": "2022-09-19T20:24:45.273155Z"
         }
@@ -7517,7 +7471,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6379,
+            "downloads": 6391,
             "last_updated": "2023-05-02T11:19:18.145903Z",
             "date_registered": "2022-10-12T18:15:01.290841Z"
         }
@@ -7818,7 +7772,7 @@
             }
         },
         "repo_info": {
-            "downloads": 13811,
+            "downloads": 13855,
             "last_updated": "2025-10-15T19:07:10.2706Z",
             "date_registered": "2024-05-23T03:16:55.205832Z"
         }
@@ -8079,7 +8033,7 @@
             }
         },
         "repo_info": {
-            "downloads": 11030,
+            "downloads": 11073,
             "last_updated": "2025-05-14T20:51:07.385773Z",
             "date_registered": "2024-05-05T23:27:05.667297Z"
         }
@@ -8365,7 +8319,7 @@
             }
         },
         "repo_info": {
-            "downloads": 141038,
+            "downloads": 141074,
             "last_updated": "2025-02-12T04:32:06.301572Z",
             "date_registered": "2022-09-07T07:17:20.147217Z"
         }
@@ -8522,7 +8476,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5919,
+            "downloads": 5937,
             "last_updated": "2025-02-12T16:03:19.432988Z",
             "date_registered": "2024-04-02T12:56:46.518809Z"
         }
@@ -8692,7 +8646,7 @@
             }
         },
         "repo_info": {
-            "downloads": 45597,
+            "downloads": 45617,
             "last_updated": "2024-03-04T19:11:38.707894Z",
             "date_registered": "2022-09-07T02:56:18.778263Z"
         }
@@ -9072,7 +9026,7 @@
             }
         },
         "repo_info": {
-            "downloads": 18747,
+            "downloads": 18799,
             "last_updated": "2025-02-12T17:44:31.463467Z",
             "date_registered": "2023-05-28T18:03:17.343281Z"
         }
@@ -9525,7 +9479,7 @@
             }
         },
         "repo_info": {
-            "downloads": 53783,
+            "downloads": 53829,
             "last_updated": "2025-05-19T20:37:10.685576Z",
             "date_registered": "2022-06-08T02:20:40.875088Z"
         }
@@ -9655,7 +9609,7 @@
             }
         },
         "repo_info": {
-            "downloads": 87574,
+            "downloads": 87586,
             "last_updated": "2023-05-02T10:58:10.407395Z",
             "date_registered": "2022-09-19T20:25:33.201236Z"
         }
@@ -9774,7 +9728,7 @@
             }
         },
         "repo_info": {
-            "downloads": 7328,
+            "downloads": 7340,
             "last_updated": "2023-03-15T20:41:07.344116Z",
             "date_registered": "2023-03-02T18:19:41.09439Z"
         }
@@ -10132,7 +10086,7 @@
             }
         },
         "repo_info": {
-            "downloads": 26831,
+            "downloads": 26883,
             "last_updated": "2023-05-17T18:58:43.418901Z",
             "date_registered": "2023-01-17T21:41:45.289578Z"
         }
@@ -10276,71 +10230,6 @@
                     }
                 }
             },
-            "1.14.1": {
-                "identifier": "20e2f026-3996-56d2-af59-50e913f4a3ea",
-                "type": "device-integration",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 103868521,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:b2c1f8977f814b04bf99c5447798bb7824e2e48515655e69f66c8e5c80424ced"
-                    },
-                    {
-                        "expanded_size": 102327335,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:18721e0a4bb4b1ac592543e9e122a297a3d1d964984bf79719b8f2cfaab265db"
-                    },
-                    {
-                        "expanded_size": 103886779,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:1ffc006473bc7459c0917f1a61688c5ed15b998711180cb677049be72434de85"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.14.1",
-                "docs": null,
-                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ],
-                        "ReadonlyRootfs": true,
-                        "ExtraHosts": [
-                            "host.docker.internal:127.0.1.1",
-                            "blueos.local:127.0.1.1"
-                        ]
-                    }
-                }
-            },
             "1.13.42-beta": {
                 "identifier": "c0619e41-5ffa-5ace-b640-b095849dd1bd",
                 "type": "device-integration",
@@ -10388,53 +10277,6 @@
                     }
                 }
             },
-            "1.13.40-beta": {
-                "identifier": "5828c0c8-ca54-5ffe-a656-0c991740a059",
-                "type": "device-integration",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 103209934,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:86247cc67ca40a858e1e7a79e9e762f46cea5c4f0d74ac0a7513d543ca8a7db9"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.13.40-beta",
-                "docs": null,
-                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ],
-                        "ReadonlyRootfs": true,
-                        "ExtraHosts": [
-                            "host.docker.internal:127.0.1.1",
-                            "blueos.local:127.0.1.1"
-                        ]
-                    }
-                }
-            },
             "1.13.38-beta": {
                 "identifier": "51151d9a-5a0e-578b-a72c-50aad41888db",
                 "type": "device-integration",
@@ -10459,52 +10301,6 @@
                 "filter_tags": [],
                 "extra_links": {},
                 "tag": "1.13.38-beta",
-                "docs": null,
-                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ],
-                        "ReadonlyRootfs": true,
-                        "ExtraHosts": [
-                            "host.docker.internal:127.0.1.1"
-                        ]
-                    }
-                }
-            },
-            "1.13.37-beta": {
-                "identifier": "750993b4-2ff4-5a41-9b82-cd43a5d4c72a",
-                "type": "device-integration",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 102835836,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:b4561b8f38bd2366b3179be8cdb11e275d88a386f9857aa3f60c352523f1fdc3"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.13.37-beta",
                 "docs": null,
                 "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
                 "support": "https://forum.ceruleansonar.com/categories",
@@ -10597,98 +10393,6 @@
                 "filter_tags": [],
                 "extra_links": {},
                 "tag": "1.13.34-beta",
-                "docs": null,
-                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ],
-                        "ReadonlyRootfs": true,
-                        "ExtraHosts": [
-                            "host.docker.internal:127.0.1.1"
-                        ]
-                    }
-                }
-            },
-            "1.13.33-beta": {
-                "identifier": "431b8f5e-3a85-5892-b03e-41440631328e",
-                "type": "device-integration",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 102767866,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:ce7d33317c5ce682c170531462e7c80c3675391b57e79d1c22ced6a07b2db0e4"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.13.33-beta",
-                "docs": null,
-                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ],
-                        "ReadonlyRootfs": true,
-                        "ExtraHosts": [
-                            "host.docker.internal:127.0.1.1"
-                        ]
-                    }
-                }
-            },
-            "1.13.31-beta": {
-                "identifier": "62f08ae6-c6e4-54a1-a513-5827e2ade876",
-                "type": "device-integration",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 102299206,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:e7863ec3cb708190850ab80229e30e2fa22e6b4d8e1dfab23d2c3d17ab1903a5"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.13.31-beta",
                 "docs": null,
                 "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
                 "support": "https://forum.ceruleansonar.com/categories",
@@ -11079,52 +10783,6 @@
                     }
                 }
             },
-            "1.13.16": {
-                "identifier": "68a73685-37d7-5284-b6d2-d510f0bab5c2",
-                "type": "device-integration",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 101178242,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:622de05b108dedef385306f4d450a87b0b0411370d2d436ee382c80065de2a0b"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.13.16",
-                "docs": null,
-                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ],
-                        "ReadonlyRootfs": true,
-                        "ExtraHosts": [
-                            "host.docker.internal:127.0.1.1"
-                        ]
-                    }
-                }
-            },
             "1.13.15": {
                 "identifier": "105f2d0c-e43c-50d5-a9db-102f09fcc8ef",
                 "type": "device-integration",
@@ -11272,52 +10930,6 @@
                     }
                 }
             },
-            "1.13.11": {
-                "identifier": "c3e49709-ac65-5ae9-88d1-01a243bcd561",
-                "type": "device-integration",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 88067060,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:745e5130a28c63908a79d74f427a0698d47aeab6879ffd5ae46120e40a034f71"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.13.11",
-                "docs": null,
-                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/usr/blueos/userdata/SonarView:/userdata"
-                        ],
-                        "ReadonlyRootfs": true,
-                        "ExtraHosts": [
-                            "host.docker.internal:127.0.1.1"
-                        ]
-                    }
-                }
-            },
             "1.13.10": {
                 "identifier": "ffd578a4-a6dc-5fa5-be0b-9fdc67405a23",
                 "type": "device-integration",
@@ -11366,7 +10978,7 @@
             }
         },
         "repo_info": {
-            "downloads": 76817,
+            "downloads": 77013,
             "last_updated": "2025-10-20T19:35:17.319723Z",
             "date_registered": "2023-02-09T18:16:56.606258Z"
         }
@@ -11597,7 +11209,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6398,
+            "downloads": 6422,
             "last_updated": "2024-08-14T23:11:15.514761Z",
             "date_registered": "2024-08-07T21:20:39.693471Z"
         }
@@ -11875,7 +11487,7 @@
             }
         },
         "repo_info": {
-            "downloads": 10580,
+            "downloads": 10608,
             "last_updated": "2024-11-26T18:07:23.087771Z",
             "date_registered": "2023-09-06T15:06:24.58823Z"
         }
@@ -12012,7 +11624,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3746,
+            "downloads": 3758,
             "last_updated": "2024-06-23T16:01:49.148109Z",
             "date_registered": "2024-06-08T17:31:16.936347Z"
         }
@@ -12258,7 +11870,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9712,
+            "downloads": 9736,
             "last_updated": "2024-10-16T08:28:28.588962Z",
             "date_registered": "2023-04-18T13:14:56.444696Z"
         }
@@ -13366,7 +12978,7 @@
             }
         },
         "repo_info": {
-            "downloads": 39350,
+            "downloads": 39490,
             "last_updated": "2025-08-19T08:35:34.715228Z",
             "date_registered": "2023-03-23T10:28:07.423732Z"
         }
