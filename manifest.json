@@ -310,7 +310,7 @@
             }
         },
         "repo_info": {
-            "downloads": 4787,
+            "downloads": 4818,
             "last_updated": "2025-08-04T19:26:17.190238Z",
             "date_registered": "2024-10-28T21:23:12.958451Z"
         }
@@ -626,7 +626,7 @@
             }
         },
         "repo_info": {
-            "downloads": 15814,
+            "downloads": 15841,
             "last_updated": "2024-07-29T21:22:46.380269Z",
             "date_registered": "2023-08-29T20:22:57.798237Z"
         }
@@ -2433,7 +2433,7 @@
             }
         },
         "repo_info": {
-            "downloads": 108097,
+            "downloads": 108283,
             "last_updated": "2025-11-01T00:19:49.56598Z",
             "date_registered": "2023-01-30T01:40:41.340441Z"
         }
@@ -2608,7 +2608,7 @@
             }
         },
         "repo_info": {
-            "downloads": 7529,
+            "downloads": 7544,
             "last_updated": "2024-11-02T19:51:27.122486Z",
             "date_registered": "2023-09-20T20:30:01.66808Z"
         }
@@ -2681,7 +2681,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2606,
+            "downloads": 2609,
             "last_updated": "2023-09-01T21:07:26.318216Z",
             "date_registered": "2023-09-01T20:11:40.559943Z"
         }
@@ -2749,7 +2749,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1755,
+            "downloads": 1757,
             "last_updated": "2024-02-05T22:10:02.139431Z",
             "date_registered": "2024-01-22T15:06:39.735884Z"
         }
@@ -3378,7 +3378,7 @@
             }
         },
         "repo_info": {
-            "downloads": 249870,
+            "downloads": 249929,
             "last_updated": "2025-06-25T17:06:04.67356Z",
             "date_registered": "2022-06-01T23:43:43.19026Z"
         }
@@ -3497,7 +3497,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5727,
+            "downloads": 5759,
             "last_updated": "2025-03-21T12:52:28.85139Z",
             "date_registered": "2023-09-13T06:14:36.827307Z"
         }
@@ -3561,7 +3561,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2008,
+            "downloads": 2011,
             "last_updated": "2023-11-07T01:34:15.374584Z",
             "date_registered": "2023-11-05T01:19:48.269227Z"
         }
@@ -4217,7 +4217,7 @@
             }
         },
         "repo_info": {
-            "downloads": 39568,
+            "downloads": 39631,
             "last_updated": "2023-09-06T01:24:53.238154Z",
             "date_registered": "2023-07-06T13:38:30.979513Z"
         }
@@ -4493,7 +4493,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8551,
+            "downloads": 8572,
             "last_updated": "2025-09-05T17:43:37.326839Z",
             "date_registered": "2023-10-04T23:07:17.135228Z"
         }
@@ -5132,7 +5132,7 @@
             }
         },
         "repo_info": {
-            "downloads": 16182,
+            "downloads": 16234,
             "last_updated": "2025-04-29T15:07:41.658733Z",
             "date_registered": "2024-09-16T13:23:53.464854Z"
         }
@@ -7008,7 +7008,7 @@
             }
         },
         "repo_info": {
-            "downloads": 34973,
+            "downloads": 35072,
             "last_updated": "2025-08-11T09:16:41.507357Z",
             "date_registered": "2023-05-02T08:49:43.621656Z"
         }
@@ -7138,7 +7138,7 @@
             }
         },
         "repo_info": {
-            "downloads": 82782,
+            "downloads": 82793,
             "last_updated": "2023-05-02T10:57:42.905818Z",
             "date_registered": "2022-09-20T18:15:02.068256Z"
         }
@@ -7274,7 +7274,7 @@
             }
         },
         "repo_info": {
-            "downloads": 85393,
+            "downloads": 85404,
             "last_updated": "2023-05-02T10:59:21.807562Z",
             "date_registered": "2022-09-19T20:13:46.735725Z"
         }
@@ -7404,7 +7404,7 @@
             }
         },
         "repo_info": {
-            "downloads": 90674,
+            "downloads": 90685,
             "last_updated": "2023-05-02T10:58:42.102603Z",
             "date_registered": "2022-09-19T20:24:45.273155Z"
         }
@@ -7535,7 +7535,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6457,
+            "downloads": 6466,
             "last_updated": "2023-05-02T11:19:18.145903Z",
             "date_registered": "2022-10-12T18:15:01.290841Z"
         }
@@ -7571,6 +7571,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:206c698b13448b5fb8b8a3aaa84178b678425db0a54da6fc99d64fd3f2f9625c"
+                    },
+                    {
+                        "expanded_size": 100039947,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:93c49ef221826ee6f8f183672a931909a4b298334648f0a812899c04ba6015e1"
                     }
                 ],
                 "authors": [
@@ -7623,6 +7632,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:206c698b13448b5fb8b8a3aaa84178b678425db0a54da6fc99d64fd3f2f9625c"
+                    },
+                    {
+                        "expanded_size": 100039947,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:93c49ef221826ee6f8f183672a931909a4b298334648f0a812899c04ba6015e1"
                     }
                 ],
                 "authors": [
@@ -7709,6 +7727,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:3b74784581bf1a4c0c922944c69571e3434cf2de40db7d0bbd7fa461e7e4bdc9"
+                    },
+                    {
+                        "expanded_size": 100026516,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:f9cb086c5feade117cecb100c8b2a55b85247e07cf98e16ea3967cbb982705e0"
                     }
                 ],
                 "authors": [
@@ -7804,6 +7831,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:206c698b13448b5fb8b8a3aaa84178b678425db0a54da6fc99d64fd3f2f9625c"
+                    },
+                    {
+                        "expanded_size": 100039947,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:93c49ef221826ee6f8f183672a931909a4b298334648f0a812899c04ba6015e1"
                     }
                 ],
                 "authors": [
@@ -7836,7 +7872,7 @@
             }
         },
         "repo_info": {
-            "downloads": 14108,
+            "downloads": 14147,
             "last_updated": "2025-10-15T19:07:10.2706Z",
             "date_registered": "2024-05-23T03:16:55.205832Z"
         }
@@ -7948,55 +7984,6 @@
                     }
                 }
             },
-            "v1.0.2": {
-                "identifier": "f2609867-67d1-59f0-851b-9e98ba00f78d",
-                "type": "tool",
-                "website": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
-                "images": [
-                    {
-                        "expanded_size": 135356970,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:77a7f2a97e30eedf50ae2e29e4c6e9a1a95f81ad07ac9d8c7fc664296d17caed"
-                    },
-                    {
-                        "expanded_size": 162273079,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:0f86e59bb7f91ec4697deecd3be10914ff28e784725cd895b64adba26172664c"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "v1.0.2",
-                "docs": null,
-                "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>\n<h2>changelog</h2>\n<p>v1.0.1:</p>\n<ul>\n<li>fixed table titles</li>\n<li>fixed cleanup when doing different scan types</li>\n<li>fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service</li>\n</ul>",
-                "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "NetworkMode": "host"
-                    }
-                }
-            },
             "1.0.2": {
                 "identifier": "b274476e-1a19-55de-aea8-545830702d4d",
                 "type": "tool",
@@ -8030,6 +8017,55 @@
                 "filter_tags": [],
                 "extra_links": {},
                 "tag": "1.0.2",
+                "docs": null,
+                "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>\n<h2>changelog</h2>\n<p>v1.0.1:</p>\n<ul>\n<li>fixed table titles</li>\n<li>fixed cleanup when doing different scan types</li>\n<li>fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service</li>\n</ul>",
+                "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "v1.0.2": {
+                "identifier": "f2609867-67d1-59f0-851b-9e98ba00f78d",
+                "type": "tool",
+                "website": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
+                "images": [
+                    {
+                        "expanded_size": 135356970,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:77a7f2a97e30eedf50ae2e29e4c6e9a1a95f81ad07ac9d8c7fc664296d17caed"
+                    },
+                    {
+                        "expanded_size": 162273079,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:0f86e59bb7f91ec4697deecd3be10914ff28e784725cd895b64adba26172664c"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "v1.0.2",
                 "docs": null,
                 "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>\n<h2>changelog</h2>\n<p>v1.0.1:</p>\n<ul>\n<li>fixed table titles</li>\n<li>fixed cleanup when doing different scan types</li>\n<li>fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service</li>\n</ul>",
                 "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
@@ -8097,7 +8133,7 @@
             }
         },
         "repo_info": {
-            "downloads": 11321,
+            "downloads": 11353,
             "last_updated": "2025-05-14T20:51:07.385773Z",
             "date_registered": "2024-05-05T23:27:05.667297Z"
         }
@@ -8383,7 +8419,7 @@
             }
         },
         "repo_info": {
-            "downloads": 141279,
+            "downloads": 141307,
             "last_updated": "2025-02-12T04:32:06.301572Z",
             "date_registered": "2022-09-07T07:17:20.147217Z"
         }
@@ -8540,7 +8576,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6048,
+            "downloads": 6062,
             "last_updated": "2025-02-12T16:03:19.432988Z",
             "date_registered": "2024-04-02T12:56:46.518809Z"
         }
@@ -8710,7 +8746,7 @@
             }
         },
         "repo_info": {
-            "downloads": 45728,
+            "downloads": 45743,
             "last_updated": "2024-03-04T19:11:38.707894Z",
             "date_registered": "2022-09-07T02:56:18.778263Z"
         }
@@ -9090,7 +9126,7 @@
             }
         },
         "repo_info": {
-            "downloads": 19086,
+            "downloads": 19125,
             "last_updated": "2025-02-12T17:44:31.463467Z",
             "date_registered": "2023-05-28T18:03:17.343281Z"
         }
@@ -9543,7 +9579,7 @@
             }
         },
         "repo_info": {
-            "downloads": 54069,
+            "downloads": 54101,
             "last_updated": "2025-05-19T20:37:10.685576Z",
             "date_registered": "2022-06-08T02:20:40.875088Z"
         }
@@ -9673,7 +9709,7 @@
             }
         },
         "repo_info": {
-            "downloads": 87652,
+            "downloads": 87663,
             "last_updated": "2023-05-02T10:58:10.407395Z",
             "date_registered": "2022-09-19T20:25:33.201236Z"
         }
@@ -9792,7 +9828,7 @@
             }
         },
         "repo_info": {
-            "downloads": 7408,
+            "downloads": 7417,
             "last_updated": "2023-03-15T20:41:07.344116Z",
             "date_registered": "2023-03-02T18:19:41.09439Z"
         }
@@ -9806,57 +9842,6 @@
         "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/ceruleansonar/company_logo.png",
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/ceruleansonar/company_logo.png",
         "versions": {
-            "v1.0.8": {
-                "identifier": "aa686520-e5f6-5cfb-ac69-b414de3e694a",
-                "type": "other",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 109619325,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:40bdaa212803402e97dcd013000c5991ddc950ce4120a93bdd8e30b876e26324"
-                    },
-                    {
-                        "expanded_size": 100085882,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:e208ec461095ed3491a3c38ab7913afe855d9850b4f29f13e620c4f71715bc8c"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "v1.0.8",
-                "docs": null,
-                "readme": "<h1>BlueOS-Cerulean-DVL</h1>\n<p>Cerulean DVL driver, compatible with Blue Robotics BlueOS.</p>\n<h2>Manual Installation:</h2>\n<p>To set this up, ssh into the Raspberry Pi (or access via <code>red-pill</code> in <a href=\"https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal\">BlueOS Terminal</a>) and run</p>\n<p><code>sudo docker run -d --net=host -v /root/.config/cerulean:/root/.config --name=BlueOS-Cerulean-DVL --restart=unless-stopped nicknothom/blueos-cerulean-dvl:latest</code></p>\n<p>The service will show in the \"Available Services\" section in BlueOS, where there are some configuration options.</p>",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "HostConfig": {
-                        "NetworkMode": "host",
-                        "Binds": [
-                            "/root/.config/cerulean:/root/.config"
-                        ]
-                    }
-                }
-            },
             "v1.0.7": {
                 "identifier": "8f856745-ea5b-56a3-87fe-c893f0bf2a9a",
                 "type": "other",
@@ -10010,52 +9995,6 @@
                     }
                 }
             },
-            "v1.0.4": {
-                "identifier": "2056eda3-d739-511c-a708-054d2ef830c2",
-                "type": "other",
-                "website": "https://ceruleansonar.com",
-                "images": [
-                    {
-                        "expanded_size": 109534449,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:43fac24a1199fe0c9bcf5b61df0278f56197b744285cf30d8316bf7d1065e983"
-                    },
-                    {
-                        "expanded_size": 99947116,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:8c3edb7d465c05b9b735cc55291fa323deb95f3f11c086ecd47729f0d78a5249"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Nick Nothom",
-                        "email": "nick.nothom@ceruleansonar.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "v1.0.4",
-                "docs": null,
-                "readme": "<h1>BlueOS-Cerulean-DVL</h1>\n<p>Cerulean DVL driver, compatible with Blue Robotics BlueOS.</p>\n<h2>Manual Installation:</h2>\n<p>To set this up, ssh into the Raspberry Pi (or access via <code>red-pill</code> in <a href=\"https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal\">BlueOS Terminal</a>) and run</p>\n<p><code>sudo docker run -d --net=host -v /root/.config/cerulean:/root/.config --name=BlueOS-Cerulean-DVL --restart=unless-stopped nicknothom/blueos-cerulean-dvl:latest</code></p>\n<p>The service will show in the \"Available Services\" section in BlueOS, where there are some configuration options.</p>",
-                "support": "https://forum.ceruleansonar.com/categories",
-                "requirements": null,
-                "company": {
-                    "about": "",
-                    "name": "Cerulean Sonar",
-                    "email": "dennys.bisogno@ceruleansonar.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host"
-                }
-            },
             "v1.0.2": {
                 "identifier": "57d15a76-04cd-515d-a297-58a4bb60088e",
                 "type": "other",
@@ -10150,7 +10089,7 @@
             }
         },
         "repo_info": {
-            "downloads": 27193,
+            "downloads": 27232,
             "last_updated": "2023-05-17T18:58:43.418901Z",
             "date_registered": "2023-01-17T21:41:45.289578Z"
         }
@@ -11384,7 +11323,7 @@
             }
         },
         "repo_info": {
-            "downloads": 78105,
+            "downloads": 78253,
             "last_updated": "2025-10-20T19:35:17.319723Z",
             "date_registered": "2023-02-09T18:16:56.606258Z"
         }
@@ -11615,7 +11554,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6554,
+            "downloads": 6580,
             "last_updated": "2024-08-14T23:11:15.514761Z",
             "date_registered": "2024-08-07T21:20:39.693471Z"
         }
@@ -11893,7 +11832,7 @@
             }
         },
         "repo_info": {
-            "downloads": 10762,
+            "downloads": 10783,
             "last_updated": "2024-11-26T18:07:23.087771Z",
             "date_registered": "2023-09-06T15:06:24.58823Z"
         }
@@ -12030,7 +11969,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3824,
+            "downloads": 3833,
             "last_updated": "2024-06-23T16:01:49.148109Z",
             "date_registered": "2024-06-08T17:31:16.936347Z"
         }
@@ -12276,7 +12215,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9869,
+            "downloads": 9887,
             "last_updated": "2024-10-16T08:28:28.588962Z",
             "date_registered": "2023-04-18T13:14:56.444696Z"
         }
@@ -13384,7 +13323,7 @@
             }
         },
         "repo_info": {
-            "downloads": 40261,
+            "downloads": 40366,
             "last_updated": "2025-08-19T08:35:34.715228Z",
             "date_registered": "2023-03-23T10:28:07.423732Z"
         }
