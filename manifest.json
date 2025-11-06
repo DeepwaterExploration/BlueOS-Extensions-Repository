@@ -190,7 +190,7 @@
             }
         },
         "repo_info": {
-            "downloads": 4874,
+            "downloads": 4897,
             "last_updated": "2025-08-04T19:26:17.190238Z",
             "date_registered": "2024-10-28T21:23:12.958451Z"
         }
@@ -506,7 +506,7 @@
             }
         },
         "repo_info": {
-            "downloads": 15895,
+            "downloads": 15922,
             "last_updated": "2024-07-29T21:22:46.380269Z",
             "date_registered": "2023-08-29T20:22:57.798237Z"
         }
@@ -2322,7 +2322,7 @@
             }
         },
         "repo_info": {
-            "downloads": 108662,
+            "downloads": 108845,
             "last_updated": "2025-11-04T20:40:56.801138Z",
             "date_registered": "2023-01-30T01:40:41.340441Z"
         }
@@ -2497,7 +2497,7 @@
             }
         },
         "repo_info": {
-            "downloads": 7580,
+            "downloads": 7599,
             "last_updated": "2024-11-02T19:51:27.122486Z",
             "date_registered": "2023-09-20T20:30:01.66808Z"
         }
@@ -2570,7 +2570,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2615,
+            "downloads": 2618,
             "last_updated": "2023-09-01T21:07:26.318216Z",
             "date_registered": "2023-09-01T20:11:40.559943Z"
         }
@@ -2638,7 +2638,7 @@
             }
         },
         "repo_info": {
-            "downloads": 1761,
+            "downloads": 1763,
             "last_updated": "2024-02-05T22:10:02.139431Z",
             "date_registered": "2024-01-22T15:06:39.735884Z"
         }
@@ -3267,7 +3267,7 @@
             }
         },
         "repo_info": {
-            "downloads": 250048,
+            "downloads": 250143,
             "last_updated": "2025-06-25T17:06:04.67356Z",
             "date_registered": "2022-06-01T23:43:43.19026Z"
         }
@@ -3386,7 +3386,7 @@
             }
         },
         "repo_info": {
-            "downloads": 5778,
+            "downloads": 5787,
             "last_updated": "2025-03-21T12:52:28.85139Z",
             "date_registered": "2023-09-13T06:14:36.827307Z"
         }
@@ -3450,7 +3450,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2017,
+            "downloads": 2021,
             "last_updated": "2023-11-07T01:34:15.374584Z",
             "date_registered": "2023-11-05T01:19:48.269227Z"
         }
@@ -4106,7 +4106,7 @@
             }
         },
         "repo_info": {
-            "downloads": 39757,
+            "downloads": 39822,
             "last_updated": "2023-09-06T01:24:53.238154Z",
             "date_registered": "2023-07-06T13:38:30.979513Z"
         }
@@ -4382,7 +4382,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8620,
+            "downloads": 8644,
             "last_updated": "2025-09-05T17:43:37.326839Z",
             "date_registered": "2023-10-04T23:07:17.135228Z"
         }
@@ -5021,7 +5021,7 @@
             }
         },
         "repo_info": {
-            "downloads": 16336,
+            "downloads": 16387,
             "last_updated": "2025-04-29T15:07:41.658733Z",
             "date_registered": "2024-09-16T13:23:53.464854Z"
         }
@@ -6897,7 +6897,7 @@
             }
         },
         "repo_info": {
-            "downloads": 35254,
+            "downloads": 35343,
             "last_updated": "2025-08-11T09:16:41.507357Z",
             "date_registered": "2023-05-02T08:49:43.621656Z"
         }
@@ -7027,7 +7027,7 @@
             }
         },
         "repo_info": {
-            "downloads": 82811,
+            "downloads": 82820,
             "last_updated": "2023-05-02T10:57:42.905818Z",
             "date_registered": "2022-09-20T18:15:02.068256Z"
         }
@@ -7163,7 +7163,7 @@
             }
         },
         "repo_info": {
-            "downloads": 85422,
+            "downloads": 85431,
             "last_updated": "2023-05-02T10:59:21.807562Z",
             "date_registered": "2022-09-19T20:13:46.735725Z"
         }
@@ -7293,7 +7293,7 @@
             }
         },
         "repo_info": {
-            "downloads": 90703,
+            "downloads": 90712,
             "last_updated": "2023-05-02T10:58:42.102603Z",
             "date_registered": "2022-09-19T20:24:45.273155Z"
         }
@@ -7424,7 +7424,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6486,
+            "downloads": 6495,
             "last_updated": "2023-05-02T11:19:18.145903Z",
             "date_registered": "2022-10-12T18:15:01.290841Z"
         }
@@ -7603,6 +7603,49 @@
                     }
                 }
             },
+            "v1.0.0": {
+                "identifier": "f7449486-ec50-5b8d-b582-a80f342e296c",
+                "type": "example",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 87950576,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:5fb4fbd32e76af6d853b972e4ea682e226147b7f4247f9f60c80860a8d963666"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "$AUTHOR",
+                        "email": "$AUTHOR_EMAIL"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {
+                    "source": "https://github.com/$OWNER/$REPO"
+                },
+                "tag": "v1.0.0",
+                "docs": null,
+                "readme": "No README available",
+                "support": null,
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "$MAINTAINER",
+                    "email": "$MAINTAINER_EMAIL"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                }
+            },
             "1.0.0": {
                 "identifier": "ccd0b581-f1c8-567d-be09-86de4cd774fc",
                 "type": "example",
@@ -7638,49 +7681,6 @@
                     "source": "https://github.com/$OWNER/$REPO"
                 },
                 "tag": "1.0.0",
-                "docs": null,
-                "readme": "No README available",
-                "support": null,
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "$MAINTAINER",
-                    "email": "$MAINTAINER_EMAIL"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host"
-                    }
-                }
-            },
-            "v1.0.0": {
-                "identifier": "f7449486-ec50-5b8d-b582-a80f342e296c",
-                "type": "example",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 87950576,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:5fb4fbd32e76af6d853b972e4ea682e226147b7f4247f9f60c80860a8d963666"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "$AUTHOR",
-                        "email": "$AUTHOR_EMAIL"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {
-                    "source": "https://github.com/$OWNER/$REPO"
-                },
-                "tag": "v1.0.0",
                 "docs": null,
                 "readme": "No README available",
                 "support": null,
@@ -7761,7 +7761,7 @@
             }
         },
         "repo_info": {
-            "downloads": 14218,
+            "downloads": 14252,
             "last_updated": "2025-10-15T19:07:10.2706Z",
             "date_registered": "2024-05-23T03:16:55.205832Z"
         }
@@ -7873,55 +7873,6 @@
                     }
                 }
             },
-            "v1.0.2": {
-                "identifier": "f2609867-67d1-59f0-851b-9e98ba00f78d",
-                "type": "tool",
-                "website": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
-                "images": [
-                    {
-                        "expanded_size": 135356970,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:77a7f2a97e30eedf50ae2e29e4c6e9a1a95f81ad07ac9d8c7fc664296d17caed"
-                    },
-                    {
-                        "expanded_size": 162273079,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:0f86e59bb7f91ec4697deecd3be10914ff28e784725cd895b64adba26172664c"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "v1.0.2",
-                "docs": null,
-                "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>\n<h2>changelog</h2>\n<p>v1.0.1:</p>\n<ul>\n<li>fixed table titles</li>\n<li>fixed cleanup when doing different scan types</li>\n<li>fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service</li>\n</ul>",
-                "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "NetworkMode": "host"
-                    }
-                }
-            },
             "1.0.2": {
                 "identifier": "b274476e-1a19-55de-aea8-545830702d4d",
                 "type": "tool",
@@ -7955,6 +7906,55 @@
                 "filter_tags": [],
                 "extra_links": {},
                 "tag": "1.0.2",
+                "docs": null,
+                "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>\n<h2>changelog</h2>\n<p>v1.0.1:</p>\n<ul>\n<li>fixed table titles</li>\n<li>fixed cleanup when doing different scan types</li>\n<li>fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service</li>\n</ul>",
+                "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "v1.0.2": {
+                "identifier": "f2609867-67d1-59f0-851b-9e98ba00f78d",
+                "type": "tool",
+                "website": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
+                "images": [
+                    {
+                        "expanded_size": 135356970,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:77a7f2a97e30eedf50ae2e29e4c6e9a1a95f81ad07ac9d8c7fc664296d17caed"
+                    },
+                    {
+                        "expanded_size": 162273079,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:0f86e59bb7f91ec4697deecd3be10914ff28e784725cd895b64adba26172664c"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "v1.0.2",
                 "docs": null,
                 "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>\n<h2>changelog</h2>\n<p>v1.0.1:</p>\n<ul>\n<li>fixed table titles</li>\n<li>fixed cleanup when doing different scan types</li>\n<li>fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service</li>\n</ul>",
                 "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
@@ -8022,7 +8022,7 @@
             }
         },
         "repo_info": {
-            "downloads": 11417,
+            "downloads": 11449,
             "last_updated": "2025-05-14T20:51:07.385773Z",
             "date_registered": "2024-05-05T23:27:05.667297Z"
         }
@@ -8308,7 +8308,7 @@
             }
         },
         "repo_info": {
-            "downloads": 141364,
+            "downloads": 141391,
             "last_updated": "2025-02-12T04:32:06.301572Z",
             "date_registered": "2022-09-07T07:17:20.147217Z"
         }
@@ -8465,7 +8465,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6090,
+            "downloads": 6105,
             "last_updated": "2025-02-12T16:03:19.432988Z",
             "date_registered": "2024-04-02T12:56:46.518809Z"
         }
@@ -8635,7 +8635,7 @@
             }
         },
         "repo_info": {
-            "downloads": 45773,
+            "downloads": 45788,
             "last_updated": "2024-03-04T19:11:38.707894Z",
             "date_registered": "2022-09-07T02:56:18.778263Z"
         }
@@ -9015,7 +9015,7 @@
             }
         },
         "repo_info": {
-            "downloads": 19203,
+            "downloads": 19242,
             "last_updated": "2025-02-12T17:44:31.463467Z",
             "date_registered": "2023-05-28T18:03:17.343281Z"
         }
@@ -9468,7 +9468,7 @@
             }
         },
         "repo_info": {
-            "downloads": 54171,
+            "downloads": 54210,
             "last_updated": "2025-05-19T20:37:10.685576Z",
             "date_registered": "2022-06-08T02:20:40.875088Z"
         }
@@ -9598,7 +9598,7 @@
             }
         },
         "repo_info": {
-            "downloads": 87681,
+            "downloads": 87690,
             "last_updated": "2023-05-02T10:58:10.407395Z",
             "date_registered": "2022-09-19T20:25:33.201236Z"
         }
@@ -9717,7 +9717,7 @@
             }
         },
         "repo_info": {
-            "downloads": 7435,
+            "downloads": 7447,
             "last_updated": "2023-03-15T20:41:07.344116Z",
             "date_registered": "2023-03-02T18:19:41.09439Z"
         }
@@ -10075,7 +10075,7 @@
             }
         },
         "repo_info": {
-            "downloads": 27310,
+            "downloads": 27363,
             "last_updated": "2023-05-17T18:58:43.418901Z",
             "date_registered": "2023-01-17T21:41:45.289578Z"
         }
@@ -10355,6 +10355,15 @@
                 "website": "https://ceruleansonar.com",
                 "images": [
                     {
+                        "expanded_size": 103841829,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:9234c6a86174a53e43f3d5e7ca812784e3a5ce12c180ed72278b0b94380e0327"
+                    },
+                    {
                         "expanded_size": 102311824,
                         "platform": {
                             "architecture": "arm",
@@ -10362,6 +10371,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:bb2ef096aba3d1daed7299b9ab1afd8ae68c1095c9f89b4f28743642086ff290"
+                    },
+                    {
+                        "expanded_size": 103870629,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:0177c64a16371cafe2e1215fabd62fe8097035f92c9f1cb97829c94eb711ba61"
                     }
                 ],
                 "authors": [
@@ -10402,6 +10420,15 @@
                 "website": "https://ceruleansonar.com",
                 "images": [
                     {
+                        "expanded_size": 104769901,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:6c1bc263b3b5575f9de2e0a8dfcb4ef06cbc44f010127a5949b26dc7cae74018"
+                    },
+                    {
                         "expanded_size": 103209934,
                         "platform": {
                             "architecture": "arm",
@@ -10409,6 +10436,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:86247cc67ca40a858e1e7a79e9e762f46cea5c4f0d74ac0a7513d543ca8a7db9"
+                    },
+                    {
+                        "expanded_size": 104770392,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:d91d0c21b23544e3f310fdb19f716a65b610c45d366adaf1a4aef83756124314"
                     }
                 ],
                 "authors": [
@@ -10449,6 +10485,15 @@
                 "website": "https://ceruleansonar.com",
                 "images": [
                     {
+                        "expanded_size": 104386204,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:babebd0e565107c2f5e21727b50582305341ffcecb6a9c508e0df863079cf943"
+                    },
+                    {
                         "expanded_size": 102835981,
                         "platform": {
                             "architecture": "arm",
@@ -10456,6 +10501,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:24fb983dc6c72d832a004d2d8469662d84498f06be7e5f2611b24811baec4a3f"
+                    },
+                    {
+                        "expanded_size": 104395270,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:87488a9e8e95afdaf6b4036f9aa27eac0f526a98b38bc46a32650700037815aa"
                     }
                 ],
                 "authors": [
@@ -10495,6 +10549,15 @@
                 "website": "https://ceruleansonar.com",
                 "images": [
                     {
+                        "expanded_size": 104386610,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:7f1612f67816f5ce3c1ea4512e8390c44c05c15cecabdd29c029d3eee83dd084"
+                    },
+                    {
                         "expanded_size": 102835836,
                         "platform": {
                             "architecture": "arm",
@@ -10502,6 +10565,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:b4561b8f38bd2366b3179be8cdb11e275d88a386f9857aa3f60c352523f1fdc3"
+                    },
+                    {
+                        "expanded_size": 104396995,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:00b69f56255f76a75267015f0061b916b8f24b7c182ca95b54c89114954843d3"
                     }
                 ],
                 "authors": [
@@ -10541,6 +10613,15 @@
                 "website": "https://ceruleansonar.com",
                 "images": [
                     {
+                        "expanded_size": 104348249,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:f83e8ee5ed020776050e52704b9c46827b690b0c9632d18a6966cabfe59eaade"
+                    },
+                    {
                         "expanded_size": 102812669,
                         "platform": {
                             "architecture": "arm",
@@ -10548,6 +10629,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:4e5d09a796a78af1b97c5d65efb4b1a667ab357610010855c56b3e20ef5907f6"
+                    },
+                    {
+                        "expanded_size": 104373106,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:271eb5ea201fd10b428caf683afa576e6402b62bd326e4a909a63ac00e4e5568"
                     }
                 ],
                 "authors": [
@@ -10587,6 +10677,15 @@
                 "website": "https://ceruleansonar.com",
                 "images": [
                     {
+                        "expanded_size": 104344868,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:ca3e4ad98e7ae99d51a3348b091f919f60464ca2d4a645e193b4da73824f87a9"
+                    },
+                    {
                         "expanded_size": 102807989,
                         "platform": {
                             "architecture": "arm",
@@ -10594,6 +10693,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:77713b1331baf8b46a51ac668910b449b9342b9077b92e6a0a22ae68ba997576"
+                    },
+                    {
+                        "expanded_size": 104367408,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:309f8b49d6174bfd8a91da738ee1ce191e68843ae0d8fb95cb458692f35b48b7"
                     }
                 ],
                 "authors": [
@@ -10633,6 +10741,15 @@
                 "website": "https://ceruleansonar.com",
                 "images": [
                     {
+                        "expanded_size": 104303199,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:3357e4818689920d4f7ef926a7494156b30f6126553118ee6df2b1295a0af73d"
+                    },
+                    {
                         "expanded_size": 102767866,
                         "platform": {
                             "architecture": "arm",
@@ -10640,6 +10757,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:ce7d33317c5ce682c170531462e7c80c3675391b57e79d1c22ced6a07b2db0e4"
+                    },
+                    {
+                        "expanded_size": 104327191,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:a607a1800ae76306c50f43c9178f22545e06fd415de7964db92df47befc6b2e2"
                     }
                 ],
                 "authors": [
@@ -10679,6 +10805,15 @@
                 "website": "https://ceruleansonar.com",
                 "images": [
                     {
+                        "expanded_size": 103868315,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:aa66b1ae7402f079c8a804c37dd2c7692ba5bbbad64044e210fb732a6e6e82a3"
+                    },
+                    {
                         "expanded_size": 102299206,
                         "platform": {
                             "architecture": "arm",
@@ -10686,6 +10821,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:e7863ec3cb708190850ab80229e30e2fa22e6b4d8e1dfab23d2c3d17ab1903a5"
+                    },
+                    {
+                        "expanded_size": 103859040,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:63c0edcbbc7eae4fcbe901d0c2d57e5226790d3655a120d0fa03424b5008c7fb"
                     }
                 ],
                 "authors": [
@@ -10725,6 +10869,15 @@
                 "website": "https://ceruleansonar.com",
                 "images": [
                     {
+                        "expanded_size": 103870453,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:3fc5ada769690b33d13194854d136a09c2629d4c0e1b62554a1ec386d660ddd9"
+                    },
+                    {
                         "expanded_size": 102315399,
                         "platform": {
                             "architecture": "arm",
@@ -10732,6 +10885,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:028d663b3145ffcb8858c9c02b3befd52eb9af316d0bdbe4d86e7e77413c07d6"
+                    },
+                    {
+                        "expanded_size": 103873708,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:0d9580fb17d5151c251aaeb901111328fd05bc25dda57e59192a6feff9c9f083"
                     }
                 ],
                 "authors": [
@@ -10771,6 +10933,15 @@
                 "website": "https://ceruleansonar.com",
                 "images": [
                     {
+                        "expanded_size": 103848562,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:235e686c62532d6b3b2ee7a4a00f5f5e075544f1c983a31596eb4020d0895001"
+                    },
+                    {
                         "expanded_size": 102316068,
                         "platform": {
                             "architecture": "arm",
@@ -10778,6 +10949,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:a290a3cdef6a8f6b08ce8c6dced6cd6ce2f3f2e4af7400353b172c8b0113651c"
+                    },
+                    {
+                        "expanded_size": 103875618,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:7ef4481ae7e6e729efd05cd97f49a76d6942d5224f169115cb7d89abb5ed8273"
                     }
                 ],
                 "authors": [
@@ -10817,6 +10997,15 @@
                 "website": "https://ceruleansonar.com",
                 "images": [
                     {
+                        "expanded_size": 92815448,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:ae12f5b9ef66e70aea78598e8bf7c6728f2daee7fa6177df477817bd33d9a0ed"
+                    },
+                    {
                         "expanded_size": 91270947,
                         "platform": {
                             "architecture": "arm",
@@ -10824,6 +11013,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:f59b5fd8e5310ed8960a3d159158e9b991df667f26afbdddae2c28b5a1334bba"
+                    },
+                    {
+                        "expanded_size": 92831323,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:e891ac6377594793880072f92f737253be39c9888aa4e63e13c7ae56aa8fe8d6"
                     }
                 ],
                 "authors": [
@@ -10863,6 +11061,15 @@
                 "website": "https://ceruleansonar.com",
                 "images": [
                     {
+                        "expanded_size": 91430567,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:911e1c780ceaa980b161dbc8da8729819b1b5041c1d62a7dcfe86b7dadb856c9"
+                    },
+                    {
                         "expanded_size": 89895360,
                         "platform": {
                             "architecture": "arm",
@@ -10870,6 +11077,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:7c043358df27955b02f6e87dde6a9adbb249fb6497f09f0d89d08b26c6d1d78a"
+                    },
+                    {
+                        "expanded_size": 91455609,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:004bcc413eafd431fac2103298728c55f867151947bb2bdccd20af587fb992c1"
                     }
                 ],
                 "authors": [
@@ -10909,6 +11125,15 @@
                 "website": "https://ceruleansonar.com",
                 "images": [
                     {
+                        "expanded_size": 101737315,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:4b1d35a4ffe291fb40e0429a8cc942c16bca32a61aa1b500079e17de51733ae0"
+                    },
+                    {
                         "expanded_size": 100185612,
                         "platform": {
                             "architecture": "arm",
@@ -10916,6 +11141,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:c7df013995dcb3d65587349be32a9627a77de4e0dda6ef6f60c60702d7cd92b6"
+                    },
+                    {
+                        "expanded_size": 101745464,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:4f3865c8e734344e40f122fa2035ec5c1ece73cd368418b0b8b385040b32d6b5"
                     }
                 ],
                 "authors": [
@@ -10955,6 +11189,15 @@
                 "website": "https://ceruleansonar.com",
                 "images": [
                     {
+                        "expanded_size": 102104551,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:d37b4bf14e8f175b6f97a2bcf0cf779caf990cdbda1a9e0dba1a2856111b9349"
+                    },
+                    {
                         "expanded_size": 100566437,
                         "platform": {
                             "architecture": "arm",
@@ -10962,6 +11205,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:7227c0704d4b39c422194e14d34b124947b2cb878617b667630cae4854b8ccd9"
+                    },
+                    {
+                        "expanded_size": 102126264,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:7620245a4c61c7c2979de621eb58ec435863f9c1d37e287b4fe80a3eab23de26"
                     }
                 ],
                 "authors": [
@@ -11001,6 +11253,15 @@
                 "website": "https://ceruleansonar.com",
                 "images": [
                     {
+                        "expanded_size": 102926753,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:3943477530db493567fe0cda3312a422c5a66b2ebf1e85048af9dcff6e8ef5e7"
+                    },
+                    {
                         "expanded_size": 101376808,
                         "platform": {
                             "architecture": "arm",
@@ -11008,6 +11269,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:551b60563798e2a9328eecb2057edd2fc69b9c2ba846801b9649ee4368c25dc9"
+                    },
+                    {
+                        "expanded_size": 102936964,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:949c3a85f26de72c2aeaa393699f9dbbd3201650abde00ba4c4d9aff44e9d6a8"
                     }
                 ],
                 "authors": [
@@ -11047,6 +11317,15 @@
                 "website": "https://ceruleansonar.com",
                 "images": [
                     {
+                        "expanded_size": 102719437,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:585751ac3c0426331fe48d109f8c9ed9c3a5b606f60c9fc8f7e08f45fef89adf"
+                    },
+                    {
                         "expanded_size": 101171479,
                         "platform": {
                             "architecture": "arm",
@@ -11054,6 +11333,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:bfcaca4607964dabc78002e18d9d65beaf8e58c478c7e82c52d919a9900d9c5c"
+                    },
+                    {
+                        "expanded_size": 102732281,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:5f6bae347c73ddac94aab076d279455e1de7c6f9bf94f515310790d33bd4ae38"
                     }
                 ],
                 "authors": [
@@ -11093,6 +11381,15 @@
                 "website": "https://ceruleansonar.com",
                 "images": [
                     {
+                        "expanded_size": 102725309,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:1b37032f43e7e590202867bf55df4c67430ca3b5ffcb420bf43f15150277b32f"
+                    },
+                    {
                         "expanded_size": 101178242,
                         "platform": {
                             "architecture": "arm",
@@ -11100,6 +11397,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:622de05b108dedef385306f4d450a87b0b0411370d2d436ee382c80065de2a0b"
+                    },
+                    {
+                        "expanded_size": 102738215,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:0d9f05970704787aa4d23c3d00f6fe8094410c7d361ae06fd860e07149c4f823"
                     }
                 ],
                 "authors": [
@@ -11155,6 +11461,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:dce8339f8b3f216e48324d4cb78fd86947995d5f066dd20a6c33223e239da82d"
+                    },
+                    {
+                        "expanded_size": 89701440,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:2764cca79b2d66655d7df0e770e77bc611d4fa3262aaf897985e4c87d66b3fa0"
                     }
                 ],
                 "authors": [
@@ -11194,6 +11509,15 @@
                 "website": "https://ceruleansonar.com",
                 "images": [
                     {
+                        "expanded_size": 90393129,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:5a5ae32247080ef1463f04776507625d6d7aa1b3520ef90b1a9c19b7b839c32a"
+                    },
+                    {
                         "expanded_size": 88835181,
                         "platform": {
                             "architecture": "arm",
@@ -11201,6 +11525,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:34c344a7f8335b360b376adc5b4d5133963664a91a0154ea7d898bb961b29918"
+                    },
+                    {
+                        "expanded_size": 90396349,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:a36281f603b853f7d0ffa55581065ff175c2baeae5ed0df4b186ff1f91adfcd5"
                     }
                 ],
                 "authors": [
@@ -11240,6 +11573,15 @@
                 "website": "https://ceruleansonar.com",
                 "images": [
                     {
+                        "expanded_size": 89587592,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:700b2313b0526485b1641d812f338d7cd7c60258b2aca08afcd542becca79fb3"
+                    },
+                    {
                         "expanded_size": 88029483,
                         "platform": {
                             "architecture": "arm",
@@ -11247,6 +11589,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:caab67d529425bf129461e8e0c1f0de96d90e68839d705def824f88a0645e926"
+                    },
+                    {
+                        "expanded_size": 89588533,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:a1cd7c32cc39a57255e972faba73d280d62810584ddd433475c8454b26de7d44"
                     }
                 ],
                 "authors": [
@@ -11286,6 +11637,15 @@
                 "website": "https://ceruleansonar.com",
                 "images": [
                     {
+                        "expanded_size": 89615310,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:4b2fe0b43dbb111b6bb592b4ca16d7779749b572c244a90f908f00c54744b083"
+                    },
+                    {
                         "expanded_size": 88067060,
                         "platform": {
                             "architecture": "arm",
@@ -11293,6 +11653,15 @@
                             "os": "linux"
                         },
                         "digest": "sha256:745e5130a28c63908a79d74f427a0698d47aeab6879ffd5ae46120e40a034f71"
+                    },
+                    {
+                        "expanded_size": 89626672,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:e2b78934347d3a6ba3bfcad3824f174b2ef49ad5f2d6ded36177e80a2cc0a796"
                     }
                 ],
                 "authors": [
@@ -11328,7 +11697,7 @@
             }
         },
         "repo_info": {
-            "downloads": 78575,
+            "downloads": 78835,
             "last_updated": "2025-11-03T17:22:36.659085Z",
             "date_registered": "2023-02-09T18:16:56.606258Z"
         }
@@ -11559,7 +11928,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6618,
+            "downloads": 6636,
             "last_updated": "2024-08-14T23:11:15.514761Z",
             "date_registered": "2024-08-07T21:20:39.693471Z"
         }
@@ -11837,7 +12206,7 @@
             }
         },
         "repo_info": {
-            "downloads": 10825,
+            "downloads": 10846,
             "last_updated": "2024-11-26T18:07:23.087771Z",
             "date_registered": "2023-09-06T15:06:24.58823Z"
         }
@@ -11974,7 +12343,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3851,
+            "downloads": 3860,
             "last_updated": "2024-06-23T16:01:49.148109Z",
             "date_registered": "2024-06-08T17:31:16.936347Z"
         }
@@ -12220,7 +12589,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9923,
+            "downloads": 9942,
             "last_updated": "2024-10-16T08:28:28.588962Z",
             "date_registered": "2023-04-18T13:14:56.444696Z"
         }
@@ -13328,7 +13697,7 @@
             }
         },
         "repo_info": {
-            "downloads": 40578,
+            "downloads": 40684,
             "last_updated": "2025-08-19T08:35:34.715228Z",
             "date_registered": "2023-03-23T10:28:07.423732Z"
         }
