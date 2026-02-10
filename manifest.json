@@ -310,7 +310,7 @@
             }
         },
         "repo_info": {
-            "downloads": 7499,
+            "downloads": 7527,
             "last_updated": "2026-01-30T23:08:57.02872Z",
             "date_registered": "2024-10-28T21:23:12.958451Z"
         }
@@ -626,7 +626,7 @@
             }
         },
         "repo_info": {
-            "downloads": 18588,
+            "downloads": 18615,
             "last_updated": "2024-07-29T21:22:46.380269Z",
             "date_registered": "2023-08-29T20:22:57.798237Z"
         }
@@ -2253,8 +2253,8 @@
             }
         },
         "repo_info": {
-            "downloads": 128050,
-            "last_updated": "2026-02-07T00:23:17.563159Z",
+            "downloads": 128251,
+            "last_updated": "2026-02-09T15:39:00.068255Z",
             "date_registered": "2023-01-30T01:40:41.340441Z"
         }
     },
@@ -2437,7 +2437,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9271,
+            "downloads": 9295,
             "last_updated": "2024-11-02T19:51:27.122486Z",
             "date_registered": "2023-09-20T20:30:01.66808Z"
         }
@@ -2510,7 +2510,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2920,
+            "downloads": 2924,
             "last_updated": "2023-09-01T21:07:26.318216Z",
             "date_registered": "2023-09-01T20:11:40.559943Z"
         }
@@ -2578,7 +2578,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2030,
+            "downloads": 2033,
             "last_updated": "2024-02-05T22:10:02.139431Z",
             "date_registered": "2024-01-22T15:06:39.735884Z"
         }
@@ -3193,7 +3193,7 @@
             }
         },
         "repo_info": {
-            "downloads": 256721,
+            "downloads": 256791,
             "last_updated": "2025-11-26T18:24:22.732171Z",
             "date_registered": "2022-06-01T23:43:43.19026Z"
         }
@@ -3312,7 +3312,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6853,
+            "downloads": 6863,
             "last_updated": "2025-03-21T12:52:28.85139Z",
             "date_registered": "2023-09-13T06:14:36.827307Z"
         }
@@ -3376,7 +3376,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2424,
+            "downloads": 2429,
             "last_updated": "2023-11-07T01:34:15.374584Z",
             "date_registered": "2023-11-05T01:19:48.269227Z"
         }
@@ -4032,7 +4032,7 @@
             }
         },
         "repo_info": {
-            "downloads": 46090,
+            "downloads": 46158,
             "last_updated": "2023-09-06T01:24:53.238154Z",
             "date_registered": "2023-07-06T13:38:30.979513Z"
         }
@@ -4272,7 +4272,7 @@
             }
         },
         "repo_info": {
-            "downloads": 10735,
+            "downloads": 10756,
             "last_updated": "2025-09-05T17:43:37.326839Z",
             "date_registered": "2023-10-04T23:07:17.135228Z"
         }
@@ -4830,7 +4830,7 @@
             }
         },
         "repo_info": {
-            "downloads": 21972,
+            "downloads": 22032,
             "last_updated": "2025-11-20T18:47:33.791117Z",
             "date_registered": "2024-09-16T13:23:53.464854Z"
         }
@@ -4844,6 +4844,80 @@
         "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/jmrobotics/jm-connect/extension_logo.png",
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/jmrobotics/company_logo.png",
         "versions": {
+            "0.2.2": {
+                "identifier": "e1875128-8230-5138-b12a-ccff882ebcf8",
+                "type": "other",
+                "website": "https://www.jmrobotics.no",
+                "images": [
+                    {
+                        "expanded_size": 124964433,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:fb0c59a1c46c52bad2998864734b79ae2939a1f76ddddbd504ebe1463406801b"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Mads Peter Hammer Strand",
+                        "email": "mads@jmrobotics.no"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "0.2.2",
+                "docs": null,
+                "readme": "No README available",
+                "support": "https://www.jmrobotics.no",
+                "requirements": "core >= 1",
+                "company": {
+                    "about": "",
+                    "name": "JM Robotics",
+                    "email": "support@jmrobotics.no"
+                },
+                "permissions": {
+                    "Env": [
+                        "SERVER_URL=https://software.jmrobotics.no/server/",
+                        "I2CBUS=6",
+                        "ROV_ID=<rov_id>"
+                    ],
+                    "ExposedPorts": {
+                        "1337/tcp": {},
+                        "8137/tcp": {},
+                        "1338/tcp": {}
+                    },
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/root/.config/jm:/root/.config",
+                            "/var/run/docker.sock:/var/run/docker.sock"
+                        ],
+                        "ExtraHosts": [
+                            "host.docker.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "1337/tcp": [
+                                {
+                                    "HostPort": "1337"
+                                }
+                            ],
+                            "8137/tcp": [
+                                {
+                                    "HostPort": "8137"
+                                }
+                            ],
+                            "1338/tcp": [
+                                {
+                                    "HostPort": "1338"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
             "0.2.2-linux-arm64": {
                 "identifier": "2fb4fa3d-3a58-5380-bcc7-071584b64c27",
                 "type": "other",
@@ -5247,6 +5321,89 @@
                 "filter_tags": [],
                 "extra_links": {},
                 "tag": "0.2.0-linux-arm-v7",
+                "docs": null,
+                "readme": "No README available",
+                "support": "https://www.jmrobotics.no",
+                "requirements": "core >= 1",
+                "company": {
+                    "about": "",
+                    "name": "JM Robotics",
+                    "email": "support@jmrobotics.no"
+                },
+                "permissions": {
+                    "Env": [
+                        "SERVER_URL=https://software.jmrobotics.no/server/",
+                        "I2CBUS=6",
+                        "ROV_ID=<rov_id>"
+                    ],
+                    "ExposedPorts": {
+                        "1337/tcp": {},
+                        "8137/tcp": {},
+                        "1338/tcp": {}
+                    },
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "Binds": [
+                            "/root/.config/jm:/root/.config",
+                            "/var/run/docker.sock:/var/run/docker.sock"
+                        ],
+                        "ExtraHosts": [
+                            "host.docker.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "1337/tcp": [
+                                {
+                                    "HostPort": "1337"
+                                }
+                            ],
+                            "8137/tcp": [
+                                {
+                                    "HostPort": "8137"
+                                }
+                            ],
+                            "1338/tcp": [
+                                {
+                                    "HostPort": "1338"
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "0.1.9": {
+                "identifier": "70f8b6be-ca32-5fa2-ae42-ca914a319ae4",
+                "type": "other",
+                "website": "https://www.jmrobotics.no",
+                "images": [
+                    {
+                        "expanded_size": 125463812,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:ce56c79c16aff426c8c80ef3a17724547a7377ffacdef3d159d502c2ee89112a"
+                    },
+                    {
+                        "expanded_size": 135915224,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:17d9c43bc2868f914593a453a5d8c509ed576323e03727f06b5e5164f9d7226f"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Mads Peter Hammer Strand",
+                        "email": "mads@jmrobotics.no"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "0.1.9",
                 "docs": null,
                 "readme": "No README available",
                 "support": "https://www.jmrobotics.no",
@@ -6549,7 +6706,7 @@
             }
         },
         "repo_info": {
-            "downloads": 44201,
+            "downloads": 44290,
             "last_updated": "2025-08-11T09:16:41.507357Z",
             "date_registered": "2023-05-02T08:49:43.621656Z"
         }
@@ -6661,9 +6818,127 @@
             }
         },
         "repo_info": {
-            "downloads": 83697,
+            "downloads": 83706,
             "last_updated": "2023-05-02T10:57:42.905818Z",
             "date_registered": "2022-09-20T18:15:02.068256Z"
+        }
+    },
+    {
+        "identifier": "williangalvani.example4",
+        "name": "Example 4",
+        "website": "https://github.com/Williangalvani/BlueOS-examples/",
+        "docker": "williangalvani/blueos-example4",
+        "description": "Vuetify + Persistent backend",
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/example4/extension_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png",
+        "versions": {
+            "v1.0.1": {
+                "identifier": "8971d6d2-1339-51d2-b015-bbf05e4f3df9",
+                "type": "example",
+                "website": "https://github.com/Williangalvani/BlueOS-examples/",
+                "images": [
+                    {
+                        "expanded_size": 45092996,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:361210e8893ca847ed186885daf3cf6f06c6a455182e7bb90b8622dbe7945c91"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "v1.0.1",
+                "docs": null,
+                "readme": "No README available",
+                "support": "https://github.com/Williangalvani/BlueOS-examples/",
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Binds": [
+                            "/root/.config:/root/.config"
+                        ],
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "v1.0.0": {
+                "identifier": "f9b3fffd-adc2-5d3a-aa12-3c4bdc3220f4",
+                "type": "other",
+                "website": "https://github.com/Williangalvani/BlueOS-examples/",
+                "images": [
+                    {
+                        "expanded_size": 45276851,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:78487700a46fb9c5c27c1738690fdd3e02d9f3a52416355b040ea405b773e4e5"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "v1.0.0",
+                "docs": null,
+                "readme": "No README available",
+                "support": "https://github.com/Williangalvani/BlueOS-examples/",
+                "requirements": "core >= 1",
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Binds": [
+                            "/root/.config:/root/.config"
+                        ],
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        },
+        "repo_info": {
+            "downloads": 86317,
+            "last_updated": "2023-05-02T10:59:21.807562Z",
+            "date_registered": "2022-09-19T20:13:46.735725Z"
         }
     },
     {
@@ -6773,7 +7048,7 @@
             }
         },
         "repo_info": {
-            "downloads": 91588,
+            "downloads": 91597,
             "last_updated": "2023-05-02T10:58:42.102603Z",
             "date_registered": "2022-09-19T20:24:45.273155Z"
         }
@@ -6895,7 +7170,7 @@
             }
         },
         "repo_info": {
-            "downloads": 7380,
+            "downloads": 7389,
             "last_updated": "2023-05-02T11:19:18.145903Z",
             "date_registered": "2022-10-12T18:15:01.290841Z"
         }
@@ -6909,6 +7184,58 @@
         "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/plc-diagnostics/extension_logo.png",
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png",
         "versions": {
+            "v1.0.3": {
+                "identifier": "32e55347-6b8e-55c2-aaac-f885a82e34ec",
+                "type": "tool",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 87971421,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:35957a0d632117c9a77a100f263b2422a8334a77304f27ee2357d3881394ee67"
+                    },
+                    {
+                        "expanded_size": 94089425,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:206c698b13448b5fb8b8a3aaa84178b678425db0a54da6fc99d64fd3f2f9625c"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "wiliangalvani@gmail.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {
+                    "source": "https://github.com/williangalvani/plc-extension"
+                },
+                "tag": "v1.0.3",
+                "docs": null,
+                "readme": "<h1>PLC Diagnostics</h1>\n<p>Having thether issues? This extension will help you better understand your link's bandwidth and connection quality</p>",
+                "support": null,
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Willian Galvani",
+                    "email": "wiliangalvani@gmail.com"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                }
+            },
             "v1.0.2": {
                 "identifier": "03921d1c-df43-5492-8887-44e9616df379",
                 "type": "tool",
@@ -6952,6 +7279,135 @@
                     "about": "",
                     "name": "Willian Galvani",
                     "email": "wiliangalvani@gmail.com"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "1.0.1": {
+                "identifier": "37303bf5-4438-56b4-b632-704649aa3a6e",
+                "type": "example",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 87951124,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:b189e8966331dbaacbd9d21c5583f0bb0c4faf00c9f8c3fd2d6fce2e6b330117"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "$AUTHOR",
+                        "email": "$AUTHOR_EMAIL"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {
+                    "source": "https://github.com/$OWNER/$REPO"
+                },
+                "tag": "1.0.1",
+                "docs": null,
+                "readme": "No README available",
+                "support": null,
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "$MAINTAINER",
+                    "email": "$MAINTAINER_EMAIL"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "1.0.0": {
+                "identifier": "ccd0b581-f1c8-567d-be09-86de4cd774fc",
+                "type": "example",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 87950576,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:3b74784581bf1a4c0c922944c69571e3434cf2de40db7d0bbd7fa461e7e4bdc9"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "$AUTHOR",
+                        "email": "$AUTHOR_EMAIL"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {
+                    "source": "https://github.com/$OWNER/$REPO"
+                },
+                "tag": "1.0.0",
+                "docs": null,
+                "readme": "No README available",
+                "support": null,
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "$MAINTAINER",
+                    "email": "$MAINTAINER_EMAIL"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "v1.0.0": {
+                "identifier": "f7449486-ec50-5b8d-b582-a80f342e296c",
+                "type": "example",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 87950576,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:5fb4fbd32e76af6d853b972e4ea682e226147b7f4247f9f60c80860a8d963666"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "$AUTHOR",
+                        "email": "$AUTHOR_EMAIL"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {
+                    "source": "https://github.com/$OWNER/$REPO"
+                },
+                "tag": "v1.0.0",
+                "docs": null,
+                "readme": "No README available",
+                "support": null,
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "$MAINTAINER",
+                    "email": "$MAINTAINER_EMAIL"
                 },
                 "permissions": {
                     "NetworkMode": "host",
@@ -7015,7 +7471,7 @@
             }
         },
         "repo_info": {
-            "downloads": 17533,
+            "downloads": 17571,
             "last_updated": "2025-10-15T19:07:10.2706Z",
             "date_registered": "2024-05-23T03:16:55.205832Z"
         }
@@ -7240,7 +7696,7 @@
             }
         },
         "repo_info": {
-            "downloads": 14834,
+            "downloads": 14867,
             "last_updated": "2025-05-14T20:51:07.385773Z",
             "date_registered": "2024-05-05T23:27:05.667297Z"
         }
@@ -7481,7 +7937,7 @@
             }
         },
         "repo_info": {
-            "downloads": 144107,
+            "downloads": 144135,
             "last_updated": "2025-02-12T04:32:06.301572Z",
             "date_registered": "2022-09-07T07:17:20.147217Z"
         }
@@ -7638,7 +8094,7 @@
             }
         },
         "repo_info": {
-            "downloads": 7493,
+            "downloads": 7508,
             "last_updated": "2025-02-12T16:03:19.432988Z",
             "date_registered": "2024-04-02T12:56:46.518809Z"
         }
@@ -7868,7 +8324,7 @@
             }
         },
         "repo_info": {
-            "downloads": 47360,
+            "downloads": 47380,
             "last_updated": "2026-01-29T19:40:05.327436Z",
             "date_registered": "2022-09-07T02:56:18.778263Z"
         }
@@ -8185,7 +8641,7 @@
             }
         },
         "repo_info": {
-            "downloads": 23050,
+            "downloads": 23089,
             "last_updated": "2025-02-12T17:44:31.463467Z",
             "date_registered": "2023-05-28T18:03:17.343281Z"
         }
@@ -8620,7 +9076,7 @@
             }
         },
         "repo_info": {
-            "downloads": 57510,
+            "downloads": 57542,
             "last_updated": "2025-05-19T20:37:10.685576Z",
             "date_registered": "2022-06-08T02:20:40.875088Z"
         }
@@ -8634,6 +9090,54 @@
         "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/example2/extension_logo.png",
         "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/williangalvani/company_logo.png",
         "versions": {
+            "v1.0.1": {
+                "identifier": "39888870-c652-52f0-9ead-0640b21526bc",
+                "type": "example",
+                "website": "https://github.com/Williangalvani/BlueOS-examples/",
+                "images": [
+                    {
+                        "expanded_size": 41255976,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:0b5b5c4341d46ae89398405d5eef61fed9ed6f86923451ff0135c855f53a247a"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "v1.0.1",
+                "docs": null,
+                "readme": "No README available",
+                "support": "https://github.com/Williangalvani/BlueOS-examples/",
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
             "v1.0.0": {
                 "identifier": "76dbd22b-c7a4-566e-9342-5871c558bd88",
                 "type": "other",
@@ -8684,7 +9188,7 @@
             }
         },
         "repo_info": {
-            "downloads": 88567,
+            "downloads": 88576,
             "last_updated": "2023-05-02T10:58:10.407395Z",
             "date_registered": "2022-09-19T20:25:33.201236Z"
         }
@@ -8743,10 +9247,58 @@
                 "permissions": {
                     "NetworkMode": "host"
                 }
+            },
+            "v1.0.0": {
+                "identifier": "e6424a8a-3f3c-5312-9511-6d58f284e9fe",
+                "type": "other",
+                "website": "https://ceruleansonar.com",
+                "images": [
+                    {
+                        "expanded_size": 170033285,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:a4dc00ddc3a2398ff400d2533b4f9eea53d19cce0a8df24b0f9595fa1c09fc4f"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "v1.0.0",
+                "docs": null,
+                "readme": "<h1>BlueOS Cerulean Docs</h1>\n<p>Hosts a mirror of the <a href=\"https://docs.ceruleaonsonar.com\">Cerulean Docs</a> on the ROV so they can be viewed offline. </p>",
+                "support": "https://forum.ceruleansonar.com/categories",
+                "requirements": "core >  1",
+                "company": {
+                    "about": "",
+                    "name": "Cerulean Sonar",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
             }
         },
         "repo_info": {
-            "downloads": 8488,
+            "downloads": 8497,
             "last_updated": "2023-03-15T20:41:07.344116Z",
             "date_registered": "2023-03-02T18:19:41.09439Z"
         }
@@ -8793,6 +9345,48 @@
                 "filter_tags": [],
                 "extra_links": {},
                 "tag": "v1.0.8",
+                "docs": null,
+                "readme": "<h1>BlueOS-Cerulean-DVL</h1>\n<p>Cerulean DVL driver, compatible with Blue Robotics BlueOS.</p>\n<h2>Manual Installation:</h2>\n<p>To set this up, ssh into the Raspberry Pi (or access via <code>red-pill</code> in <a href=\"https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal\">BlueOS Terminal</a>) and run</p>\n<p><code>sudo docker run -d --net=host -v /root/.config/cerulean:/root/.config --name=BlueOS-Cerulean-DVL --restart=unless-stopped nicknothom/blueos-cerulean-dvl:latest</code></p>\n<p>The service will show in the \"Available Services\" section in BlueOS, where there are some configuration options.</p>",
+                "support": "https://forum.ceruleansonar.com/categories",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Cerulean Sonar",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "permissions": {
+                    "HostConfig": {
+                        "NetworkMode": "host",
+                        "Binds": [
+                            "/root/.config/cerulean:/root/.config"
+                        ]
+                    }
+                }
+            },
+            "v1.0.7": {
+                "identifier": "8f856745-ea5b-56a3-87fe-c893f0bf2a9a",
+                "type": "other",
+                "website": "https://ceruleansonar.com",
+                "images": [
+                    {
+                        "expanded_size": 100085651,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:cdc856ea07548d4cd6e2993ebd81baad2a018034b24085a13f71e6021ad969c5"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "v1.0.7",
                 "docs": null,
                 "readme": "<h1>BlueOS-Cerulean-DVL</h1>\n<p>Cerulean DVL driver, compatible with Blue Robotics BlueOS.</p>\n<h2>Manual Installation:</h2>\n<p>To set this up, ssh into the Raspberry Pi (or access via <code>red-pill</code> in <a href=\"https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal\">BlueOS Terminal</a>) and run</p>\n<p><code>sudo docker run -d --net=host -v /root/.config/cerulean:/root/.config --name=BlueOS-Cerulean-DVL --restart=unless-stopped nicknothom/blueos-cerulean-dvl:latest</code></p>\n<p>The service will show in the \"Available Services\" section in BlueOS, where there are some configuration options.</p>",
                 "support": "https://forum.ceruleansonar.com/categories",
@@ -8895,6 +9489,43 @@
                     }
                 }
             },
+            "v1.0.4": {
+                "identifier": "2056eda3-d739-511c-a708-054d2ef830c2",
+                "type": "other",
+                "website": "https://ceruleansonar.com",
+                "images": [
+                    {
+                        "expanded_size": 99947116,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:8c3edb7d465c05b9b735cc55291fa323deb95f3f11c086ecd47729f0d78a5249"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "v1.0.4",
+                "docs": null,
+                "readme": "<h1>BlueOS-Cerulean-DVL</h1>\n<p>Cerulean DVL driver, compatible with Blue Robotics BlueOS.</p>\n<h2>Manual Installation:</h2>\n<p>To set this up, ssh into the Raspberry Pi (or access via <code>red-pill</code> in <a href=\"https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.0/advanced-usage/#terminal\">BlueOS Terminal</a>) and run</p>\n<p><code>sudo docker run -d --net=host -v /root/.config/cerulean:/root/.config --name=BlueOS-Cerulean-DVL --restart=unless-stopped nicknothom/blueos-cerulean-dvl:latest</code></p>\n<p>The service will show in the \"Available Services\" section in BlueOS, where there are some configuration options.</p>",
+                "support": "https://forum.ceruleansonar.com/categories",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Cerulean Sonar",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "permissions": {
+                    "NetworkMode": "host"
+                }
+            },
             "v1.0.2": {
                 "identifier": "57d15a76-04cd-515d-a297-58a4bb60088e",
                 "type": "other",
@@ -8971,7 +9602,7 @@
             }
         },
         "repo_info": {
-            "downloads": 31337,
+            "downloads": 31376,
             "last_updated": "2023-05-17T18:58:43.418901Z",
             "date_registered": "2023-01-17T21:41:45.289578Z"
         }
@@ -9310,6 +9941,127 @@
                     }
                 }
             },
+            "1.14.26-beta": {
+                "identifier": "e58e13e7-f59a-57a9-9a9d-d1a454591abb",
+                "type": "device-integration",
+                "website": "https://ceruleansonar.com",
+                "images": [
+                    {
+                        "expanded_size": 95072095,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:19d468b4388912dba20cb63d5c010fef01b631a903ab79ebc0e00851d92dbfbe"
+                    },
+                    {
+                        "expanded_size": 92427827,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:2df15c5f5e0f4377222517577bba757c7c170061f0c1d665780d0faaaee1d94a"
+                    },
+                    {
+                        "expanded_size": 94595049,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:7018e5209204743626073ec5572a0ca26d59c3c08d844947293702aa03054ba9"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "1.14.26-beta",
+                "docs": null,
+                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
+                "support": "https://forum.ceruleansonar.com/categories",
+                "requirements": null,
+                "company": {
+                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
+                    "name": "Cerulean Sonar",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "permissions": {
+                    "HostConfig": {
+                        "NetworkMode": "host",
+                        "Binds": [
+                            "/usr/blueos/userdata/SonarView:/userdata"
+                        ],
+                        "ReadonlyRootfs": true,
+                        "ExtraHosts": [
+                            "host.docker.internal:127.0.1.1",
+                            "blueos.local:127.0.1.1"
+                        ]
+                    }
+                }
+            },
+            "1.14.25-beta": {
+                "identifier": "7d06f4b0-f57c-506f-810f-b9b12460dd54",
+                "type": "device-integration",
+                "website": "https://ceruleansonar.com",
+                "images": [
+                    {
+                        "expanded_size": 111511586,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:8f4005cb5741933671b859f97dc7c25eeed59dab9679ac4490e335a2f605c789"
+                    },
+                    {
+                        "expanded_size": 115287299,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:946befc61846c105fca128a89a87aa6252ba98ca053f8379715ccc88ac807ef6"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "1.14.25-beta",
+                "docs": null,
+                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
+                "support": "https://forum.ceruleansonar.com/categories",
+                "requirements": null,
+                "company": {
+                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
+                    "name": "Cerulean Sonar",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "permissions": {
+                    "HostConfig": {
+                        "NetworkMode": "host",
+                        "Binds": [
+                            "/usr/blueos/userdata/SonarView:/userdata"
+                        ],
+                        "ReadonlyRootfs": true,
+                        "ExtraHosts": [
+                            "host.docker.internal:127.0.1.1",
+                            "blueos.local:127.0.1.1"
+                        ]
+                    }
+                }
+            },
             "1.14.24-dev": {
                 "identifier": "84f3f4ac-9c99-5077-80df-a87435fc24c9",
                 "type": "device-integration",
@@ -9493,6 +10245,53 @@
                 "filter_tags": [],
                 "extra_links": {},
                 "tag": "1.14.20-beta",
+                "docs": null,
+                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
+                "support": "https://forum.ceruleansonar.com/categories",
+                "requirements": null,
+                "company": {
+                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
+                    "name": "Cerulean Sonar",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "permissions": {
+                    "HostConfig": {
+                        "NetworkMode": "host",
+                        "Binds": [
+                            "/usr/blueos/userdata/SonarView:/userdata"
+                        ],
+                        "ReadonlyRootfs": true,
+                        "ExtraHosts": [
+                            "host.docker.internal:127.0.1.1",
+                            "blueos.local:127.0.1.1"
+                        ]
+                    }
+                }
+            },
+            "1.14.15-dev": {
+                "identifier": "6e74b697-82a1-56ee-a3f0-a496ae3b7d38",
+                "type": "device-integration",
+                "website": "https://ceruleansonar.com",
+                "images": [
+                    {
+                        "expanded_size": 90012036,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:18463131d225d22ff863f4939b0b7d642175860ae09f110e7a7b071be6eda7dc"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "1.14.15-dev",
                 "docs": null,
                 "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
                 "support": "https://forum.ceruleansonar.com/categories",
@@ -9704,6 +10503,53 @@
                     }
                 }
             },
+            "1.14.6-beta": {
+                "identifier": "bc54e1ed-b14c-5706-980c-dc602fdbf7b3",
+                "type": "device-integration",
+                "website": "https://ceruleansonar.com",
+                "images": [
+                    {
+                        "expanded_size": 90396405,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:40e0619dbc4679b0f3d18e3ac87e986108f8e7bb47d872ef967aa6a5ea4808a5"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "1.14.6-beta",
+                "docs": null,
+                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
+                "support": "https://forum.ceruleansonar.com/categories",
+                "requirements": null,
+                "company": {
+                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
+                    "name": "Cerulean Sonar",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "permissions": {
+                    "HostConfig": {
+                        "NetworkMode": "host",
+                        "Binds": [
+                            "/usr/blueos/userdata/SonarView:/userdata"
+                        ],
+                        "ReadonlyRootfs": true,
+                        "ExtraHosts": [
+                            "host.docker.internal:127.0.1.1",
+                            "blueos.local:127.0.1.1"
+                        ]
+                    }
+                }
+            },
             "1.14.5-beta": {
                 "identifier": "3a4f9fc0-6614-5bfb-8fe1-df0740af9aae",
                 "type": "device-integration",
@@ -9728,6 +10574,62 @@
                 "filter_tags": [],
                 "extra_links": {},
                 "tag": "1.14.5-beta",
+                "docs": null,
+                "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
+                "support": "https://forum.ceruleansonar.com/categories",
+                "requirements": null,
+                "company": {
+                    "about": "Cerulean Sonar: Advanced Technology. Sensibly Priced.",
+                    "name": "Cerulean Sonar",
+                    "email": "dennys.bisogno@ceruleansonar.com"
+                },
+                "permissions": {
+                    "HostConfig": {
+                        "NetworkMode": "host",
+                        "Binds": [
+                            "/usr/blueos/userdata/SonarView:/userdata"
+                        ],
+                        "ReadonlyRootfs": true,
+                        "ExtraHosts": [
+                            "host.docker.internal:127.0.1.1",
+                            "blueos.local:127.0.1.1"
+                        ]
+                    }
+                }
+            },
+            "1.14.4": {
+                "identifier": "aa94b089-cd1f-5f62-bf9e-f50d2e303ee6",
+                "type": "device-integration",
+                "website": "https://ceruleansonar.com",
+                "images": [
+                    {
+                        "expanded_size": 89819661,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:c3babe18a9a799f6e6806849997a57f4ffa0fe4b49da38e607fca09c78b096f2"
+                    },
+                    {
+                        "expanded_size": 91958447,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:8fd0576b5be008df8699482a0e42aebc2dd096d0447ab6e1cbb33569c01b5bac"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Nick Nothom",
+                        "email": "nick.nothom@ceruleansonar.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "1.14.4",
                 "docs": null,
                 "readme": "<h1>SonarView</h1>\n<p>SonarView is a cross-platform application for controlling and communicating with sonar devices.</p>\n<p>This repository hosts the build and release process for SonarView.</p>\n<ul>\n<li>To download the desktop version of our software, <a href=\"https://github.com/CeruleanSonar/SonarView/releases/latest\">get the latest release from our releases page</a></li>\n<li>If you're using BlueOS, <a href=\"https://docs.ceruleansonar.com/c/v/sonarview/installation/blueos\">download the extension from the BlueOS store</a></li>\n<li>For usage instructions, read <a href=\"https://docs.ceruleansonar.com/c/v/sonarview\">manual on our website</a></li>\n</ul>",
                 "support": "https://forum.ceruleansonar.com/categories",
@@ -9987,7 +10889,7 @@
             }
         },
         "repo_info": {
-            "downloads": 94402,
+            "downloads": 94553,
             "last_updated": "2026-02-05T23:02:17.147881Z",
             "date_registered": "2023-02-09T18:16:56.606258Z"
         }
@@ -10218,7 +11120,7 @@
             }
         },
         "repo_info": {
-            "downloads": 8523,
+            "downloads": 8542,
             "last_updated": "2024-08-14T23:11:15.514761Z",
             "date_registered": "2024-08-07T21:20:39.693471Z"
         }
@@ -10374,15 +11276,6 @@
                             "os": "linux"
                         },
                         "digest": "sha256:54e2275c5e9ea7aef7df80d3ace428f9ef287e9cd249ca6a70c22108a0ebfe9f"
-                    },
-                    {
-                        "expanded_size": 51589213,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:9c87f6fec45bd621c73a25f1af997075aa140d73c45600cf11982ffa26c72a90"
                     }
                 ],
                 "authors": [
@@ -10496,9 +11389,137 @@
             }
         },
         "repo_info": {
-            "downloads": 12896,
+            "downloads": 12917,
             "last_updated": "2024-11-26T18:07:23.087771Z",
             "date_registered": "2023-09-06T15:06:24.58823Z"
+        }
+    },
+    {
+        "identifier": "clydemcqueen.surftrak_fixit",
+        "name": "Surftrak Fixit",
+        "website": "https://github.com/clydemcqueen/surftrak_fixit",
+        "docker": "clydemcqueen/surftrak_fixit",
+        "description": "Find and fix common Surftrak problems",
+        "extension_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/clydemcqueen/surftrak_fixit/extension_logo.png",
+        "company_logo": "https://raw.githubusercontent.com/bluerobotics/BlueOS-Extensions-Repository/master/repos/clydemcqueen/company_logo.png",
+        "versions": {
+            "v1.0.0-beta.2": {
+                "identifier": "4ecee07e-b90d-5881-b8a1-2e8c8cb188ce",
+                "type": "tool",
+                "website": "https://github.com/clydemcqueen/surftrak_fixit",
+                "images": [
+                    {
+                        "expanded_size": 331368598,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:7974dbabcfbe92c237617c431b666fc24732cf9fd3c5423f069ec752c20aa827"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Clyde McQueen",
+                        "email": "clyde@mcqueen.net"
+                    }
+                ],
+                "filter_tags": [
+                    "surftrak"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.0-beta.2",
+                "docs": null,
+                "readme": "<h1>Surftrak Fixit</h1>\n<p><em>Surftrak</em> is a new flight mode in <a href=\"https://www.ardusub.com/\">ArduSub 4.5</a>.</p>\n<p><em>Surftrak Fixit</em> is a <a href=\"https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.1/overview/\">BlueOS</a> extension that can diagnose and fix Surftrak problems.</p>\n<h2>Install</h2>\n<ul>\n<li>Select <em>Extensions</em> in the sidebar</li>\n<li>Click on <em>Surftrak Fixit</em></li>\n<li>Click <em>Install</em></li>\n</ul>\n<h2>Releases</h2>\n<h3>v1.0.0-beta.2</h3>\n<ul>\n<li>Display DISTANCE_SENSOR messages from well-known sources</li>\n<li>Check for bad RNGFND1_TYPE</li>\n<li>Add FIX IT buttons for some problems</li>\n<li>UI improvements, works in dark mode</li>\n</ul>\n<h3>v1.0.0-beta.1</h3>\n<ul>\n<li>First version</li>\n</ul>\n<h2>Developer Notes</h2>\n<h3>Install a custom version</h3>\n<ul>\n<li>Select <em>Extensions</em> in the sidebar, then the <em>Installed</em> tab</li>\n<li>Click on the + icon in the lower right</li>\n<li>Enter the following information, modifying as necessary</li>\n<li>Click <em>Create</em></li>\n</ul>\n<p><em>Extension Identifier</em>\n~~~\nclydemcqueen.surftrak_fixit\n~~~</p>\n<p><em>Extension Name</em>\n~~~\nsurftrak_fixit\n~~~</p>\n<p><em>Docker image</em>\n~~~\nclydemcqueen/surftrak_fixit\n~~~</p>\n<p><em>Docker tag</em>\n~~~\nv1.0.0-beta.2\n~~~</p>\n<p><em>Custom settings</em>\n~~~\n{\n  \"ExposedPorts\": {\n    \"8080/tcp\": {}\n  },\n  \"HostConfig\": {\n    \"ExtraHosts\": [\"host.docker.internal:host-gateway\"],\n    \"PortBindings\": {\n      \"8080/tcp\": [\n        {\n          \"HostPort\": \"\"\n        }\n      ]\n    }\n  },\n  \"Env\": [\"MAVLINK2REST_URL=http://host.docker.internal/mavlink2rest/v1\"]\n}\n~~~</p>\n<h3>Testing with ArduSub SITL</h3>\n<p><em>Surftrak Fixit</em> looks only at MAVLink messages, so it can be tested against ArduSub SITL and\n<a href=\"https://github.com/mavlink/mavlink2rest/\">mavlink2rest</a>.</p>\n<p>See <a href=\"https://ardupilot.org/dev/docs/building-the-code.html\">these instructions</a> to set up ArduSub SITL.</p>\n<p>Terminal 1: run SITL\n~~~\ncd $ARDUPILOT_HOME\nmkdir run_sim\ncd run_sim\nnice ../Tools/autotest/sim_vehicle.py -G -D -l 47.6302,-122.3982391,-0.1,270 -v Sub -f vectored --out \"127.0.0.1:14551\"\n~~~</p>\n<p>Terminal 2: run mavlink2rest in a docker container\n~~~\ndocker build --build-arg TARGET_ARCH=x86_64-unknown-linux-musl -t mavlink/mavlink2rest .\ndocker run --rm --init -p 8088:8088 -p 14550:14550/udp --name mavlink2rest mavlink/mavlink2rest\n~~~</p>\n<p>Terminal 3: run <em>Surftrak Fixit</em>\n~~~\n./main.py --mavlink2rest_url http://localhost:8088/v1\n~~~</p>\n<p>Terminal 4: emulate a MAVLink rangefinder\n~~~\n./fake_rf.py --ping\n~~~</p>\n<p>You can see the extension UI at http://localhost:8080/</p>",
+                "support": "https://github.com/clydemcqueen/surftrak_fixit/issues",
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Discovery Bay",
+                    "email": "clyde@mcqueen.net"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8080/tcp": {}
+                    },
+                    "HostConfig": {
+                        "ExtraHosts": [
+                            "host.docker.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "8080/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    },
+                    "Env": [
+                        "MAVLINK2REST_URL=http://host.docker.internal/mavlink2rest/v1"
+                    ]
+                }
+            },
+            "v1.0.0-beta.1": {
+                "identifier": "284c6155-4ffc-50aa-98dd-c7eae198eac5",
+                "type": "tool",
+                "website": "https://github.com/clydemcqueen/surftrak_fixit",
+                "images": [
+                    {
+                        "expanded_size": 313220600,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:9cf0c02c92ef84c1964878116dd349fb923c0e220abb7a0a86583e6672213b73"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Clyde McQueen",
+                        "email": "clyde@mcqueen.net"
+                    }
+                ],
+                "filter_tags": [
+                    "surftrak"
+                ],
+                "extra_links": {},
+                "tag": "v1.0.0-beta.1",
+                "docs": null,
+                "readme": "<h1>Surftrak Fixit</h1>\n<p><em>Surftrak</em> is a new flight mode in <a href=\"https://www.ardusub.com/\">ArduSub 4.5</a>.</p>\n<p><em>Surftrak Fixit</em> is a <a href=\"https://docs.bluerobotics.com/ardusub-zola/software/onboard/BlueOS-1.1/overview/\">BlueOS</a>\nextension that can diagnose and suggest fixes for some common Surftrak problems.</p>\n<h2>Install</h2>\n<p>To install this extension in BlueOS:\n* Select <em>Extensions</em> in the sidebar, then the <em>Installed</em> tab\n* Click on the + icon in the lower right\n* Enter the following information, then click <em>Create</em></p>\n<p><em>Extension Identifier</em>\n~~~\nclydemcqueen.surftrak_fixit\n~~~</p>\n<p><em>Extension Name</em>\n~~~\nsurftrak_fixit\n~~~</p>\n<p><em>Docker image</em>\n~~~\nclydemcqueen/surftrak_fixit\n~~~</p>\n<p><em>Docker tag</em>\n~~~\nv1.0.0-beta.1\n~~~</p>\n<p><em>Custom settings</em>\n~~~\n{\n  \"ExposedPorts\": {\n    \"8080/tcp\": {}\n  },\n  \"HostConfig\": {\n    \"ExtraHosts\": [\"host.docker.internal:host-gateway\"],\n    \"PortBindings\": {\n      \"8080/tcp\": [\n        {\n          \"HostPort\": \"\"\n        }\n      ]\n    }\n  },\n  \"Env\": [\"MAVLINK2REST_URL=http://host.docker.internal/mavlink2rest/v1\"]\n}\n~~~</p>",
+                "support": "https://github.com/clydemcqueen/surftrak_fixit/issues",
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Discovery Bay",
+                    "email": "clyde@mcqueen.net"
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "8080/tcp": {}
+                    },
+                    "HostConfig": {
+                        "ExtraHosts": [
+                            "host.docker.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "8080/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    },
+                    "Env": [
+                        "MAVLINK2REST_URL=http://host.docker.internal/mavlink2rest/v1"
+                    ]
+                }
+            }
+        },
+        "repo_info": {
+            "downloads": 4776,
+            "last_updated": "2024-06-23T16:01:49.148109Z",
+            "date_registered": "2024-06-08T17:31:16.936347Z"
         }
     },
     {
@@ -10742,7 +11763,7 @@
             }
         },
         "repo_info": {
-            "downloads": 11817,
+            "downloads": 11837,
             "last_updated": "2024-10-16T08:28:28.588962Z",
             "date_registered": "2023-04-18T13:14:56.444696Z"
         }
@@ -10795,6 +11816,66 @@
                 ],
                 "extra_links": {},
                 "tag": "2.0.8",
+                "docs": null,
+                "readme": "<h1>BlueOS Nucleus Extension</h1>\n<h2>Intro</h2>\n<p>This extension integrates the Nortek <strong>Nucleus</strong> into the <strong>BlueROV2</strong> via the <strong>BlueOS</strong> extensions platform.<br/>\nIt packages the <a href=\"https://github.com/NortekSupport/nucleus_driver/tree/main/nucleus_driver\">Nucleus Driver</a> inside a Docker image alongside a Node.js-based frontend, which streams velocity, orientation, and position data from the Nucleus into the ArduSub control system via MAVLink commands.  </p>\n<p>By providing the ROV with this navigation data, the extension enables advanced control modes such as <strong>Position Hold</strong>, <strong>AUTO</strong>, and <strong>GUIDED</strong>.<br/>\nNote: <strong>AUTO</strong> and <strong>GUIDED</strong> modes require the Nucleus to have the INS license.</p>\n<h2>Nortek Nucleus integration</h2>\n<p>To mount the Nucleus unto the BlueROV2 and connect it to its network, refer Nortek's <a href=\"https://support.nortekgroup.com/hc/en-us/articles/8246995934748-Nucleus-integration-with-BlueROV2\">Nucleus integration guide</a>.</p>\n<h2>setup</h2>\n<h3>BlueOS</h3>\n<p>BlueOS needs to be of version 1.2.6 or newer in order to support the adding of third party extensions.</p>\n<h3>ArduSub</h3>\n<p>ArduSub needs to be of version 4.1.2 or newer for it to support the mavlink packets used to send data from the Nucleus.</p>\n<p>The current version of the extension is developed on ArduSub version 4.5.0 and it is recommended to use at least this version of ArduSub.</p>\n<h3>Nucleus</h3>\n<p>The Nucleus must be properly configured in order for it to work with the extension.</p>\n<p>It must be configured with a <strong>static IP address</strong> in order for the extension to connect to it over the ROV network. Assuming the network configuration on the BlueROV2 is default, the following example is valid:\n<code>SETETH,IPMETHOD=\"STATIC\",IP=\"192.168.2.201\"</code></p>\n<p>In order for the various mode to be available for use in the ROV's controller, certain messages <strong>must</strong> be sent from the Nucleus. The minimum configurations of the Nucleus are described in the following sections, but it is expected that the user reads the <strong>MANUAL</strong> to properly configure the Nucleus to fit their needs.</p>\n<h4>Bottom track</h4>\n<p>Bottom track is responsible for sending velocity data to the ROV and it is required for the ROV to use its Position Hold feature. To enable this output, set the following:\n<code>SETBT,DS=\"ON\"</code></p>\n<p>The frequency of which bottom track data is collected is configured through the trigger settings, i.e.:</p>\n<p><code>SETTRIG,FREQ=4</code></p>\n<p>The trigger settings also handles the altimeter and current profile settings, which influences the trigger frequency. In addition, the frequency of the trigger settings is limited by the bottom track settings. Therefore, read the <strong>MANUAL</strong> and familiarize yourself with these settings before setting up the Nucleus for your use. For the extension, setting this value as high as you can afford for your configuration is advised.</p>\n<h4>AHRS</h4>\n<p>AHRS data is essential for providing the ROV with an orientation when sending the velocity data to the ROV. The velocity data sent will be limited to the trigger frequency defined for the bottom track data. Ensure that the AHRS frequency is higher than the bottom track data, but there is no benefit from maxing it out. Example config:</p>\n<p><code>SETAHRS,DS=\"ON\",FREQ=10</code></p>\n<h4>INS</h4>\n<p>The INS must be enabled in order to utilize the <strong>AUTO</strong> and <strong>GUIDED</strong> modes in the ROV. Enable the datastream for the INS:</p>\n<p><code>SETNAV,DS=\"ON\"</code></p>\n<p>And set the instrument settings to navigation mode:</p>\n<p><code>SETINST,TYPE=\"NAV\"</code></p>\n<h2>PID parameters</h2>\n<p><strong>N.B.</strong> Adjusting these parameters <strong>WILL</strong> change the behavior of the ROV</p>\n<p><strong>N.B.</strong> The ROV does <strong>not</strong> store original values of these parameters in case they are changed.</p>\n<p>The PID parameters can be changed through the \"Autopilot parameters\" menu in the blueos.local home page. Good parameterization is necessary for a good performance of the ROV. The correct parameters varies from vehicle to vehicle as the physical attributes of the ROV has an impact on its behavior. However, recommended starting parameters for a standard BlueROV2 with only the Nucleus being the third party installation are as follows:</p>\n<p>| Parameter | Value |\n| ---| --- |\n| PSC_POSXY_P | 1.0 |\n| PSC_POSZ_P | 1.0 |\n| PSC_VELXY_P | 5.0 |\n| PSC_VELXY_I | 0.5 |\n| PSC_VELXY_D | 0.8 |\n| PSC_VELZ_P | 5.0 |</p>\n<p>While these parameters might provide a well performing ROV, they are most likely not optimal. It is recommended to adjust these parameters to get the desired ROV behavior.</p>\n<h2>Controller parameters</h2>\n<p><strong>N.B.</strong> Adjusting any of these parameters may change the behavior of the ROV</p>\n<p><strong>N.B.</strong> The ROV does <strong>not</strong> store original values of these parameters in case they are changed.</p>\n<p>In order for the controller to accept and utilize the velocity and position packets sent from the Nucleus, certain parameters has to be changed. The parameters can be changed in the \"Autopilot parameters\" menu in the blueos.local home page. </p>\n<p>After these parameters has been changed it is necessary to power cycle the vehicle for these parameters to take effect</p>\n<p>The parameters and their required values are the following</p>\n<p>| Parameter | Value |\n| ---| --- |\n| SERIAL0_PROTOCOL | MAVLink2 |\n| EK3_ENABLE | Enabled |\n| AHRS_EKF_TYPE | Enable EKF3 |\n| EK2_ENABLE | Disable |\n| VISO_TYPE | MAVLink |\n| EK3_SRC1_POSXY | ExternalNav |\n| EK3_SRC1_VELXY | ExternalNav |\n| EK3_SRC1_YAW | ExternalN |\n| EK3_SRC2_YAW | Compass |</p>\n<p>Also, EK3 algorithm in the ROV may struggle in <strong>AUTO</strong> mode and its noticed with \"EKf3 lane switch\" errors. As well as jumps in the estimated position which can be seen in the ROVs position in QGroundControl.</p>\n<p>If this is happening, a dirty fix is to adjust the \"EKF3 Lane Relative Error Sensitivity Threshold\", which is the threshold for how much error there can be in the estimates before the algorithm changes the \"lane\". By increasing this value the algorithm is less likely to change lanes while running and is likely to yield a better performance as these lane changes causes quite big jump it the estimate positions.</p>\n<p>During testing there were good results by setting this value to its maximum, that is:</p>\n<p>| Parameter | Value |\n| ---| --- |\n| EK3_ERR_THRESH | 1.0 |</p>\n<h2>GUI</h2>\n<p>Accessible via the <strong>Nortek Nucleus</strong> entry in the BlueOS menu. It consists of two tabs: <strong>Connection</strong> and <strong>Home</strong>.</p>\n<h3>Connection Page</h3>\n<p>Allows the user to establish a connection to the Nucleus, using the static IP configured on the device. The connection will be established to either port 9000, or 9002 depending on whether \"Stream only\" is enabled. </p>\n<p>If not enabled, the connection is done to port 9000 which allows the extension to communicate with (send data to) the Nucleus, which is essential for some of the functionality in the GUI such as:</p>\n<ul>\n<li>Starting or stopping the device</li>\n<li>Setting GNSS origin in the Nucleus (<strong>N.B</strong> This is only relevant in order to see the position in the map! This will not affect how the data is sent to the ROV!)</li>\n</ul>\n<p>By enabling \"Stream only\", the user may (and must) issue commands to the Nucleus from another source, such as the Nucleus Software, or other software the user may have developed for the Nucleus. While connected to this port, the extension can <strong>ONLY</strong> receive data from the Nucleus, which is sufficient in order for the ROV to receive the required data. </p>\n<p>The connection also includes options for <strong>Autoconnect</strong> and <strong>Autostart</strong>:<br/>\n- <strong>Autoconnect</strong> \u2013 Automatically connects to the Nucleus whenever the ROV is powered up.\n    - The \"autoconnect\" will attempt to use the latest IP address and port used to connect to the Nucleus\n- <strong>Autostart</strong> \u2013 Automatically starts the Nucleus after connecting (requires Autoconnect to be enabled).<br/>\n    - If \"Stream only\" (port 9002) was enabled for the latest connection, autostart will <strong>fail</strong> as a start command cannot be issued when connected to port 9002</p>\n<h4>GUI free usage</h4>\n<p>If the user wish to use the extension without having to interface the GUI <strong>at all</strong> in consecutive missions, an initial connection can be done in the extension where they connect to the Nucleus selecting the following:</p>\n<ul>\n<li><strong>Stream only</strong> is <strong>NOT</strong> checked (the extension must issue the start command)</li>\n<li><strong>Autoconnect</strong> is checked</li>\n<li><strong>Autostart</strong> is checked</li>\n</ul>\n<p>Additionally, the user must send a SET_GPS_GLOBAL_ORIGIN command to the ROV through MavLink in order to provide the ROV with an initial condition before they can use the <strong>AUTO</strong> and <strong>GUIDED</strong> modes of the ROV, as the ROV must know where it is before it can use these features.</p>\n<p>By doing this, the extension will start the Nucleus and start sending data to the ROV whenever it starts up, and the operator does not have to use the GUI in order to benefit from the extension.</p>\n<h3>Home Page</h3>\n<p>The <strong>Home</strong> page provides tools for monitoring and controlling data flow between the Nucleus and the ROV.  </p>\n<h4>Packet Counters</h4>\n<p>Two packet counters serve as a quick sanity check to verify that data is being sent to the ROV:<br/>\n- <strong>Position Delta</strong> packets<br/>\n- <strong>Position Estimate</strong> packets  </p>\n<p>Each counter displays:<br/>\n- <strong>Sent</strong> \u2013 Number of successfully sent packets.<br/>\n- <strong>Skipped</strong> \u2013 Packets not sent because transmission is disabled.<br/>\n- <strong>Failed</strong> \u2013 Packets that failed to send due to an error.<br/>\n- <strong>Frequency</strong> \u2013 The rate (in Hz) at which packets are being sent.  </p>\n<p>An <strong>enable toggle</strong> for each packet type determines whether packets are sent to the ROV. Disabling a packet type will cause its skipped counter to increase.</p>\n<h4>GNSS Origin and Map</h4>\n<p>The <strong>GNSS Origin</strong> panel, combined with the interactive map, allows the user to define the ROV\u2019s reference origin.<br/>\nThis can be done by:<br/>\n- Clicking on the map, or<br/>\n- Manually entering latitude and longitude in the GNSS Origin panel.  </p>\n<p>The <strong>gnss origin</strong> must be set before that <strong>AUTO</strong> and <strong>GUIDED</strong> modes can be used in the ROV.</p>\n<p><strong>Important:</strong> The GNSS origin can only be set <strong>once</strong> per ROV power cycle. To change it, the ROV must be rebooted.</p>\n<p>The map also displays the path traveled by the Nucleus based on its <strong>INS</strong> output.<br/>\nAn active internet connection is required for the map to display.</p>",
+                "support": "https://support.nortekgroup.com/",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Nortek",
+                    "email": ""
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Binds": [
+                            "/usr/blueos/extensions/.nortek_nucleus:/opt/nucleus_extension/config"
+                        ],
+                        "ExtraHosts": [
+                            "host.docker.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "2.0.7": {
+                "identifier": "92601868-76f3-51b0-ad6f-2b898bd84084",
+                "type": "device-integration",
+                "website": "https://github.com/NortekSupport/nucleus_driver",
+                "images": [
+                    {
+                        "expanded_size": 270465037,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:20ae7fb1236223cd0b80da7f0accb5bf9c33c9dbf3f20cf9d5b62a9eed96f1a4"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Martin Bergene Johansen",
+                        "email": "martin.johansen@nortekgroup.com"
+                    }
+                ],
+                "filter_tags": [
+                    "positioning",
+                    "navigation",
+                    "doppler-velocity-log",
+                    "water-tracking",
+                    "current-profiling"
+                ],
+                "extra_links": {},
+                "tag": "2.0.7",
                 "docs": null,
                 "readme": "<h1>BlueOS Nucleus Extension</h1>\n<h2>Intro</h2>\n<p>This extension integrates the Nortek <strong>Nucleus</strong> into the <strong>BlueROV2</strong> via the <strong>BlueOS</strong> extensions platform.<br/>\nIt packages the <a href=\"https://github.com/NortekSupport/nucleus_driver/tree/main/nucleus_driver\">Nucleus Driver</a> inside a Docker image alongside a Node.js-based frontend, which streams velocity, orientation, and position data from the Nucleus into the ArduSub control system via MAVLink commands.  </p>\n<p>By providing the ROV with this navigation data, the extension enables advanced control modes such as <strong>Position Hold</strong>, <strong>AUTO</strong>, and <strong>GUIDED</strong>.<br/>\nNote: <strong>AUTO</strong> and <strong>GUIDED</strong> modes require the Nucleus to have the INS license.</p>\n<h2>Nortek Nucleus integration</h2>\n<p>To mount the Nucleus unto the BlueROV2 and connect it to its network, refer Nortek's <a href=\"https://support.nortekgroup.com/hc/en-us/articles/8246995934748-Nucleus-integration-with-BlueROV2\">Nucleus integration guide</a>.</p>\n<h2>setup</h2>\n<h3>BlueOS</h3>\n<p>BlueOS needs to be of version 1.2.6 or newer in order to support the adding of third party extensions.</p>\n<h3>ArduSub</h3>\n<p>ArduSub needs to be of version 4.1.2 or newer for it to support the mavlink packets used to send data from the Nucleus.</p>\n<p>The current version of the extension is developed on ArduSub version 4.5.0 and it is recommended to use at least this version of ArduSub.</p>\n<h3>Nucleus</h3>\n<p>The Nucleus must be properly configured in order for it to work with the extension.</p>\n<p>It must be configured with a <strong>static IP address</strong> in order for the extension to connect to it over the ROV network. Assuming the network configuration on the BlueROV2 is default, the following example is valid:\n<code>SETETH,IPMETHOD=\"STATIC\",IP=\"192.168.2.201\"</code></p>\n<p>In order for the various mode to be available for use in the ROV's controller, certain messages <strong>must</strong> be sent from the Nucleus. The minimum configurations of the Nucleus are described in the following sections, but it is expected that the user reads the <strong>MANUAL</strong> to properly configure the Nucleus to fit their needs.</p>\n<h4>Bottom track</h4>\n<p>Bottom track is responsible for sending velocity data to the ROV and it is required for the ROV to use its Position Hold feature. To enable this output, set the following:\n<code>SETBT,DS=\"ON\"</code></p>\n<p>The frequency of which bottom track data is collected is configured through the trigger settings, i.e.:</p>\n<p><code>SETTRIG,FREQ=4</code></p>\n<p>The trigger settings also handles the altimeter and current profile settings, which influences the trigger frequency. In addition, the frequency of the trigger settings is limited by the bottom track settings. Therefore, read the <strong>MANUAL</strong> and familiarize yourself with these settings before setting up the Nucleus for your use. For the extension, setting this value as high as you can afford for your configuration is advised.</p>\n<h4>AHRS</h4>\n<p>AHRS data is essential for providing the ROV with an orientation when sending the velocity data to the ROV. The velocity data sent will be limited to the trigger frequency defined for the bottom track data. Ensure that the AHRS frequency is higher than the bottom track data, but there is no benefit from maxing it out. Example config:</p>\n<p><code>SETAHRS,DS=\"ON\",FREQ=10</code></p>\n<h4>INS</h4>\n<p>The INS must be enabled in order to utilize the <strong>AUTO</strong> and <strong>GUIDED</strong> modes in the ROV. Enable the datastream for the INS:</p>\n<p><code>SETNAV,DS=\"ON\"</code></p>\n<p>And set the instrument settings to navigation mode:</p>\n<p><code>SETINST,TYPE=\"NAV\"</code></p>\n<h2>PID parameters</h2>\n<p><strong>N.B.</strong> Adjusting these parameters <strong>WILL</strong> change the behavior of the ROV</p>\n<p><strong>N.B.</strong> The ROV does <strong>not</strong> store original values of these parameters in case they are changed.</p>\n<p>The PID parameters can be changed through the \"Autopilot parameters\" menu in the blueos.local home page. Good parameterization is necessary for a good performance of the ROV. The correct parameters varies from vehicle to vehicle as the physical attributes of the ROV has an impact on its behavior. However, recommended starting parameters for a standard BlueROV2 with only the Nucleus being the third party installation are as follows:</p>\n<p>| Parameter | Value |\n| ---| --- |\n| PSC_POSXY_P | 1.0 |\n| PSC_POSZ_P | 1.0 |\n| PSC_VELXY_P | 5.0 |\n| PSC_VELXY_I | 0.5 |\n| PSC_VELXY_D | 0.8 |\n| PSC_VELZ_P | 5.0 |</p>\n<p>While these parameters might provide a well performing ROV, they are most likely not optimal. It is recommended to adjust these parameters to get the desired ROV behavior.</p>\n<h2>Controller parameters</h2>\n<p><strong>N.B.</strong> Adjusting any of these parameters may change the behavior of the ROV</p>\n<p><strong>N.B.</strong> The ROV does <strong>not</strong> store original values of these parameters in case they are changed.</p>\n<p>In order for the controller to accept and utilize the velocity and position packets sent from the Nucleus, certain parameters has to be changed. The parameters can be changed in the \"Autopilot parameters\" menu in the blueos.local home page. </p>\n<p>After these parameters has been changed it is necessary to power cycle the vehicle for these parameters to take effect</p>\n<p>The parameters and their required values are the following</p>\n<p>| Parameter | Value |\n| ---| --- |\n| SERIAL0_PROTOCOL | MAVLink2 |\n| EK3_ENABLE | Enabled |\n| AHRS_EKF_TYPE | Enable EKF3 |\n| EK2_ENABLE | Disable |\n| VISO_TYPE | MAVLink |\n| EK3_SRC1_POSXY | ExternalNav |\n| EK3_SRC1_VELXY | ExternalNav |\n| EK3_SRC1_YAW | ExternalN |\n| EK3_SRC2_YAW | Compass |</p>\n<p>Also, EK3 algorithm in the ROV may struggle in <strong>AUTO</strong> mode and its noticed with \"EKf3 lane switch\" errors. As well as jumps in the estimated position which can be seen in the ROVs position in QGroundControl.</p>\n<p>If this is happening, a dirty fix is to adjust the \"EKF3 Lane Relative Error Sensitivity Threshold\", which is the threshold for how much error there can be in the estimates before the algorithm changes the \"lane\". By increasing this value the algorithm is less likely to change lanes while running and is likely to yield a better performance as these lane changes causes quite big jump it the estimate positions.</p>\n<p>During testing there were good results by setting this value to its maximum, that is:</p>\n<p>| Parameter | Value |\n| ---| --- |\n| EK3_ERR_THRESH | 1.0 |</p>\n<h2>GUI</h2>\n<p>Accessible via the <strong>Nortek Nucleus</strong> entry in the BlueOS menu. It consists of two tabs: <strong>Connection</strong> and <strong>Home</strong>.</p>\n<h3>Connection Page</h3>\n<p>Allows the user to establish a connection to the Nucleus, using the static IP configured on the device. The connection will be established to either port 9000, or 9002 depending on whether \"Stream only\" is enabled. </p>\n<p>If not enabled, the connection is done to port 9000 which allows the extension to communicate with (send data to) the Nucleus, which is essential for some of the functionality in the GUI such as:</p>\n<ul>\n<li>Starting or stopping the device</li>\n<li>Setting GNSS origin in the Nucleus (<strong>N.B</strong> This is only relevant in order to see the position in the map! This will not affect how the data is sent to the ROV!)</li>\n</ul>\n<p>By enabling \"Stream only\", the user may (and must) issue commands to the Nucleus from another source, such as the Nucleus Software, or other software the user may have developed for the Nucleus. While connected to this port, the extension can <strong>ONLY</strong> receive data from the Nucleus, which is sufficient in order for the ROV to receive the required data. </p>\n<p>The connection also includes options for <strong>Autoconnect</strong> and <strong>Autostart</strong>:<br/>\n- <strong>Autoconnect</strong> \u2013 Automatically connects to the Nucleus whenever the ROV is powered up.\n    - The \"autoconnect\" will attempt to use the latest IP address and port used to connect to the Nucleus\n- <strong>Autostart</strong> \u2013 Automatically starts the Nucleus after connecting (requires Autoconnect to be enabled).<br/>\n    - If \"Stream only\" (port 9002) was enabled for the latest connection, autostart will <strong>fail</strong> as a start command cannot be issued when connected to port 9002</p>\n<h4>GUI free usage</h4>\n<p>If the user wish to use the extension without having to interface the GUI <strong>at all</strong> in consecutive missions, an initial connection can be done in the extension where they connect to the Nucleus selecting the following:</p>\n<ul>\n<li><strong>Stream only</strong> is <strong>NOT</strong> checked (the extension must issue the start command)</li>\n<li><strong>Autoconnect</strong> is checked</li>\n<li><strong>Autostart</strong> is checked</li>\n</ul>\n<p>Additionally, the user must send a SET_GPS_GLOBAL_ORIGIN command to the ROV through MavLink in order to provide the ROV with an initial condition before they can use the <strong>AUTO</strong> and <strong>GUIDED</strong> modes of the ROV, as the ROV must know where it is before it can use these features.</p>\n<p>By doing this, the extension will start the Nucleus and start sending data to the ROV whenever it starts up, and the operator does not have to use the GUI in order to benefit from the extension.</p>\n<h3>Home Page</h3>\n<p>The <strong>Home</strong> page provides tools for monitoring and controlling data flow between the Nucleus and the ROV.  </p>\n<h4>Packet Counters</h4>\n<p>Two packet counters serve as a quick sanity check to verify that data is being sent to the ROV:<br/>\n- <strong>Position Delta</strong> packets<br/>\n- <strong>Position Estimate</strong> packets  </p>\n<p>Each counter displays:<br/>\n- <strong>Sent</strong> \u2013 Number of successfully sent packets.<br/>\n- <strong>Skipped</strong> \u2013 Packets not sent because transmission is disabled.<br/>\n- <strong>Failed</strong> \u2013 Packets that failed to send due to an error.<br/>\n- <strong>Frequency</strong> \u2013 The rate (in Hz) at which packets are being sent.  </p>\n<p>An <strong>enable toggle</strong> for each packet type determines whether packets are sent to the ROV. Disabling a packet type will cause its skipped counter to increase.</p>\n<h4>GNSS Origin and Map</h4>\n<p>The <strong>GNSS Origin</strong> panel, combined with the interactive map, allows the user to define the ROV\u2019s reference origin.<br/>\nThis can be done by:<br/>\n- Clicking on the map, or<br/>\n- Manually entering latitude and longitude in the GNSS Origin panel.  </p>\n<p>The <strong>gnss origin</strong> must be set before that <strong>AUTO</strong> and <strong>GUIDED</strong> modes can be used in the ROV.</p>\n<p><strong>Important:</strong> The GNSS origin can only be set <strong>once</strong> per ROV power cycle. To change it, the ROV must be rebooted.</p>\n<p>The map also displays the path traveled by the Nucleus based on its <strong>INS</strong> output.<br/>\nAn active internet connection is required for the map to display.</p>",
                 "support": "https://support.nortekgroup.com/",
@@ -10991,6 +12072,66 @@
                     "HostConfig": {
                         "Binds": [
                             "/usr/blueos/extensions/.nortek_nucleus:/home/pi/.nortek_nucleus"
+                        ],
+                        "ExtraHosts": [
+                            "host.docker.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "2.0.3": {
+                "identifier": "df8163f3-c404-5d00-808e-5b6483f46d05",
+                "type": "device-integration",
+                "website": "https://github.com/NortekSupport/nucleus_driver",
+                "images": [
+                    {
+                        "expanded_size": 71445106,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:d2d21d245e269cb8e04699f20a345d28c4801dbbaff5e958f5840cf39106eb9a"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Martin Bergene Johansen",
+                        "email": "martin.johansen@nortekgroup.com"
+                    }
+                ],
+                "filter_tags": [
+                    "positioning",
+                    "navigation",
+                    "doppler-velocity-log",
+                    "water-tracking",
+                    "current-profiling"
+                ],
+                "extra_links": {},
+                "tag": "2.0.3",
+                "docs": null,
+                "readme": "<h1>BlueOS Nucleus Extension</h1>\n<h2>Intro</h2>\n<p>This extension integrates the Nortek <strong>Nucleus</strong> into the <strong>BlueROV2</strong> via the <strong>BlueOS</strong> extensions platform.<br/>\nIt packages the <a href=\"https://github.com/NortekSupport/nucleus_driver/tree/main/nucleus_driver\">Nucleus Driver</a> inside a Docker image alongside a Node.js-based frontend, which streams velocity, orientation, and position data from the Nucleus into the ArduSub control system via MAVLink commands.  </p>\n<p>By providing the ROV with this navigation data, the extension enables advanced control modes such as <strong>Position Hold</strong>, <strong>AUTO</strong>, and <strong>GUIDED</strong>.<br/>\nNote: <strong>AUTO</strong> and <strong>GUIDED</strong> modes require the Nucleus to have the INS license.</p>\n<h2>Nortek Nucleus integration</h2>\n<p>To mount the Nucleus unto the BlueROV2 and connect it to its network, refer Nortek's <a href=\"https://support.nortekgroup.com/hc/en-us/articles/8246995934748-Nucleus-integration-with-BlueROV2\">Nucleus integration guide</a>.</p>\n<h2>setup</h2>\n<h3>BlueOS</h3>\n<p>BlueOS needs to be of version 1.2.6 or newer in order to support the adding of third party extensions.</p>\n<h3>ArduSub</h3>\n<p>ArduSub needs to be of version 4.1.2 or newer for it to support the mavlink packets used to send data from the Nucleus.</p>\n<p>The current version of the extension is developed on ArduSub version 4.5.0 and it is recommended to use at least this version of ArduSub.</p>\n<h3>Nucleus</h3>\n<p>The Nucleus must be properly configured in order for it to work with the extension.</p>\n<p>It must be configured with a <strong>static IP address</strong> in order for the extension to connect to it over the ROV network. Assuming the network configuration on the BlueROV2 is default, the following example is valid:\n<code>SETETH,IPMETHOD=\"STATIC\",IP=\"192.168.2.201\"</code></p>\n<p>In order for the various mode to be available for use in the ROV's controller, certain messages <strong>must</strong> be sent from the Nucleus. The minimum configurations of the Nucleus are described in the following sections, but it is expected that the user reads the <strong>MANUAL</strong> to properly configure the Nucleus to fit their needs.</p>\n<h4>Bottom track</h4>\n<p>Bottom track is responsible for sending velocity data to the ROV and it is required for the ROV to use its Position Hold feature. To enable this output, set the following:\n<code>SETBT,DS=\"ON\"</code></p>\n<p>The frequency of which bottom track data is collected is configured through the trigger settings, i.e.:</p>\n<p><code>SETTRIG,FREQ=4</code></p>\n<p>The trigger settings also handles the altimeter and current profile settings, which influences the trigger frequency. In addition, the frequency of the trigger settings is limited by the bottom track settings. Therefore, read the <strong>MANUAL</strong> and familiarize yourself with these settings before setting up the Nucleus for your use. For the extension, setting this value as high as you can afford for your configuration is advised.</p>\n<h4>AHRS</h4>\n<p>AHRS data is essential for providing the ROV with an orientation when sending the velocity data to the ROV. The velocity data sent will be limited to the trigger frequency defined for the bottom track data. Ensure that the AHRS frequency is higher than the bottom track data, but there is no benefit from maxing it out. Example config:</p>\n<p><code>SETAHRS,DS=\"ON\",FREQ=10</code></p>\n<h4>INS</h4>\n<p>The INS must be enabled in order to utilize the <strong>AUTO</strong> and <strong>GUIDED</strong> modes in the ROV. Enable the datastream for the INS:</p>\n<p><code>SETNAV,DS=\"ON\"</code></p>\n<p>And set the instrument settings to navigation mode:</p>\n<p><code>SETINST,TYPE=\"NAV\"</code></p>\n<h2>PID parameters</h2>\n<p><strong>N.B.</strong> Adjusting these parameters <strong>WILL</strong> change the behavior of the ROV</p>\n<p><strong>N.B.</strong> The ROV does <strong>not</strong> store original values of these parameters in case they are changed.</p>\n<p>The PID parameters can be changed through the \"Autopilot parameters\" menu in the blueos.local home page. Good parameterization is necessary for a good performance of the ROV. The correct parameters varies from vehicle to vehicle as the physical attributes of the ROV has an impact on its behavior. However, recommended starting parameters for a standard BlueROV2 with only the Nucleus being the third party installation are as follows:</p>\n<p>| Parameter | Value |\n| ---| --- |\n| PSC_POSXY_P | 1.0 |\n| PSC_POSZ_P | 1.0 |\n| PSC_VELXY_P | 5.0 |\n| PSC_VELXY_I | 0.5 |\n| PSC_VELXY_D | 0.8 |\n| PSC_VELZ_P | 5.0 |</p>\n<p>While these parameters might provide a well performing ROV, they are most likely not optimal. It is recommended to adjust these parameters to get the desired ROV behavior.</p>\n<h2>Controller parameters</h2>\n<p><strong>N.B.</strong> Adjusting any of these parameters may change the behavior of the ROV</p>\n<p><strong>N.B.</strong> The ROV does <strong>not</strong> store original values of these parameters in case they are changed.</p>\n<p>In order for the controller to accept and utilize the velocity and position packets sent from the Nucleus, certain parameters has to be changed. The parameters can be changed in the \"Autopilot parameters\" menu in the blueos.local home page. </p>\n<p>After these parameters has been changed it is necessary to power cycle the vehicle for these parameters to take effect</p>\n<p>The parameters and their required values are the following</p>\n<p>| Parameter | Value |\n| ---| --- |\n| SERIAL0_PROTOCOL | MAVLink2 |\n| EK3_ENABLE | Enabled |\n| AHRS_EKF_TYPE | Enable EKF3 |\n| EK2_ENABLE | Disable |\n| VISO_TYPE | MAVLink |\n| EK3_SRC1_POSXY | ExternalNav |\n| EK3_SRC1_VELXY | ExternalNav |\n| EK3_SRC1_YAW | ExternalN |\n| EK3_SRC2_YAW | Compass |</p>\n<p>Also, EK3 algorithm in the ROV may struggle in <strong>AUTO</strong> mode and its noticed with \"EKf3 lane switch\" errors. As well as jumps in the estimated position which can be seen in the ROVs position in QGroundControl.</p>\n<p>If this is happening, a dirty fix is to adjust the \"EKF3 Lane Relative Error Sensitivity Threshold\", which is the threshold for how much error there can be in the estimates before the algorithm changes the \"lane\". By increasing this value the algorithm is less likely to change lanes while running and is likely to yield a better performance as these lane changes causes quite big jump it the estimate positions.</p>\n<p>During testing there were good results by setting this value to its maximum, that is:</p>\n<p>| Parameter | Value |\n| ---| --- |\n| EK3_ERR_THRESH | 1.0 |</p>\n<h2>GUI</h2>\n<p>Accessible via the <strong>Nortek Nucleus</strong> entry in the BlueOS menu. It consists of two tabs: <strong>Connection</strong> and <strong>Home</strong>.</p>\n<h3>Connection Page</h3>\n<p>Allows the user to establish a connection to the Nucleus, using the static IP configured on the device. The connection will be established to either port 9000, or 9002 depending on whether \"Stream only\" is enabled. </p>\n<p>If not enabled, the connection is done to port 9000 which allows the extension to communicate with (send data to) the Nucleus, which is essential for some of the functionality in the GUI such as:</p>\n<ul>\n<li>Starting or stopping the device</li>\n<li>Setting GNSS origin in the Nucleus (<strong>N.B</strong> This is only relevant in order to see the position in the map! This will not affect how the data is sent to the ROV!)</li>\n</ul>\n<p>By enabling \"Stream only\", the user may (and must) issue commands to the Nucleus from another source, such as the Nucleus Software, or other software the user may have developed for the Nucleus. While connected to this port, the extension can <strong>ONLY</strong> receive data from the Nucleus, which is sufficient in order for the ROV to receive the required data. </p>\n<p>The connection also includes options for <strong>Autoconnect</strong> and <strong>Autostart</strong>:<br/>\n- <strong>Autoconnect</strong> \u2013 Automatically connects to the Nucleus whenever the ROV is powered up.\n    - The \"autoconnect\" will attempt to use the latest IP address and port used to connect to the Nucleus\n- <strong>Autostart</strong> \u2013 Automatically starts the Nucleus after connecting (requires Autoconnect to be enabled).<br/>\n    - If \"Stream only\" (port 9002) was enabled for the latest connection, autostart will <strong>fail</strong> as a start command cannot be issued when connected to port 9002</p>\n<h4>GUI free usage</h4>\n<p>If the user wish to use the extension without having to interface the GUI <strong>at all</strong> in consecutive missions, an initial connection can be done in the extension where they connect to the Nucleus selecting the following:</p>\n<ul>\n<li><strong>Stream only</strong> is <strong>NOT</strong> checked (the extension must issue the start command)</li>\n<li><strong>Autoconnect</strong> is checked</li>\n<li><strong>Autostart</strong> is checked</li>\n</ul>\n<p>Additionally, the user must send a SET_GPS_GLOBAL_ORIGIN command to the ROV through MavLink in order to provide the ROV with an initial condition before they can use the <strong>AUTO</strong> and <strong>GUIDED</strong> modes of the ROV, as the ROV must know where it is before it can use these features.</p>\n<p>By doing this, the extension will start the Nucleus and start sending data to the ROV whenever it starts up, and the operator does not have to use the GUI in order to benefit from the extension.</p>\n<h3>Home Page</h3>\n<p>The <strong>Home</strong> page provides tools for monitoring and controlling data flow between the Nucleus and the ROV.  </p>\n<h4>Packet Counters</h4>\n<p>Two packet counters serve as a quick sanity check to verify that data is being sent to the ROV:<br/>\n- <strong>Position Delta</strong> packets<br/>\n- <strong>Position Estimate</strong> packets  </p>\n<p>Each counter displays:<br/>\n- <strong>Sent</strong> \u2013 Number of successfully sent packets.<br/>\n- <strong>Skipped</strong> \u2013 Packets not sent because transmission is disabled.<br/>\n- <strong>Failed</strong> \u2013 Packets that failed to send due to an error.<br/>\n- <strong>Frequency</strong> \u2013 The rate (in Hz) at which packets are being sent.  </p>\n<p>An <strong>enable toggle</strong> for each packet type determines whether packets are sent to the ROV. Disabling a packet type will cause its skipped counter to increase.</p>\n<h4>GNSS Origin and Map</h4>\n<p>The <strong>GNSS Origin</strong> panel, combined with the interactive map, allows the user to define the ROV\u2019s reference origin.<br/>\nThis can be done by:<br/>\n- Clicking on the map, or<br/>\n- Manually entering latitude and longitude in the GNSS Origin panel.  </p>\n<p>The <strong>gnss origin</strong> must be set before that <strong>AUTO</strong> and <strong>GUIDED</strong> modes can be used in the ROV.</p>\n<p><strong>Important:</strong> The GNSS origin can only be set <strong>once</strong> per ROV power cycle. To change it, the ROV must be rebooted.</p>\n<p>The map also displays the path traveled by the Nucleus based on its <strong>INS</strong> output.<br/>\nAn active internet connection is required for the map to display.</p>",
+                "support": "https://support.nortekgroup.com/",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Nortek",
+                    "email": ""
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Binds": [
+                            "/root/.config:/root/.config"
                         ],
                         "ExtraHosts": [
                             "host.docker.internal:host-gateway"
@@ -11275,6 +12416,66 @@
                 ],
                 "extra_links": {},
                 "tag": "1.1.0",
+                "docs": null,
+                "readme": "<h1>BlueOS Nucleus Extension</h1>\n<h2>Intro</h2>\n<p>This extension integrates the Nortek <strong>Nucleus</strong> into the <strong>BlueROV2</strong> via the <strong>BlueOS</strong> extensions platform.<br/>\nIt packages the <a href=\"https://github.com/NortekSupport/nucleus_driver/tree/main/nucleus_driver\">Nucleus Driver</a> inside a Docker image alongside a Node.js-based frontend, which streams velocity, orientation, and position data from the Nucleus into the ArduSub control system via MAVLink commands.  </p>\n<p>By providing the ROV with this navigation data, the extension enables advanced control modes such as <strong>Position Hold</strong>, <strong>AUTO</strong>, and <strong>GUIDED</strong>.<br/>\nNote: <strong>AUTO</strong> and <strong>GUIDED</strong> modes require the Nucleus to have the INS license.</p>\n<h2>Nortek Nucleus integration</h2>\n<p>To mount the Nucleus unto the BlueROV2 and connect it to its network, refer Nortek's <a href=\"https://support.nortekgroup.com/hc/en-us/articles/8246995934748-Nucleus-integration-with-BlueROV2\">Nucleus integration guide</a>.</p>\n<h2>setup</h2>\n<h3>BlueOS</h3>\n<p>BlueOS needs to be of version 1.2.6 or newer in order to support the adding of third party extensions.</p>\n<h3>ArduSub</h3>\n<p>ArduSub needs to be of version 4.1.2 or newer for it to support the mavlink packets used to send data from the Nucleus.</p>\n<p>The current version of the extension is developed on ArduSub version 4.5.0 and it is recommended to use at least this version of ArduSub.</p>\n<h3>Nucleus</h3>\n<p>The Nucleus must be properly configured in order for it to work with the extension.</p>\n<p>It must be configured with a <strong>static IP address</strong> in order for the extension to connect to it over the ROV network. Assuming the network configuration on the BlueROV2 is default, the following example is valid:\n<code>SETETH,IPMETHOD=\"STATIC\",IP=\"192.168.2.201\"</code></p>\n<p>In order for the various mode to be available for use in the ROV's controller, certain messages <strong>must</strong> be sent from the Nucleus. The minimum configurations of the Nucleus are described in the following sections, but it is expected that the user reads the <strong>MANUAL</strong> to properly configure the Nucleus to fit their needs.</p>\n<h4>Bottom track</h4>\n<p>Bottom track is responsible for sending velocity data to the ROV and it is required for the ROV to use its Position Hold feature. To enable this output, set the following:\n<code>SETBT,DS=\"ON\"</code></p>\n<p>The frequency of which bottom track data is collected is configured through the trigger settings, i.e.:</p>\n<p><code>SETTRIG,FREQ=4</code></p>\n<p>The trigger settings also handles the altimeter and current profile settings, which influences the trigger frequency. In addition, the frequency of the trigger settings is limited by the bottom track settings. Therefore, read the <strong>MANUAL</strong> and familiarize yourself with these settings before setting up the Nucleus for your use. For the extension, setting this value as high as you can afford for your configuration is advised.</p>\n<h4>AHRS</h4>\n<p>AHRS data is essential for providing the ROV with an orientation when sending the velocity data to the ROV. The velocity data sent will be limited to the trigger frequency defined for the bottom track data. Ensure that the AHRS frequency is higher than the bottom track data, but there is no benefit from maxing it out. Example config:</p>\n<p><code>SETAHRS,DS=\"ON\",FREQ=10</code></p>\n<h4>INS</h4>\n<p>The INS must be enabled in order to utilize the <strong>AUTO</strong> and <strong>GUIDED</strong> modes in the ROV. Enable the datastream for the INS:</p>\n<p><code>SETNAV,DS=\"ON\"</code></p>\n<p>And set the instrument settings to navigation mode:</p>\n<p><code>SETINST,TYPE=\"NAV\"</code></p>\n<h2>PID parameters</h2>\n<p><strong>N.B.</strong> Adjusting these parameters <strong>WILL</strong> change the behavior of the ROV</p>\n<p><strong>N.B.</strong> The ROV does <strong>not</strong> store original values of these parameters in case they are changed.</p>\n<p>The PID parameters can be changed through the \"Autopilot parameters\" menu in the blueos.local home page. Good parameterization is necessary for a good performance of the ROV. The correct parameters varies from vehicle to vehicle as the physical attributes of the ROV has an impact on its behavior. However, recommended starting parameters for a standard BlueROV2 with only the Nucleus being the third party installation are as follows:</p>\n<p>| Parameter | Value |\n| ---| --- |\n| PSC_POSXY_P | 1.0 |\n| PSC_POSZ_P | 1.0 |\n| PSC_VELXY_P | 5.0 |\n| PSC_VELXY_I | 0.5 |\n| PSC_VELXY_D | 0.8 |\n| PSC_VELZ_P | 5.0 |</p>\n<p>While these parameters might provide a well performing ROV, they are most likely not optimal. It is recommended to adjust these parameters to get the desired ROV behavior.</p>\n<h2>Controller parameters</h2>\n<p><strong>N.B.</strong> Adjusting any of these parameters may change the behavior of the ROV</p>\n<p><strong>N.B.</strong> The ROV does <strong>not</strong> store original values of these parameters in case they are changed.</p>\n<p>In order for the controller to accept and utilize the velocity and position packets sent from the Nucleus, certain parameters has to be changed. The parameters can be changed in the \"Autopilot parameters\" menu in the blueos.local home page. </p>\n<p>After these parameters has been changed it is necessary to power cycle the vehicle for these parameters to take effect</p>\n<p>The parameters and their required values are the following</p>\n<p>| Parameter | Value |\n| ---| --- |\n| SERIAL0_PROTOCOL | MAVLink2 |\n| EK3_ENABLE | Enabled |\n| AHRS_EKF_TYPE | Enable EKF3 |\n| EK2_ENABLE | Disable |\n| VISO_TYPE | MAVLink |\n| EK3_SRC1_POSXY | ExternalNav |\n| EK3_SRC1_VELXY | ExternalNav |\n| EK3_SRC1_YAW | ExternalN |\n| EK3_SRC2_YAW | Compass |</p>\n<p>Also, EK3 algorithm in the ROV may struggle in <strong>AUTO</strong> mode and its noticed with \"EKf3 lane switch\" errors. As well as jumps in the estimated position which can be seen in the ROVs position in QGroundControl.</p>\n<p>If this is happening, a dirty fix is to adjust the \"EKF3 Lane Relative Error Sensitivity Threshold\", which is the threshold for how much error there can be in the estimates before the algorithm changes the \"lane\". By increasing this value the algorithm is less likely to change lanes while running and is likely to yield a better performance as these lane changes causes quite big jump it the estimate positions.</p>\n<p>During testing there were good results by setting this value to its maximum, that is:</p>\n<p>| Parameter | Value |\n| ---| --- |\n| EK3_ERR_THRESH | 1.0 |</p>\n<h2>GUI</h2>\n<p>Accessible via the <strong>Nortek Nucleus</strong> entry in the BlueOS menu. It consists of two tabs: <strong>Connection</strong> and <strong>Home</strong>.</p>\n<h3>Connection Page</h3>\n<p>Allows the user to establish a connection to the Nucleus, using the static IP configured on the device. The connection will be established to either port 9000, or 9002 depending on whether \"Stream only\" is enabled. </p>\n<p>If not enabled, the connection is done to port 9000 which allows the extension to communicate with (send data to) the Nucleus, which is essential for some of the functionality in the GUI such as:</p>\n<ul>\n<li>Starting or stopping the device</li>\n<li>Setting GNSS origin in the Nucleus (<strong>N.B</strong> This is only relevant in order to see the position in the map! This will not affect how the data is sent to the ROV!)</li>\n</ul>\n<p>By enabling \"Stream only\", the user may (and must) issue commands to the Nucleus from another source, such as the Nucleus Software, or other software the user may have developed for the Nucleus. While connected to this port, the extension can <strong>ONLY</strong> receive data from the Nucleus, which is sufficient in order for the ROV to receive the required data. </p>\n<p>The connection also includes options for <strong>Autoconnect</strong> and <strong>Autostart</strong>:<br/>\n- <strong>Autoconnect</strong> \u2013 Automatically connects to the Nucleus whenever the ROV is powered up.\n    - The \"autoconnect\" will attempt to use the latest IP address and port used to connect to the Nucleus\n- <strong>Autostart</strong> \u2013 Automatically starts the Nucleus after connecting (requires Autoconnect to be enabled).<br/>\n    - If \"Stream only\" (port 9002) was enabled for the latest connection, autostart will <strong>fail</strong> as a start command cannot be issued when connected to port 9002</p>\n<h4>GUI free usage</h4>\n<p>If the user wish to use the extension without having to interface the GUI <strong>at all</strong> in consecutive missions, an initial connection can be done in the extension where they connect to the Nucleus selecting the following:</p>\n<ul>\n<li><strong>Stream only</strong> is <strong>NOT</strong> checked (the extension must issue the start command)</li>\n<li><strong>Autoconnect</strong> is checked</li>\n<li><strong>Autostart</strong> is checked</li>\n</ul>\n<p>Additionally, the user must send a SET_GPS_GLOBAL_ORIGIN command to the ROV through MavLink in order to provide the ROV with an initial condition before they can use the <strong>AUTO</strong> and <strong>GUIDED</strong> modes of the ROV, as the ROV must know where it is before it can use these features.</p>\n<p>By doing this, the extension will start the Nucleus and start sending data to the ROV whenever it starts up, and the operator does not have to use the GUI in order to benefit from the extension.</p>\n<h3>Home Page</h3>\n<p>The <strong>Home</strong> page provides tools for monitoring and controlling data flow between the Nucleus and the ROV.  </p>\n<h4>Packet Counters</h4>\n<p>Two packet counters serve as a quick sanity check to verify that data is being sent to the ROV:<br/>\n- <strong>Position Delta</strong> packets<br/>\n- <strong>Position Estimate</strong> packets  </p>\n<p>Each counter displays:<br/>\n- <strong>Sent</strong> \u2013 Number of successfully sent packets.<br/>\n- <strong>Skipped</strong> \u2013 Packets not sent because transmission is disabled.<br/>\n- <strong>Failed</strong> \u2013 Packets that failed to send due to an error.<br/>\n- <strong>Frequency</strong> \u2013 The rate (in Hz) at which packets are being sent.  </p>\n<p>An <strong>enable toggle</strong> for each packet type determines whether packets are sent to the ROV. Disabling a packet type will cause its skipped counter to increase.</p>\n<h4>GNSS Origin and Map</h4>\n<p>The <strong>GNSS Origin</strong> panel, combined with the interactive map, allows the user to define the ROV\u2019s reference origin.<br/>\nThis can be done by:<br/>\n- Clicking on the map, or<br/>\n- Manually entering latitude and longitude in the GNSS Origin panel.  </p>\n<p>The <strong>gnss origin</strong> must be set before that <strong>AUTO</strong> and <strong>GUIDED</strong> modes can be used in the ROV.</p>\n<p><strong>Important:</strong> The GNSS origin can only be set <strong>once</strong> per ROV power cycle. To change it, the ROV must be rebooted.</p>\n<p>The map also displays the path traveled by the Nucleus based on its <strong>INS</strong> output.<br/>\nAn active internet connection is required for the map to display.</p>",
+                "support": "https://support.nortekgroup.com/",
+                "requirements": null,
+                "company": {
+                    "about": "",
+                    "name": "Nortek",
+                    "email": ""
+                },
+                "permissions": {
+                    "ExposedPorts": {
+                        "80/tcp": {}
+                    },
+                    "HostConfig": {
+                        "Binds": [
+                            "/root/.config:/root/.config"
+                        ],
+                        "ExtraHosts": [
+                            "host.docker.internal:host-gateway"
+                        ],
+                        "PortBindings": {
+                            "80/tcp": [
+                                {
+                                    "HostPort": ""
+                                }
+                            ]
+                        }
+                    }
+                }
+            },
+            "1.0.4": {
+                "identifier": "d80dda53-9e55-5730-8db0-5fb11b255c4d",
+                "type": "device-integration",
+                "website": "https://github.com/nortekgroup/nucleus_driver/tree/main/blueos_extension",
+                "images": [
+                    {
+                        "expanded_size": 67188902,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:737d0121074d2009aec5e835884197efa32d063779f1417d981c41e3c351cbec"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Martin Bergene Johansen",
+                        "email": "martin.johansen@nortekgroup.com"
+                    }
+                ],
+                "filter_tags": [
+                    "positioning",
+                    "navigation",
+                    "doppler-velocity-log",
+                    "water-tracking",
+                    "current-profiling"
+                ],
+                "extra_links": {},
+                "tag": "1.0.4",
                 "docs": null,
                 "readme": "<h1>BlueOS Nucleus Extension</h1>\n<h2>Intro</h2>\n<p>This extension integrates the Nortek <strong>Nucleus</strong> into the <strong>BlueROV2</strong> via the <strong>BlueOS</strong> extensions platform.<br/>\nIt packages the <a href=\"https://github.com/NortekSupport/nucleus_driver/tree/main/nucleus_driver\">Nucleus Driver</a> inside a Docker image alongside a Node.js-based frontend, which streams velocity, orientation, and position data from the Nucleus into the ArduSub control system via MAVLink commands.  </p>\n<p>By providing the ROV with this navigation data, the extension enables advanced control modes such as <strong>Position Hold</strong>, <strong>AUTO</strong>, and <strong>GUIDED</strong>.<br/>\nNote: <strong>AUTO</strong> and <strong>GUIDED</strong> modes require the Nucleus to have the INS license.</p>\n<h2>Nortek Nucleus integration</h2>\n<p>To mount the Nucleus unto the BlueROV2 and connect it to its network, refer Nortek's <a href=\"https://support.nortekgroup.com/hc/en-us/articles/8246995934748-Nucleus-integration-with-BlueROV2\">Nucleus integration guide</a>.</p>\n<h2>setup</h2>\n<h3>BlueOS</h3>\n<p>BlueOS needs to be of version 1.2.6 or newer in order to support the adding of third party extensions.</p>\n<h3>ArduSub</h3>\n<p>ArduSub needs to be of version 4.1.2 or newer for it to support the mavlink packets used to send data from the Nucleus.</p>\n<p>The current version of the extension is developed on ArduSub version 4.5.0 and it is recommended to use at least this version of ArduSub.</p>\n<h3>Nucleus</h3>\n<p>The Nucleus must be properly configured in order for it to work with the extension.</p>\n<p>It must be configured with a <strong>static IP address</strong> in order for the extension to connect to it over the ROV network. Assuming the network configuration on the BlueROV2 is default, the following example is valid:\n<code>SETETH,IPMETHOD=\"STATIC\",IP=\"192.168.2.201\"</code></p>\n<p>In order for the various mode to be available for use in the ROV's controller, certain messages <strong>must</strong> be sent from the Nucleus. The minimum configurations of the Nucleus are described in the following sections, but it is expected that the user reads the <strong>MANUAL</strong> to properly configure the Nucleus to fit their needs.</p>\n<h4>Bottom track</h4>\n<p>Bottom track is responsible for sending velocity data to the ROV and it is required for the ROV to use its Position Hold feature. To enable this output, set the following:\n<code>SETBT,DS=\"ON\"</code></p>\n<p>The frequency of which bottom track data is collected is configured through the trigger settings, i.e.:</p>\n<p><code>SETTRIG,FREQ=4</code></p>\n<p>The trigger settings also handles the altimeter and current profile settings, which influences the trigger frequency. In addition, the frequency of the trigger settings is limited by the bottom track settings. Therefore, read the <strong>MANUAL</strong> and familiarize yourself with these settings before setting up the Nucleus for your use. For the extension, setting this value as high as you can afford for your configuration is advised.</p>\n<h4>AHRS</h4>\n<p>AHRS data is essential for providing the ROV with an orientation when sending the velocity data to the ROV. The velocity data sent will be limited to the trigger frequency defined for the bottom track data. Ensure that the AHRS frequency is higher than the bottom track data, but there is no benefit from maxing it out. Example config:</p>\n<p><code>SETAHRS,DS=\"ON\",FREQ=10</code></p>\n<h4>INS</h4>\n<p>The INS must be enabled in order to utilize the <strong>AUTO</strong> and <strong>GUIDED</strong> modes in the ROV. Enable the datastream for the INS:</p>\n<p><code>SETNAV,DS=\"ON\"</code></p>\n<p>And set the instrument settings to navigation mode:</p>\n<p><code>SETINST,TYPE=\"NAV\"</code></p>\n<h2>PID parameters</h2>\n<p><strong>N.B.</strong> Adjusting these parameters <strong>WILL</strong> change the behavior of the ROV</p>\n<p><strong>N.B.</strong> The ROV does <strong>not</strong> store original values of these parameters in case they are changed.</p>\n<p>The PID parameters can be changed through the \"Autopilot parameters\" menu in the blueos.local home page. Good parameterization is necessary for a good performance of the ROV. The correct parameters varies from vehicle to vehicle as the physical attributes of the ROV has an impact on its behavior. However, recommended starting parameters for a standard BlueROV2 with only the Nucleus being the third party installation are as follows:</p>\n<p>| Parameter | Value |\n| ---| --- |\n| PSC_POSXY_P | 1.0 |\n| PSC_POSZ_P | 1.0 |\n| PSC_VELXY_P | 5.0 |\n| PSC_VELXY_I | 0.5 |\n| PSC_VELXY_D | 0.8 |\n| PSC_VELZ_P | 5.0 |</p>\n<p>While these parameters might provide a well performing ROV, they are most likely not optimal. It is recommended to adjust these parameters to get the desired ROV behavior.</p>\n<h2>Controller parameters</h2>\n<p><strong>N.B.</strong> Adjusting any of these parameters may change the behavior of the ROV</p>\n<p><strong>N.B.</strong> The ROV does <strong>not</strong> store original values of these parameters in case they are changed.</p>\n<p>In order for the controller to accept and utilize the velocity and position packets sent from the Nucleus, certain parameters has to be changed. The parameters can be changed in the \"Autopilot parameters\" menu in the blueos.local home page. </p>\n<p>After these parameters has been changed it is necessary to power cycle the vehicle for these parameters to take effect</p>\n<p>The parameters and their required values are the following</p>\n<p>| Parameter | Value |\n| ---| --- |\n| SERIAL0_PROTOCOL | MAVLink2 |\n| EK3_ENABLE | Enabled |\n| AHRS_EKF_TYPE | Enable EKF3 |\n| EK2_ENABLE | Disable |\n| VISO_TYPE | MAVLink |\n| EK3_SRC1_POSXY | ExternalNav |\n| EK3_SRC1_VELXY | ExternalNav |\n| EK3_SRC1_YAW | ExternalN |\n| EK3_SRC2_YAW | Compass |</p>\n<p>Also, EK3 algorithm in the ROV may struggle in <strong>AUTO</strong> mode and its noticed with \"EKf3 lane switch\" errors. As well as jumps in the estimated position which can be seen in the ROVs position in QGroundControl.</p>\n<p>If this is happening, a dirty fix is to adjust the \"EKF3 Lane Relative Error Sensitivity Threshold\", which is the threshold for how much error there can be in the estimates before the algorithm changes the \"lane\". By increasing this value the algorithm is less likely to change lanes while running and is likely to yield a better performance as these lane changes causes quite big jump it the estimate positions.</p>\n<p>During testing there were good results by setting this value to its maximum, that is:</p>\n<p>| Parameter | Value |\n| ---| --- |\n| EK3_ERR_THRESH | 1.0 |</p>\n<h2>GUI</h2>\n<p>Accessible via the <strong>Nortek Nucleus</strong> entry in the BlueOS menu. It consists of two tabs: <strong>Connection</strong> and <strong>Home</strong>.</p>\n<h3>Connection Page</h3>\n<p>Allows the user to establish a connection to the Nucleus, using the static IP configured on the device. The connection will be established to either port 9000, or 9002 depending on whether \"Stream only\" is enabled. </p>\n<p>If not enabled, the connection is done to port 9000 which allows the extension to communicate with (send data to) the Nucleus, which is essential for some of the functionality in the GUI such as:</p>\n<ul>\n<li>Starting or stopping the device</li>\n<li>Setting GNSS origin in the Nucleus (<strong>N.B</strong> This is only relevant in order to see the position in the map! This will not affect how the data is sent to the ROV!)</li>\n</ul>\n<p>By enabling \"Stream only\", the user may (and must) issue commands to the Nucleus from another source, such as the Nucleus Software, or other software the user may have developed for the Nucleus. While connected to this port, the extension can <strong>ONLY</strong> receive data from the Nucleus, which is sufficient in order for the ROV to receive the required data. </p>\n<p>The connection also includes options for <strong>Autoconnect</strong> and <strong>Autostart</strong>:<br/>\n- <strong>Autoconnect</strong> \u2013 Automatically connects to the Nucleus whenever the ROV is powered up.\n    - The \"autoconnect\" will attempt to use the latest IP address and port used to connect to the Nucleus\n- <strong>Autostart</strong> \u2013 Automatically starts the Nucleus after connecting (requires Autoconnect to be enabled).<br/>\n    - If \"Stream only\" (port 9002) was enabled for the latest connection, autostart will <strong>fail</strong> as a start command cannot be issued when connected to port 9002</p>\n<h4>GUI free usage</h4>\n<p>If the user wish to use the extension without having to interface the GUI <strong>at all</strong> in consecutive missions, an initial connection can be done in the extension where they connect to the Nucleus selecting the following:</p>\n<ul>\n<li><strong>Stream only</strong> is <strong>NOT</strong> checked (the extension must issue the start command)</li>\n<li><strong>Autoconnect</strong> is checked</li>\n<li><strong>Autostart</strong> is checked</li>\n</ul>\n<p>Additionally, the user must send a SET_GPS_GLOBAL_ORIGIN command to the ROV through MavLink in order to provide the ROV with an initial condition before they can use the <strong>AUTO</strong> and <strong>GUIDED</strong> modes of the ROV, as the ROV must know where it is before it can use these features.</p>\n<p>By doing this, the extension will start the Nucleus and start sending data to the ROV whenever it starts up, and the operator does not have to use the GUI in order to benefit from the extension.</p>\n<h3>Home Page</h3>\n<p>The <strong>Home</strong> page provides tools for monitoring and controlling data flow between the Nucleus and the ROV.  </p>\n<h4>Packet Counters</h4>\n<p>Two packet counters serve as a quick sanity check to verify that data is being sent to the ROV:<br/>\n- <strong>Position Delta</strong> packets<br/>\n- <strong>Position Estimate</strong> packets  </p>\n<p>Each counter displays:<br/>\n- <strong>Sent</strong> \u2013 Number of successfully sent packets.<br/>\n- <strong>Skipped</strong> \u2013 Packets not sent because transmission is disabled.<br/>\n- <strong>Failed</strong> \u2013 Packets that failed to send due to an error.<br/>\n- <strong>Frequency</strong> \u2013 The rate (in Hz) at which packets are being sent.  </p>\n<p>An <strong>enable toggle</strong> for each packet type determines whether packets are sent to the ROV. Disabling a packet type will cause its skipped counter to increase.</p>\n<h4>GNSS Origin and Map</h4>\n<p>The <strong>GNSS Origin</strong> panel, combined with the interactive map, allows the user to define the ROV\u2019s reference origin.<br/>\nThis can be done by:<br/>\n- Clicking on the map, or<br/>\n- Manually entering latitude and longitude in the GNSS Origin panel.  </p>\n<p>The <strong>gnss origin</strong> must be set before that <strong>AUTO</strong> and <strong>GUIDED</strong> modes can be used in the ROV.</p>\n<p><strong>Important:</strong> The GNSS origin can only be set <strong>once</strong> per ROV power cycle. To change it, the ROV must be rebooted.</p>\n<p>The map also displays the path traveled by the Nucleus based on its <strong>INS</strong> output.<br/>\nAn active internet connection is required for the map to display.</p>",
                 "support": "https://support.nortekgroup.com/",
@@ -11643,7 +12844,7 @@
             }
         },
         "repo_info": {
-            "downloads": 51042,
+            "downloads": 51150,
             "last_updated": "2025-08-19T08:35:34.715228Z",
             "date_registered": "2023-03-23T10:28:07.423732Z"
         }
