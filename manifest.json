@@ -224,7 +224,7 @@
             }
         },
         "repo_info": {
-            "downloads": 51226,
+            "downloads": 51259,
             "last_updated": "2026-01-29T19:40:05.327436Z",
             "date_registered": "2022-09-07T02:56:18.778263Z"
         }
@@ -390,7 +390,7 @@
             }
         },
         "repo_info": {
-            "downloads": 10209,
+            "downloads": 10232,
             "last_updated": "2025-02-12T16:03:19.432988Z",
             "date_registered": "2024-04-02T12:56:46.518809Z"
         }
@@ -526,7 +526,7 @@
             }
         },
         "repo_info": {
-            "downloads": 87984,
+            "downloads": 87999,
             "last_updated": "2023-05-02T10:59:21.807562Z",
             "date_registered": "2022-09-19T20:13:46.735725Z"
         }
@@ -997,7 +997,7 @@
             }
         },
         "repo_info": {
-            "downloads": 63896,
+            "downloads": 63965,
             "last_updated": "2025-05-19T20:37:10.685576Z",
             "date_registered": "2022-06-08T02:20:40.875088Z"
         }
@@ -1283,7 +1283,7 @@
             }
         },
         "repo_info": {
-            "downloads": 149194,
+            "downloads": 149243,
             "last_updated": "2025-02-12T04:32:06.301572Z",
             "date_registered": "2022-09-07T07:17:20.147217Z"
         }
@@ -1414,7 +1414,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9054,
+            "downloads": 9069,
             "last_updated": "2023-05-02T11:19:18.145903Z",
             "date_registered": "2022-10-12T18:15:01.290841Z"
         }
@@ -1544,7 +1544,7 @@
             }
         },
         "repo_info": {
-            "downloads": 93262,
+            "downloads": 93279,
             "last_updated": "2023-05-02T10:58:42.102603Z",
             "date_registered": "2022-09-19T20:24:45.273155Z"
         }
@@ -2030,7 +2030,7 @@
             }
         },
         "repo_info": {
-            "downloads": 31401,
+            "downloads": 31482,
             "last_updated": "2026-02-10T22:39:44.945961Z",
             "date_registered": "2023-05-28T18:03:17.343281Z"
         }
@@ -2160,7 +2160,7 @@
             }
         },
         "repo_info": {
-            "downloads": 90240,
+            "downloads": 90255,
             "last_updated": "2023-05-02T10:58:10.407395Z",
             "date_registered": "2022-09-19T20:25:33.201236Z"
         }
@@ -2290,7 +2290,7 @@
             }
         },
         "repo_info": {
-            "downloads": 85421,
+            "downloads": 85436,
             "last_updated": "2023-05-02T10:57:42.905818Z",
             "date_registered": "2022-09-20T18:15:02.068256Z"
         }
@@ -2420,64 +2420,6 @@
                     }
                 }
             },
-            "1.0.2": {
-                "identifier": "b274476e-1a19-55de-aea8-545830702d4d",
-                "type": "tool",
-                "website": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
-                "images": [
-                    {
-                        "expanded_size": 162273079,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:0f86e59bb7f91ec4697deecd3be10914ff28e784725cd895b64adba26172664c"
-                    },
-                    {
-                        "expanded_size": 157816485,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:0d3228f9d5ade13c571c0573bf22aaebdb7791fb32010a3ce64a32649dccae2c"
-                    },
-                    {
-                        "expanded_size": 135355878,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:0fae403cbe350d99649b7fb4d525f7baf43955736110d11c55bb0ba857506b4c"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "Willian Galvani",
-                        "email": "willian@bluerobotics.com"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {},
-                "tag": "1.0.2",
-                "docs": null,
-                "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>\n<h2>changelog</h2>\n<p>v1.0.1:</p>\n<ul>\n<li>fixed table titles</li>\n<li>fixed cleanup when doing different scan types</li>\n<li>fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service</li>\n</ul>",
-                "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "Blue Robotics",
-                    "email": "support@bluerobotics.com"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "NetworkMode": "host"
-                    }
-                }
-            },
             "v1.0.2": {
                 "identifier": "f2609867-67d1-59f0-851b-9e98ba00f78d",
                 "type": "tool",
@@ -2520,6 +2462,64 @@
                 "filter_tags": [],
                 "extra_links": {},
                 "tag": "v1.0.2",
+                "docs": null,
+                "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>\n<h2>changelog</h2>\n<p>v1.0.1:</p>\n<ul>\n<li>fixed table titles</li>\n<li>fixed cleanup when doing different scan types</li>\n<li>fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service</li>\n</ul>",
+                "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "Blue Robotics",
+                    "email": "support@bluerobotics.com"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "1.0.2": {
+                "identifier": "b274476e-1a19-55de-aea8-545830702d4d",
+                "type": "tool",
+                "website": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
+                "images": [
+                    {
+                        "expanded_size": 162273079,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:0f86e59bb7f91ec4697deecd3be10914ff28e784725cd895b64adba26172664c"
+                    },
+                    {
+                        "expanded_size": 157816485,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:0d3228f9d5ade13c571c0573bf22aaebdb7791fb32010a3ce64a32649dccae2c"
+                    },
+                    {
+                        "expanded_size": 135355878,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:0fae403cbe350d99649b7fb4d525f7baf43955736110d11c55bb0ba857506b4c"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "Willian Galvani",
+                        "email": "willian@bluerobotics.com"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {},
+                "tag": "1.0.2",
                 "docs": null,
                 "readme": "<h1>BlueOS Network SCanner</h1>\n<p>This allows scanning each individual logical interface in the vehicle to find connected devices</p>\n<h2>changelog</h2>\n<p>v1.0.1:</p>\n<ul>\n<li>fixed table titles</li>\n<li>fixed cleanup when doing different scan types</li>\n<li>fixed extension \"vanishing\" due to being busy waiting for nmap to complete and not responding to /register_service</li>\n</ul>",
                 "support": "https://github.com/Williangalvani/BlueOS-extension-network-scanner/",
@@ -2596,7 +2596,7 @@
             }
         },
         "repo_info": {
-            "downloads": 21377,
+            "downloads": 21438,
             "last_updated": "2025-05-14T20:51:07.385773Z",
             "date_registered": "2024-05-05T23:27:05.667297Z"
         }
@@ -2793,67 +2793,6 @@
                     }
                 }
             },
-            "v1.0.0": {
-                "identifier": "f7449486-ec50-5b8d-b582-a80f342e296c",
-                "type": "example",
-                "website": null,
-                "images": [
-                    {
-                        "expanded_size": 100026516,
-                        "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:09a49126a1f5572165aa4010e171fd1be4a13cd4c804c78f9276d2717a271c80"
-                    },
-                    {
-                        "expanded_size": 94070433,
-                        "platform": {
-                            "architecture": "arm64",
-                            "variant": null,
-                            "os": "linux"
-                        },
-                        "digest": "sha256:35fae2fcf97b0f00322ec81d9e73d4d9621aecf3541465dfa378b76b5414fc9d"
-                    },
-                    {
-                        "expanded_size": 87950576,
-                        "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
-                            "os": "linux"
-                        },
-                        "digest": "sha256:5fb4fbd32e76af6d853b972e4ea682e226147b7f4247f9f60c80860a8d963666"
-                    }
-                ],
-                "authors": [
-                    {
-                        "name": "$AUTHOR",
-                        "email": "$AUTHOR_EMAIL"
-                    }
-                ],
-                "filter_tags": [],
-                "extra_links": {
-                    "source": "https://github.com/$OWNER/$REPO"
-                },
-                "tag": "v1.0.0",
-                "docs": null,
-                "readme": "No README available",
-                "support": null,
-                "requirements": "core >= 1.1",
-                "company": {
-                    "about": "",
-                    "name": "$MAINTAINER",
-                    "email": "$MAINTAINER_EMAIL"
-                },
-                "permissions": {
-                    "NetworkMode": "host",
-                    "HostConfig": {
-                        "Privileged": true,
-                        "NetworkMode": "host"
-                    }
-                }
-            },
             "1.0.0": {
                 "identifier": "ccd0b581-f1c8-567d-be09-86de4cd774fc",
                 "type": "example",
@@ -2898,6 +2837,67 @@
                     "source": "https://github.com/$OWNER/$REPO"
                 },
                 "tag": "1.0.0",
+                "docs": null,
+                "readme": "No README available",
+                "support": null,
+                "requirements": "core >= 1.1",
+                "company": {
+                    "about": "",
+                    "name": "$MAINTAINER",
+                    "email": "$MAINTAINER_EMAIL"
+                },
+                "permissions": {
+                    "NetworkMode": "host",
+                    "HostConfig": {
+                        "Privileged": true,
+                        "NetworkMode": "host"
+                    }
+                }
+            },
+            "v1.0.0": {
+                "identifier": "f7449486-ec50-5b8d-b582-a80f342e296c",
+                "type": "example",
+                "website": null,
+                "images": [
+                    {
+                        "expanded_size": 100026516,
+                        "platform": {
+                            "architecture": "amd64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:09a49126a1f5572165aa4010e171fd1be4a13cd4c804c78f9276d2717a271c80"
+                    },
+                    {
+                        "expanded_size": 94070433,
+                        "platform": {
+                            "architecture": "arm64",
+                            "variant": null,
+                            "os": "linux"
+                        },
+                        "digest": "sha256:35fae2fcf97b0f00322ec81d9e73d4d9621aecf3541465dfa378b76b5414fc9d"
+                    },
+                    {
+                        "expanded_size": 87950576,
+                        "platform": {
+                            "architecture": "arm",
+                            "variant": "v7",
+                            "os": "linux"
+                        },
+                        "digest": "sha256:5fb4fbd32e76af6d853b972e4ea682e226147b7f4247f9f60c80860a8d963666"
+                    }
+                ],
+                "authors": [
+                    {
+                        "name": "$AUTHOR",
+                        "email": "$AUTHOR_EMAIL"
+                    }
+                ],
+                "filter_tags": [],
+                "extra_links": {
+                    "source": "https://github.com/$OWNER/$REPO"
+                },
+                "tag": "v1.0.0",
                 "docs": null,
                 "readme": "No README available",
                 "support": null,
@@ -2978,7 +2978,7 @@
             }
         },
         "repo_info": {
-            "downloads": 23646,
+            "downloads": 23683,
             "last_updated": "2025-10-15T19:07:10.2706Z",
             "date_registered": "2024-05-23T03:16:55.205832Z"
         }
@@ -3124,7 +3124,7 @@
             }
         },
         "repo_info": {
-            "downloads": 6488,
+            "downloads": 6497,
             "last_updated": "2024-06-23T16:01:49.148109Z",
             "date_registered": "2024-06-08T17:31:16.936347Z"
         }
@@ -3429,7 +3429,7 @@
             }
         },
         "repo_info": {
-            "downloads": 16757,
+            "downloads": 16792,
             "last_updated": "2024-11-26T18:07:23.087771Z",
             "date_registered": "2023-09-06T15:06:24.58823Z"
         }
@@ -3505,7 +3505,7 @@
             }
         },
         "repo_info": {
-            "downloads": 13288,
+            "downloads": 13329,
             "last_updated": "2026-06-04T21:04:02.975406Z",
             "date_registered": "2024-10-28T21:23:12.958451Z"
         }
@@ -5081,7 +5081,7 @@
             }
         },
         "repo_info": {
-            "downloads": 123516,
+            "downloads": 123748,
             "last_updated": "2026-07-15T19:15:46.451184Z",
             "date_registered": "2023-02-09T18:16:56.606258Z"
         }
@@ -5439,7 +5439,7 @@
             }
         },
         "repo_info": {
-            "downloads": 39281,
+            "downloads": 39418,
             "last_updated": "2023-05-17T18:58:43.418901Z",
             "date_registered": "2023-01-17T21:41:45.289578Z"
         }
@@ -5558,7 +5558,7 @@
             }
         },
         "repo_info": {
-            "downloads": 10704,
+            "downloads": 10753,
             "last_updated": "2023-03-15T20:41:07.344116Z",
             "date_registered": "2023-03-02T18:19:41.09439Z"
         }
@@ -6278,7 +6278,7 @@
             }
         },
         "repo_info": {
-            "downloads": 34311,
+            "downloads": 34406,
             "last_updated": "2026-04-27T12:41:26.068661Z",
             "date_registered": "2024-09-16T13:23:53.464854Z"
         }
@@ -6509,7 +6509,7 @@
             }
         },
         "repo_info": {
-            "downloads": 12429,
+            "downloads": 12495,
             "last_updated": "2024-08-14T23:11:15.514761Z",
             "date_registered": "2024-08-07T21:20:39.693471Z"
         }
@@ -6970,7 +6970,7 @@
             }
         },
         "repo_info": {
-            "downloads": 15843,
+            "downloads": 15918,
             "last_updated": "2026-07-24T11:12:02.444273Z",
             "date_registered": "2023-10-04T23:07:17.135228Z"
         }
@@ -8846,7 +8846,7 @@
             }
         },
         "repo_info": {
-            "downloads": 60695,
+            "downloads": 60869,
             "last_updated": "2025-08-11T09:16:41.507357Z",
             "date_registered": "2023-05-02T08:49:43.621656Z"
         }
@@ -9092,7 +9092,7 @@
             }
         },
         "repo_info": {
-            "downloads": 16143,
+            "downloads": 16224,
             "last_updated": "2024-10-16T08:28:28.588962Z",
             "date_registered": "2023-04-18T13:14:56.444696Z"
         }
@@ -9748,7 +9748,7 @@
             }
         },
         "repo_info": {
-            "downloads": 58033,
+            "downloads": 58181,
             "last_updated": "2023-09-06T01:24:53.238154Z",
             "date_registered": "2023-07-06T13:38:30.979513Z"
         }
@@ -9932,7 +9932,7 @@
             }
         },
         "repo_info": {
-            "downloads": 12716,
+            "downloads": 12779,
             "last_updated": "2024-11-02T19:51:27.122486Z",
             "date_registered": "2023-09-20T20:30:01.66808Z"
         }
@@ -11568,7 +11568,7 @@
             }
         },
         "repo_info": {
-            "downloads": 166715,
+            "downloads": 166971,
             "last_updated": "2026-07-25T00:36:39.399587Z",
             "date_registered": "2023-01-30T01:40:41.340441Z"
         }
@@ -11641,7 +11641,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3544,
+            "downloads": 3550,
             "last_updated": "2023-09-01T21:07:26.318216Z",
             "date_registered": "2023-09-01T20:11:40.559943Z"
         }
@@ -11709,7 +11709,7 @@
             }
         },
         "repo_info": {
-            "downloads": 2529,
+            "downloads": 2541,
             "last_updated": "2024-02-05T22:10:02.139431Z",
             "date_registered": "2024-01-22T15:06:39.735884Z"
         }
@@ -11729,13 +11729,13 @@
                 "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
                 "images": [
                     {
-                        "expanded_size": 76783323,
+                        "expanded_size": 70793987,
                         "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
+                            "architecture": "arm",
+                            "variant": "v7",
                             "os": "linux"
                         },
-                        "digest": "sha256:e44f3a7ddce725e6235e8c3e4805438b95a55de85d5f7e47ff971436c827f951"
+                        "digest": "sha256:c35c09154d09888a790762abb50420614be63a429f95eee232a54a9ecb3a8ba6"
                     },
                     {
                         "expanded_size": 75009578,
@@ -11747,13 +11747,13 @@
                         "digest": "sha256:ce53a62f2eba8c4a4366871b4f6fc0796c970b828cc416242889e4fcd1045f7b"
                     },
                     {
-                        "expanded_size": 70793987,
+                        "expanded_size": 76783323,
                         "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
+                            "architecture": "amd64",
+                            "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:c35c09154d09888a790762abb50420614be63a429f95eee232a54a9ecb3a8ba6"
+                        "digest": "sha256:e44f3a7ddce725e6235e8c3e4805438b95a55de85d5f7e47ff971436c827f951"
                     }
                 ],
                 "authors": [
@@ -11805,13 +11805,13 @@
                 "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
                 "images": [
                     {
-                        "expanded_size": 76668659,
+                        "expanded_size": 70499171,
                         "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
+                            "architecture": "arm",
+                            "variant": "v7",
                             "os": "linux"
                         },
-                        "digest": "sha256:24217099cf3989405e25904469b0eb412213531c058d96cc42f964872583d588"
+                        "digest": "sha256:f70040ebd2b7373095d9c4866475c6dd7a485336c673924597bd4ca98125a4e8"
                     },
                     {
                         "expanded_size": 74891493,
@@ -11823,13 +11823,13 @@
                         "digest": "sha256:78ae14735532486857c60dc946ba9706359e9a8512e8566c18bd7fbd86a26167"
                     },
                     {
-                        "expanded_size": 70499171,
+                        "expanded_size": 76668659,
                         "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
+                            "architecture": "amd64",
+                            "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:f70040ebd2b7373095d9c4866475c6dd7a485336c673924597bd4ca98125a4e8"
+                        "digest": "sha256:24217099cf3989405e25904469b0eb412213531c058d96cc42f964872583d588"
                     }
                 ],
                 "authors": [
@@ -11881,13 +11881,13 @@
                 "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
                 "images": [
                     {
-                        "expanded_size": 76603940,
+                        "expanded_size": 70431811,
                         "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
+                            "architecture": "arm",
+                            "variant": "v7",
                             "os": "linux"
                         },
-                        "digest": "sha256:0c329808451439ad814a8e70389e36d122916f3120b19ed149eafe7ea5c4b45c"
+                        "digest": "sha256:5fc14875bc39ee7e24213fe23941fc47c09476f9563abc388e77a2f1f09d04b2"
                     },
                     {
                         "expanded_size": 74824081,
@@ -11899,13 +11899,13 @@
                         "digest": "sha256:ebf941da6d26994c70676afacaabb42e03dd203976794a1e8abd8dc6c6a32822"
                     },
                     {
-                        "expanded_size": 70431811,
+                        "expanded_size": 76603940,
                         "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
+                            "architecture": "amd64",
+                            "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:5fc14875bc39ee7e24213fe23941fc47c09476f9563abc388e77a2f1f09d04b2"
+                        "digest": "sha256:0c329808451439ad814a8e70389e36d122916f3120b19ed149eafe7ea5c4b45c"
                     }
                 ],
                 "authors": [
@@ -11957,13 +11957,13 @@
                 "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
                 "images": [
                     {
-                        "expanded_size": 77097826,
+                        "expanded_size": 70965287,
                         "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
+                            "architecture": "arm",
+                            "variant": "v7",
                             "os": "linux"
                         },
-                        "digest": "sha256:02b1b004172e7f53009bda575ce76f17b02d02352d195bc7d1caacd9a052ada8"
+                        "digest": "sha256:b96869c28654831900781874f50eb75649b5b600a88abdfcbdfb30fc5fcd12e3"
                     },
                     {
                         "expanded_size": 75531366,
@@ -11975,13 +11975,13 @@
                         "digest": "sha256:59d11ef8c3ed038eb679580d0d724883f65286dceff3afd6e87b28c493946fd3"
                     },
                     {
-                        "expanded_size": 70965287,
+                        "expanded_size": 77097826,
                         "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
+                            "architecture": "amd64",
+                            "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:b96869c28654831900781874f50eb75649b5b600a88abdfcbdfb30fc5fcd12e3"
+                        "digest": "sha256:02b1b004172e7f53009bda575ce76f17b02d02352d195bc7d1caacd9a052ada8"
                     }
                 ],
                 "authors": [
@@ -12033,13 +12033,13 @@
                 "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
                 "images": [
                     {
-                        "expanded_size": 77083331,
+                        "expanded_size": 70955108,
                         "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
+                            "architecture": "arm",
+                            "variant": "v7",
                             "os": "linux"
                         },
-                        "digest": "sha256:a1486d8026590c4143410fff474811be8d83bd5ae2c80c2f2509bd858b2b6823"
+                        "digest": "sha256:5c4cc57ab14bbc3c32fc83aefad9f4ef6ab244411b1f80c4511fd6f70535fb48"
                     },
                     {
                         "expanded_size": 75511816,
@@ -12051,13 +12051,13 @@
                         "digest": "sha256:f928136f896cc5ba7753901e9031804fff748e4783cc4f1b01aa12a4be7f879f"
                     },
                     {
-                        "expanded_size": 70955108,
+                        "expanded_size": 77083331,
                         "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
+                            "architecture": "amd64",
+                            "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:5c4cc57ab14bbc3c32fc83aefad9f4ef6ab244411b1f80c4511fd6f70535fb48"
+                        "digest": "sha256:a1486d8026590c4143410fff474811be8d83bd5ae2c80c2f2509bd858b2b6823"
                     }
                 ],
                 "authors": [
@@ -12109,13 +12109,13 @@
                 "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
                 "images": [
                     {
-                        "expanded_size": 77417461,
+                        "expanded_size": 71286141,
                         "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
+                            "architecture": "arm",
+                            "variant": "v7",
                             "os": "linux"
                         },
-                        "digest": "sha256:6a05bce7c3834c01e2014db273c45e29fa0de985ec5091553f3f4c59d305da62"
+                        "digest": "sha256:7af61750294fa6eb726e73f855d6ec207ba7bf2c0af1e1ac9626c9e29b54a924"
                     },
                     {
                         "expanded_size": 75850736,
@@ -12127,13 +12127,13 @@
                         "digest": "sha256:8d1f4ea8c26a0fc7614c51f890e4cfd8c10cb66254b5c83b03278985b310b5bf"
                     },
                     {
-                        "expanded_size": 71286141,
+                        "expanded_size": 77417461,
                         "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
+                            "architecture": "amd64",
+                            "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:7af61750294fa6eb726e73f855d6ec207ba7bf2c0af1e1ac9626c9e29b54a924"
+                        "digest": "sha256:6a05bce7c3834c01e2014db273c45e29fa0de985ec5091553f3f4c59d305da62"
                     }
                 ],
                 "authors": [
@@ -12185,13 +12185,13 @@
                 "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
                 "images": [
                     {
-                        "expanded_size": 77377333,
+                        "expanded_size": 71246910,
                         "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
+                            "architecture": "arm",
+                            "variant": "v7",
                             "os": "linux"
                         },
-                        "digest": "sha256:f366b363ae588f2e2d0d1b69d7b029c9a6974ff6bd8db0c818cc98c81ca8a7fe"
+                        "digest": "sha256:f8ee948cb512af09d2cab3cc92cc39de0bc802645f382033ba7c5d5972f7c541"
                     },
                     {
                         "expanded_size": 75812211,
@@ -12203,13 +12203,13 @@
                         "digest": "sha256:e6aad97e0a6cf384cbfd84fa8c4b13bdf14a46c832458d07070b851a5d855028"
                     },
                     {
-                        "expanded_size": 71246910,
+                        "expanded_size": 77377333,
                         "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
+                            "architecture": "amd64",
+                            "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:f8ee948cb512af09d2cab3cc92cc39de0bc802645f382033ba7c5d5972f7c541"
+                        "digest": "sha256:f366b363ae588f2e2d0d1b69d7b029c9a6974ff6bd8db0c818cc98c81ca8a7fe"
                     }
                 ],
                 "authors": [
@@ -12261,13 +12261,13 @@
                 "website": "https://github.com/bluerobotics/BlueOS-Water-Linked-DVL",
                 "images": [
                     {
-                        "expanded_size": 77304661,
+                        "expanded_size": 71173047,
                         "platform": {
-                            "architecture": "amd64",
-                            "variant": null,
+                            "architecture": "arm",
+                            "variant": "v7",
                             "os": "linux"
                         },
-                        "digest": "sha256:5c2dd5704cd10b3cf502f3a47d5f9f0283e846e66d3ebcfa7d8ffe5673eb269f"
+                        "digest": "sha256:18c4bf17906b278c44e840b40f8561928283ea151f48958ef42dd8ee0d95eb48"
                     },
                     {
                         "expanded_size": 75733848,
@@ -12279,13 +12279,13 @@
                         "digest": "sha256:9c11db66e0051d03248c40a8fa06c48737942bc8fe5c3ec0107152cdda8dd479"
                     },
                     {
-                        "expanded_size": 71173047,
+                        "expanded_size": 77304661,
                         "platform": {
-                            "architecture": "arm",
-                            "variant": "v7",
+                            "architecture": "amd64",
+                            "variant": null,
                             "os": "linux"
                         },
-                        "digest": "sha256:18c4bf17906b278c44e840b40f8561928283ea151f48958ef42dd8ee0d95eb48"
+                        "digest": "sha256:5c2dd5704cd10b3cf502f3a47d5f9f0283e846e66d3ebcfa7d8ffe5673eb269f"
                     }
                 ],
                 "authors": [
@@ -12468,7 +12468,7 @@
             }
         },
         "repo_info": {
-            "downloads": 268580,
+            "downloads": 268678,
             "last_updated": "2025-11-26T18:24:22.732171Z",
             "date_registered": "2022-06-01T23:43:43.19026Z"
         }
@@ -12587,7 +12587,7 @@
             }
         },
         "repo_info": {
-            "downloads": 9072,
+            "downloads": 9123,
             "last_updated": "2025-03-21T12:52:28.85139Z",
             "date_registered": "2023-09-13T06:14:36.827307Z"
         }
@@ -12903,7 +12903,7 @@
             }
         },
         "repo_info": {
-            "downloads": 23596,
+            "downloads": 23647,
             "last_updated": "2024-07-29T21:22:46.380269Z",
             "date_registered": "2023-08-29T20:22:57.798237Z"
         }
@@ -12967,7 +12967,7 @@
             }
         },
         "repo_info": {
-            "downloads": 3527,
+            "downloads": 3566,
             "last_updated": "2023-11-07T01:34:15.374584Z",
             "date_registered": "2023-11-05T01:19:48.269227Z"
         }
@@ -14270,7 +14270,7 @@
             }
         },
         "repo_info": {
-            "downloads": 70887,
+            "downloads": 71091,
             "last_updated": "2026-04-30T09:10:10.908744Z",
             "date_registered": "2023-03-23T10:28:07.423732Z"
         }
